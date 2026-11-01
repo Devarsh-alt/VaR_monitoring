@@ -1,0 +1,22 @@
+{
+  "evaluation": {
+    "path": "tools/audit_temp/codex_priority8/scripts/04_evaluate.py",
+    "sha256": "2aa229fa9cd1f08c930b8ce7d2ee5d44254fbb7b548ee579c73efc9a31af5eaf"
+  },
+  "inference": {
+    "path": "tools/audit_temp/codex_priority8/scripts/independent_inference_math_v1.py",
+    "sha256": "d409bea456f5a057d18fc874fa762c1cdae250ed340b092e1d5483aab6ec2348"
+  },
+  "strict": {
+    "path": "tools/audit_temp/codex_priority8/scripts/frozen_strictcv_source.py",
+    "sha256": "c23d1479f3da1bac320fbc821400ffde93df656f3c024a4275fb20b0a91519d1"
+  },
+  "independent_fold": {
+    "path": "tools/audit_temp/codex_priority8/independent_checks/protocol_review/independent_new_fold_refit.py",
+    "sha256": "acf2dfe338bb92b844d20277480f4b86b303beadc4e905441b67094ef6423b58"
+  },
+  "targets": {
+    "path": "tools/audit_temp/codex_priority7/scripts/02_causal.py",
+    "sha256": "11b217c629e8384e15338485a50df2954153bcdc72e5a1ada961e6542fbb3202"
+  }
+}

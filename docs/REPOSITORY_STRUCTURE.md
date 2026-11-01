@@ -1,0 +1,3 @@
+# Repository structure
+
+Active: src/rs05,configs,experiments,scripts,tests. Canonical pointer registry: results/canonical/catalog.json. Paper materials: paper/README.md. Original data stays under data/; machine-readable role metadata is in data/metadata. Immutable evidence remains under tools/audit_temp/codex_priority6,7,8 and their predecessor paths; archive/ indexes it. Existing src/experiments,ablation_test,manuscript,provenance and run_monitor.py are preserved legacy dependencies,not competing canonical entry points. Frozen modules contain absolute project references,so relocation was deliberately avoided. No empty scaffold directories were created.

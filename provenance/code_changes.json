@@ -1,0 +1,198 @@
+[
+  {
+    "path": "ablation_test/rs05_ablation_bootstrap.py",
+    "source_sha256": "7a7652a80f77fa5bac417d6d38d7b9db62aab320572af63972e2afab4f1ca99e",
+    "packaged_sha256": "02489dc2b24893999e2556c66e5fd0a600d0305176a9184b36718b68ca44e34b",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "ablation_test/rs05_t1_target_alert_audit.py",
+    "source_sha256": "afda9cccde5e212da53dcd886e613ebda83af06022c68c69a110ff8e3ec2b5da",
+    "packaged_sha256": "0b5d78a64f1f79b4bf3835b77eb3f05cc9cc2c0628d7974e4ab94e214c92cf92",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/07_india_download_data.py",
+    "source_sha256": "0e0f3890f49cf9f87ec9011e1e99543b645cdecab9d9ff46a76bb1f606e18a99",
+    "packaged_sha256": "6a58e2287f8722e685003220e01ff975ba6da32b56a369eec90a3807796bd538",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/05_alert_episodes.py",
+    "source_sha256": "f9935eab9f005f59040f02e45d1b5c8d0583ab44066cdc36d9da959495e5bfa2",
+    "packaged_sha256": "32d27fac6ff5f2fe96f2eb9b5c1a0580b53d4c7fc9dc0e625d0528cfbc23e75f",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/06_causal_system_alert_episodes.py",
+    "source_sha256": "9882acc2cd49dd7e36f4e60778aa612e103acc7181a226342f9ce5189398ead7",
+    "packaged_sha256": "ac19715d51a7286158545f6c410e2ebf3119a5ed2717f4559bd0fd5c5726443f",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/auditrs01.py",
+    "source_sha256": "1b9b5b9e40805aacc5c518304725d82fc47017ebc9c00cc9a3e3e48dbb694760",
+    "packaged_sha256": "23e9ae29badd9e5c45e41234ccea08658f32467be10df4ca3ee17ea549bc9e79",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/casual_reliability_panel.py",
+    "source_sha256": "fb13a9cf213653e4790cf2b0fa04a3ce3b2c6610d4035854eef89d51f67be757",
+    "packaged_sha256": "16f40f368de646925082a0402324bd43b3da1b3d611a7d35c7822f037d0914c7",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/lead_time.py",
+    "source_sha256": "0f1e99bfa2419c9adfae4692f1f89ace0a3a0467fbc396d47e229c488f1eebff",
+    "packaged_sha256": "a766bfa07eecbf0a395469de08d0846b28c8eaa48cda8496321b4ae82faf1004",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/long_history_var.py",
+    "source_sha256": "3f446cd386ed199845970c7897bdd00b3886370d0c5defeda7c444981efc44b0",
+    "packaged_sha256": "3244b613a334e883130f1d69deac787ba5b62d479020446c5ee0b3a290412bf1",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/matched_alert_event_study.py",
+    "source_sha256": "94a5dbf621fdc862663f82222838201639c8af4d4d2e50eace768281725fdf9b",
+    "packaged_sha256": "245d38aed2a5c0b1f5b6cc440b582aaa49267da1658d5fbd7b069fd5e0143f36",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/r50b_infrence.py",
+    "source_sha256": "ca3d6164e1a4472e42c3bc8b445940c0c541db2453c7af7ea6ac38ae9555177e",
+    "packaged_sha256": "4d5e547a11389426c72e5002f80b994a7ea0c7eecd98f41d82d49593409c6b94",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/regime_identification.py",
+    "source_sha256": "4f1c8628a6e3236432684607e69426122fe6076902ebffa0a4864e6c864a55cb",
+    "packaged_sha256": "0855a08d47598a353e6440a3e9bed3e351ce21d1b216e2ffd010132ee884e33e",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/reliability_audit.py",
+    "source_sha256": "943eb508bba83973cbb1fac4420de83c6a40af53fa54f489f993275aa8ce5d82",
+    "packaged_sha256": "51dcdb108a2686d7db1da466901420240b209f6d4431d34327c7d073078c114a",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/rerun_garch_only.py",
+    "source_sha256": "59359cf9c2fdd19361da202f7b4f3f848c77a91ba336fb4a40c3d144fb05a32e",
+    "packaged_sha256": "dd51553a9e929983974f496a94eaa63adb24ce39bebdb39782d05443cf3cd5aa",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/rerun_qrf.py",
+    "source_sha256": "f38220a2e9c63ee7eeb84189920a92ba0d21bdf7081a2c749563b463f476d8e7",
+    "packaged_sha256": "f38220a2e9c63ee7eeb84189920a92ba0d21bdf7081a2c749563b463f476d8e7",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/rs05/backtest_scores_vs_monitor.py",
+    "source_sha256": "95f7f0269bd4cfe36e849e615864bb8e921792b3496241a3336cafa314ac23b5",
+    "packaged_sha256": "21f41319def75be015ac1e29ca7b026431871909abb9dfc704513b8c0cd7b6e3",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/rs05/bootstrap_block_sensitivity.py",
+    "source_sha256": "a96697f20e19c2c5ddfbd007437b3c35df331d54eaa56553544d765d8f24a90a",
+    "packaged_sha256": "5f2e774301e6910f4b32ed579e3f75a26ff3ebc5bb713d6974f546832b746ecd",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/rs05/case_study_reliability_layer.py",
+    "source_sha256": "ff6cdf06f53a94c9a0bc1867bc5326ca93dafe1e243197754e18b8a853cf236f",
+    "packaged_sha256": "2828aca1d9a2c156528897bb5848fd8b2f6604be9bdca65dd268e30148a52740",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/rs05/covid_lead_time_corrected.py",
+    "source_sha256": "e1be1392c5a9a33ec5c20cb4950c1fd61da7168e1da47e238bda6f26a9c7a191",
+    "packaged_sha256": "eaa19cf54f5ec86511d5550ad34cb50a48594be5a69059d9d973e5537644fbb6",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/rs05/final_covid_paper_figure.py",
+    "source_sha256": "4c6e46f408abbe6145ec8209c357ff78dda66b3357fcce3b0d5463d74800c296",
+    "packaged_sha256": "ad981bda9ad7c07bb4a459dc6a8a8ea8bb82a002b736e9ba0666eb170d9b018e",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/rs05/final_covid_t2_paper_figure.py",
+    "source_sha256": "a1b813fb3792d31ebe850abd354f7cb1f8d5fe0b37cb9a6c0130f9555e7a1d70",
+    "packaged_sha256": "355f0be2b1c6a1e31db50084fa1fc76ac3841adf72d1f64b26c7f762e7a8259c",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/rs05/rate_shock_walkforward.py",
+    "source_sha256": "ff4cab5670c117962a496d6d79a855b93c97e605cd4f20f8f977fb0186af8ee3",
+    "packaged_sha256": "5368dfa4d6919b7abcf7c6e36f93effc826091d34aaac3573b5e449410a2d344",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/rs05/standard_backtest_matched_alert.py",
+    "source_sha256": "ab9d6b6dfd6e2ce6ba5430f6dba072384a4c2207398b3bc59c713658c02bc7dd",
+    "packaged_sha256": "d29d49796f97f444e4a08efeeeb7b3423d04a6dbe69cd01e4cedea81ab8c0d7a",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/rs05_walkforward.py",
+    "source_sha256": "d8f4572053ab633665e2fe12559e91131558347ca34f2f1e489489952651b3e9",
+    "packaged_sha256": "d7911bf2438fe1a1eb473fa21dc628171ce60e613b2fd81151e17b937ef6cc88",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/rso5_preflight.py",
+    "source_sha256": "11ed46da174ebac4e942e704a5a7f96090a03ed684b41ba9d7ea588e64017445",
+    "packaged_sha256": "5710ee37d232d54084139c8f35a6bcda60c9ba27acaa4e33d0da4a8fc7427512",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/split_scan.py",
+    "source_sha256": "3a6599e02328abacc07f2b98f167657e3027578461e6b9b7eed187df8af678cf",
+    "packaged_sha256": "9b8ddde73bd75af69c61edb87b55c3dfbe0044af1b66333131ae26eccf50533e",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/strongvol_inference.py",
+    "source_sha256": "3e53cf497dec2a0d9767166031a9fcd8099198dd2c68319f211bec17ec6f1306",
+    "packaged_sha256": "f350ec8988b95f7380a92199bb352ac4965cf36116e73d5199715131e1e09764",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  },
+  {
+    "path": "src/experiments/regime_shifts/strong_vol_baseline.py",
+    "source_sha256": "27efde91ad71e9e4ea3b4d9d9be90ba80e58f059c949c6f085bd89a07587b296",
+    "packaged_sha256": "f860e09b305ba6d3b19a783135179faacb84126008aa33f37550fe52cab83621",
+    "changes": "Only project-root resolution and compressed-panel filenames",
+    "ast_equivalence": true
+  }
+]

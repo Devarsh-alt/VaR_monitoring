@@ -1,0 +1,32 @@
+Experiment: T1 S6 versus S4 paired date-block bootstrap
+Input: D:\reliability_layer\data\monitoring\regime_shifts\RS05\RS05_oos_predictions_H10_main.csv.gz
+Input SHA256: 491bb777b27da0c9ea76c3c4db32a86f3dcb034c43fb25b06687fd43926141f3
+Input modified: 2026-10-08 01:55:15.203860998
+Target: T1
+Horizon: 10
+Algorithm: logit
+Headline period: forecast dates >= 2020-01-01
+Models: EWMA, GARCH-t, HS, QRF
+Block lengths: [10, 20, 40]
+Bootstrap repetitions requested per model/block: 2000
+Random seed: 20261010
+Primary block length for Holm correction: 20
+Multiple-testing family: four model-specific tests at block length 20
+Bootstrap p-values: approximate two-sided centered bootstrap
+Confidence intervals: percentile bootstrap intervals
+Code note: analysis executed inline in PowerShell; no standalone script created
+Python: 3.12.7
+pandas: 3.0.5
+NumPy: 2.5.1
+scikit-learn: 1.9.0
+Git HEAD: c43b25d325361da45c9091a62204915a462000f6
+Git status: ?? data/monitoring/
+?? data/processed.zip
+?? data/raw.zip
+?? data/results/
+?? data/var/
+?? notebooks/
+?? "src (2).zip"
+?? src.zip
+?? src/experiments/
+Results CSV: D:\reliability_layer\data\monitoring\regime_shifts\RS05\RS05_T1_S6_vs_S4_bootstrap_inference.csv

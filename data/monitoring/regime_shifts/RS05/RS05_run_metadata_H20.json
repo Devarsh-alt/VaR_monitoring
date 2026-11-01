@@ -1,0 +1,123 @@
+{
+  "input_panel": "D:\\reliability_layer\\data\\monitoring\\regime_shifts\\RS04b_causal_reliability_panel.csv",
+  "horizon": 20,
+  "targets": [
+    "T1"
+  ],
+  "models": [
+    "EWMA",
+    "GARCH-t",
+    "HS",
+    "QRF"
+  ],
+  "algorithms": [
+    "logit"
+  ],
+  "specs": [
+    "S0",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "test_start": "2019Q1",
+  "test_end": null,
+  "headline_start": "2020-01-01",
+  "calibration_dates": 252,
+  "minimum_fit_dates": 300,
+  "purge_column": "label_end_date_20d",
+  "regime_levels": [
+    "normal",
+    "transition",
+    "stress",
+    "recovery"
+  ],
+  "feature_groups": {
+    "P": [
+      "past_5d_breach_rate",
+      "past_10d_breach_rate",
+      "past_20d_breach_rate",
+      "past_5d_mean_norm_loss",
+      "past_10d_mean_norm_loss",
+      "past_20d_mean_norm_loss",
+      "past_5d_median_norm_loss",
+      "past_10d_median_norm_loss",
+      "past_20d_median_norm_loss",
+      "past_5d_max_norm_loss",
+      "past_10d_max_norm_loss",
+      "past_20d_max_norm_loss",
+      "past_breach_diff_5d_20d",
+      "past_normloss_ratio_5d_20d",
+      "historical_5d_mean_norm_loss",
+      "historical_10d_mean_norm_loss",
+      "historical_20d_mean_norm_loss",
+      "causal_5d_loss_threshold",
+      "causal_10d_loss_threshold",
+      "causal_20d_loss_threshold",
+      "hist_ratio_5d",
+      "hist_ratio_10d",
+      "hist_ratio_20d"
+    ],
+    "M": [
+      "vix",
+      "median_rv20",
+      "vix_change_10d",
+      "rv20_change_10d",
+      "vix_pct_change_10d",
+      "rv20_pct_change_10d",
+      "vix_zscore_252d",
+      "rv20_zscore_252d",
+      "stress_dimensions",
+      "regime"
+    ],
+    "V": [
+      "own_rv10",
+      "own_rv20",
+      "own_rv10_z252",
+      "own_rv20_z252",
+      "own_abs_return_1d",
+      "own_abs_return_mean_5d",
+      "own_abs_return_max_5d",
+      "own_rv10_rv20_ratio"
+    ],
+    "S": [
+      "current_abs_var",
+      "current_var_change_pct_1d",
+      "current_var_change_pct_5d",
+      "current_var_change_pct_20d",
+      "current_abs_var_zscore_252d"
+    ],
+    "D": [
+      "cross_model_disagreement_cv",
+      "cross_model_disagreement_range_pct",
+      "model_abs_var_to_cross_median",
+      "model_abs_var_rank_pct"
+    ]
+  },
+  "xgb_params": {
+    "n_estimators": 200,
+    "max_depth": 2,
+    "learning_rate": 0.04,
+    "min_child_weight": 500,
+    "subsample": 0.7,
+    "colsample_bytree": 0.7,
+    "reg_lambda": 10.0,
+    "reg_alpha": 0.0,
+    "tree_method": "hist",
+    "eval_metric": "logloss",
+    "n_jobs": -1,
+    "verbosity": 0
+  },
+  "seeds": 3,
+  "negative_control": false,
+  "notes": [
+    "RS05a predicts future deterioration probability.",
+    "Final current-trust signal is a separate later stage.",
+    "Own-volatility features are read from validated RS04b; not rebuilt.",
+    "Raw next-day outcomes are not used as features.",
+    "Alert thresholds are determined from calibration only."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "test": "HS logit T1/T2 S4/S6 2020Q1",
+  "rows": 5952,
+  "columns": 13,
+  "original_vs_packaged_predictions": "exactly equal",
+  "scope": "Packaging regression check only; not full scientific verification"
+}

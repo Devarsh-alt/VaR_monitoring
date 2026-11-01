@@ -1,0 +1,14 @@
+{
+  "source": "tools/audit_temp/codex_priority8/protocol/P8_FROZEN_DESIGN.json",
+  "source_sha256": "4b3753a181cda1de9e6b616489e16b6dcd69808d7d45c19d07342d1102fed54a",
+  "target": "T1",
+  "H": 10,
+  "models": [
+    "EWMA",
+    "GARCH-t",
+    "HS",
+    "QRF"
+  ],
+  "execution": "rs05 run-strict --out runs/unique_name",
+  "note": "Read original frozen JSON for exact features/folds/hyperparameters; never infer from these summary fields."
+}

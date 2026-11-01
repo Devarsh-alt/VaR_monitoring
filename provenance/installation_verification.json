@@ -1,0 +1,11 @@
+{
+  "destination": "D:\\final_reliability",
+  "verified_files": 271,
+  "bytes": 330117997,
+  "copy_hashes_match": true,
+  "python_syntax": "passed",
+  "resolved_project_root": "D:\\final_reliability",
+  "resolved_input_panel": "D:\\final_reliability\\data\\monitoring\\regime_shifts\\RS04b_causal_reliability_panel.csv.gz",
+  "original_project_bytes": 3258051180,
+  "reduction_percent": 89.86762396409009
+}

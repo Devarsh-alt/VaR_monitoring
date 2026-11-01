@@ -1,0 +1,228 @@
+2026-10-08 00:46:22,809 | INFO | ====================================================================================================
+2026-10-08 00:46:22,810 | INFO | RS04 — REVISED CAUSAL RELIABILITY PANEL
+2026-10-08 00:46:22,810 | INFO | ====================================================================================================
+2026-10-08 00:46:22,810 | INFO | 
+2026-10-08 00:46:22,810 | INFO | Primary target: future normalized VaR loss deterioration
+2026-10-08 00:46:22,810 | INFO | Secondary target: absolute coverage failure
+2026-10-08 00:46:22,810 | INFO | MIN_HISTORY = 252
+2026-10-08 00:46:22,810 | INFO | HORIZONS = [5, 10, 20]
+2026-10-08 00:46:22,810 | INFO | MONITOR_WINDOWS = [5, 10, 20]
+2026-10-08 00:46:22,811 | INFO | 
+2026-10-08 00:46:22,811 | INFO | ====================================================================================================
+2026-10-08 00:46:22,811 | INFO | LOADING RS03 + RS01 PANEL
+2026-10-08 00:46:22,811 | INFO | ====================================================================================================
+2026-10-08 00:46:23,230 | INFO | Rows: 68,952
+2026-10-08 00:46:23,274 | INFO | Tickers: 24
+2026-10-08 00:46:23,307 | INFO | Forecast date range: 2015-01-23 to 2026-06-26
+2026-10-08 00:46:23,321 | INFO | Realized date range: 2015-01-26 to 2026-06-29
+2026-10-08 00:46:23,368 | INFO | Input date contiguity: OK
+2026-10-08 00:46:23,537 | INFO | 
+2026-10-08 00:46:23,603 | INFO | ====================================================================================================
+2026-10-08 00:46:23,663 | INFO | BUILDING CROSS-MODEL CAUSAL FEATURES
+2026-10-08 00:46:23,690 | INFO | ====================================================================================================
+2026-10-08 00:46:23,853 | INFO | Cross-model rows: 275,808
+2026-10-08 00:46:23,874 | INFO | 
+2026-10-08 00:46:23,902 | INFO | ====================================================================================================
+2026-10-08 00:46:23,919 | INFO | PROCESSING MODEL — HS
+2026-10-08 00:46:23,926 | INFO | ====================================================================================================
+2026-10-08 00:46:28,836 | INFO | HS: 68,952 rows
+2026-10-08 00:46:28,836 | INFO | 
+2026-10-08 00:46:28,836 | INFO | ====================================================================================================
+2026-10-08 00:46:28,837 | INFO | PROCESSING MODEL — EWMA
+2026-10-08 00:46:28,837 | INFO | ====================================================================================================
+2026-10-08 00:46:31,184 | INFO | EWMA: 68,952 rows
+2026-10-08 00:46:31,184 | INFO | 
+2026-10-08 00:46:31,185 | INFO | ====================================================================================================
+2026-10-08 00:46:31,185 | INFO | PROCESSING MODEL — GARCH-t
+2026-10-08 00:46:31,185 | INFO | ====================================================================================================
+2026-10-08 00:46:33,630 | INFO | GARCH-t: 68,952 rows
+2026-10-08 00:46:33,631 | INFO | 
+2026-10-08 00:46:33,631 | INFO | ====================================================================================================
+2026-10-08 00:46:33,631 | INFO | PROCESSING MODEL — QRF
+2026-10-08 00:46:33,631 | INFO | ====================================================================================================
+2026-10-08 00:46:35,974 | INFO | QRF: 68,952 rows
+2026-10-08 00:46:36,294 | INFO | 
+2026-10-08 00:46:36,295 | INFO | ====================================================================================================
+2026-10-08 00:46:36,295 | INFO | FINAL RS04 PANEL
+2026-10-08 00:46:36,295 | INFO | ====================================================================================================
+2026-10-08 00:46:36,295 | INFO | Rows: 275,808
+2026-10-08 00:46:36,296 | INFO | Expected rows: 275,808
+2026-10-08 00:46:36,301 | INFO | Tickers: 24
+2026-10-08 00:46:36,308 | INFO | Models: 4
+2026-10-08 00:46:36,355 | INFO | Duplicate ticker/date/model rows: 0
+2026-10-08 00:46:36,356 | INFO | Declared numeric/categorical features: 40
+2026-10-08 00:46:36,356 | INFO | Target columns: 18
+2026-10-08 00:46:36,357 | INFO | Label metadata columns: 6
+2026-10-08 00:46:36,357 | INFO | Target metadata columns: 3
+2026-10-08 00:46:36,357 | INFO | Raw next-day outcomes absent from main RS04 panel: OK
+2026-10-08 00:46:36,357 | INFO | 
+2026-10-08 00:46:36,357 | INFO | ====================================================================================================
+2026-10-08 00:46:36,357 | INFO | QUARANTINING RAW NEXT-DAY OUTCOMES
+2026-10-08 00:46:36,358 | INFO | ====================================================================================================
+2026-10-08 00:46:36,446 | INFO | Quarantined outcome rows: 275,808
+2026-10-08 00:46:36,446 | INFO | 
+2026-10-08 00:46:36,447 | INFO | ====================================================================================================
+2026-10-08 00:46:36,447 | INFO | TARGET SUMMARY
+2026-10-08 00:46:36,447 | INFO | ====================================================================================================
+2026-10-08 00:46:36,832 | INFO |   model  horizon_days  deterioration_valid  deterioration_positive  deterioration_positive_rate  coverage_failure_valid  coverage_failure_positive  coverage_failure_positive_rate  future_norm_loss_valid  mean_future_norm_loss  future_breach_rate_valid  mean_future_breach_rate
+     HS             5                62712                   14792                     0.235872                   68856                       3198                        0.046445                   68856               0.087870                     68856                 0.055455
+     HS            10                62472                   14380                     0.230183                   68736                       3012                        0.043820                   68736               0.087816                     68736                 0.055333
+     HS            20                61992                   14106                     0.227545                   68496                       4712                        0.068792                   68496               0.087828                     68496                 0.055292
+   EWMA             5                62712                   16365                     0.260955                   68856                       2080                        0.030208                   68856               0.077242                     68856                 0.049657
+   EWMA            10                62472                   16281                     0.260613                   68736                       1326                        0.019291                   68736               0.077207                     68736                 0.049582
+   EWMA            20                61992                   15732                     0.253775                   68496                       1633                        0.023841                   68496               0.077219                     68496                 0.049588
+GARCH-t             5                62712                   15883                     0.253269                   68856                       2449                        0.035567                   68856               0.081922                     68856                 0.057137
+GARCH-t            10                62472                   15623                     0.250080                   68736                       1737                        0.025271                   68736               0.081872                     68736                 0.057011
+GARCH-t            20                61992                   14901                     0.240370                   68496                       2548                        0.037199                   68496               0.081872                     68496                 0.056987
+    QRF             5                62712                   15428                     0.246014                   68856                       2131                        0.030949                   68856               0.079612                     68856                 0.051316
+    QRF            10                62472                   15205                     0.243389                   68736                       1677                        0.024398                   68736               0.079554                     68736                 0.051192
+    QRF            20                61992                   14345                     0.231401                   68496                       2354                        0.034367                   68496               0.079545                     68496                 0.051129
+2026-10-08 00:46:36,833 | INFO | 
+2026-10-08 00:46:36,834 | INFO | ====================================================================================================
+2026-10-08 00:46:36,834 | INFO | CROSS-MODEL LABEL CORRELATION DIAGNOSTIC
+2026-10-08 00:46:36,834 | INFO | ====================================================================================================
+2026-10-08 00:46:37,615 | INFO |  horizon_days      target_type model_a model_b  n_common  correlation
+            5    deterioration      HS    EWMA     62712     0.562431
+            5    deterioration      HS GARCH-t     62712     0.675630
+            5    deterioration      HS     QRF     62712     0.692794
+            5    deterioration    EWMA GARCH-t     62712     0.773014
+            5    deterioration    EWMA     QRF     62712     0.681631
+            5    deterioration GARCH-t     QRF     62712     0.750270
+            5 coverage_failure      HS    EWMA     68856     0.546087
+            5 coverage_failure      HS GARCH-t     68856     0.633910
+            5 coverage_failure      HS     QRF     68856     0.671076
+            5 coverage_failure    EWMA GARCH-t     68856     0.781597
+            5 coverage_failure    EWMA     QRF     68856     0.604922
+            5 coverage_failure GARCH-t     QRF     68856     0.691516
+           10    deterioration      HS    EWMA     62472     0.536944
+           10    deterioration      HS GARCH-t     62472     0.655654
+           10    deterioration      HS     QRF     62472     0.668591
+           10    deterioration    EWMA GARCH-t     62472     0.772695
+           10    deterioration    EWMA     QRF     62472     0.641598
+           10    deterioration GARCH-t     QRF     62472     0.722118
+           10 coverage_failure      HS    EWMA     68736     0.462933
+           10 coverage_failure      HS GARCH-t     68736     0.560584
+           10 coverage_failure      HS     QRF     68736     0.631369
+           10 coverage_failure    EWMA GARCH-t     68736     0.727504
+           10 coverage_failure    EWMA     QRF     68736     0.553019
+           10 coverage_failure GARCH-t     QRF     68736     0.613826
+           20    deterioration      HS    EWMA     61992     0.515492
+           20    deterioration      HS GARCH-t     61992     0.661851
+           20    deterioration      HS     QRF     61992     0.670747
+           20    deterioration    EWMA GARCH-t     61992     0.756408
+           20    deterioration    EWMA     QRF     61992     0.613309
+           20    deterioration GARCH-t     QRF     61992     0.715297
+           20 coverage_failure      HS    EWMA     68496     0.377606
+           20 coverage_failure      HS GARCH-t     68496     0.545800
+           20 coverage_failure      HS     QRF     68496     0.589602
+           20 coverage_failure    EWMA GARCH-t     68496     0.663585
+           20 coverage_failure    EWMA     QRF     68496     0.458029
+           20 coverage_failure GARCH-t     QRF     68496     0.604475
+2026-10-08 00:46:37,615 | INFO | 
+2026-10-08 00:46:37,616 | INFO | ====================================================================================================
+2026-10-08 00:46:37,616 | INFO | TRUNCATION-INVARIANCE CAUSALITY TEST
+2026-10-08 00:46:37,616 | INFO | ====================================================================================================
+2026-10-08 00:46:37,748 | INFO | Testing HS at 2018-02-05...
+2026-10-08 00:46:42,057 | INFO | HS 2018-02-05 features identical under truncation: OK
+2026-10-08 00:46:42,058 | INFO | Testing EWMA at 2018-02-05...
+2026-10-08 00:46:46,099 | INFO | EWMA 2018-02-05 features identical under truncation: OK
+2026-10-08 00:46:46,101 | INFO | Testing GARCH-t at 2018-02-05...
+2026-10-08 00:46:50,267 | INFO | GARCH-t 2018-02-05 features identical under truncation: OK
+2026-10-08 00:46:50,269 | INFO | Testing QRF at 2018-02-05...
+2026-10-08 00:46:54,422 | INFO | QRF 2018-02-05 features identical under truncation: OK
+2026-10-08 00:46:54,422 | INFO | Testing HS at 2020-03-16...
+2026-10-08 00:46:58,999 | INFO | HS 2020-03-16 features identical under truncation: OK
+2026-10-08 00:46:59,000 | INFO | Testing EWMA at 2020-03-16...
+2026-10-08 00:47:03,383 | INFO | EWMA 2020-03-16 features identical under truncation: OK
+2026-10-08 00:47:03,384 | INFO | Testing GARCH-t at 2020-03-16...
+2026-10-08 00:47:07,166 | INFO | GARCH-t 2020-03-16 features identical under truncation: OK
+2026-10-08 00:47:07,166 | INFO | Testing QRF at 2020-03-16...
+2026-10-08 00:47:11,448 | INFO | QRF 2020-03-16 features identical under truncation: OK
+2026-10-08 00:47:11,449 | INFO | Testing HS at 2022-06-01...
+2026-10-08 00:47:15,599 | INFO | HS 2022-06-01 features identical under truncation: OK
+2026-10-08 00:47:15,600 | INFO | Testing EWMA at 2022-06-01...
+2026-10-08 00:47:18,611 | INFO | EWMA 2022-06-01 features identical under truncation: OK
+2026-10-08 00:47:18,611 | INFO | Testing GARCH-t at 2022-06-01...
+2026-10-08 00:47:20,697 | INFO | GARCH-t 2022-06-01 features identical under truncation: OK
+2026-10-08 00:47:20,697 | INFO | Testing QRF at 2022-06-01...
+2026-10-08 00:47:22,912 | INFO | QRF 2022-06-01 features identical under truncation: OK
+2026-10-08 00:47:22,916 | INFO | 
+2026-10-08 00:47:22,916 | INFO | ====================================================================================================
+2026-10-08 00:47:22,916 | INFO | FEATURE MISSINGNESS CHECK
+2026-10-08 00:47:22,916 | INFO | ====================================================================================================
+2026-10-08 00:47:22,934 | INFO | causal_20d_loss_threshold             0.094326
+causal_10d_loss_threshold             0.090846
+causal_5d_loss_threshold              0.089105
+current_abs_var_zscore_252d           0.087713
+vix_zscore_252d                       0.087713
+rv20_zscore_252d                      0.087713
+past_20d_breach_rate                  0.006961
+current_var_change_pct_20d            0.006961
+past_normloss_ratio_5d_20d            0.006961
+past_20d_max_norm_loss                0.006961
+historical_20d_mean_norm_loss         0.006961
+past_20d_median_norm_loss             0.006961
+past_20d_mean_norm_loss               0.006961
+past_breach_diff_5d_20d               0.006961
+past_10d_breach_rate                  0.003481
+past_10d_mean_norm_loss               0.003481
+rv20_pct_change_10d                   0.003481
+past_10d_median_norm_loss             0.003481
+historical_10d_mean_norm_loss         0.003481
+past_10d_max_norm_loss                0.003481
+vix_pct_change_10d                    0.003481
+past_5d_mean_norm_loss                0.001740
+past_5d_breach_rate                   0.001740
+current_var_change_pct_5d             0.001740
+historical_5d_mean_norm_loss          0.001740
+past_5d_max_norm_loss                 0.001740
+past_5d_median_norm_loss              0.001740
+current_var_change_pct_1d             0.000348
+current_abs_var                       0.000000
+vix_change_10d                        0.000000
+vix                                   0.000000
+median_rv20                           0.000000
+rv20_change_10d                       0.000000
+stress_dimensions                     0.000000
+cross_model_disagreement_cv           0.000000
+cross_model_disagreement_range_pct    0.000000
+model_abs_var_to_cross_median         0.000000
+model_abs_var_rank_pct                0.000000
+regime                                0.000000
+model_name                            0.000000
+2026-10-08 00:47:23,027 | INFO | Final main-panel leakage check: OK
+2026-10-08 00:47:34,534 | INFO | 
+2026-10-08 00:47:34,535 | INFO | ====================================================================================================
+2026-10-08 00:47:34,535 | INFO | FINAL SANITY CHECKS
+2026-10-08 00:47:34,535 | INFO | ====================================================================================================
+2026-10-08 00:47:34,535 | INFO | Saved main panel rows: 275,808
+2026-10-08 00:47:34,562 | INFO | Saved duplicate model keys: 0
+2026-10-08 00:47:34,563 | INFO | Saved feature/leakage validation: OK
+2026-10-08 00:47:34,563 | INFO | 
+2026-10-08 00:47:34,563 | INFO | MODEL ROW COVERAGE:
+2026-10-08 00:47:34,593 | INFO | HS      : 68,952
+2026-10-08 00:47:34,624 | INFO | EWMA    : 68,952
+2026-10-08 00:47:34,655 | INFO | GARCH-t : 68,952
+2026-10-08 00:47:34,684 | INFO | QRF     : 68,952
+2026-10-08 00:47:34,684 | INFO | 
+2026-10-08 00:47:34,684 | INFO | ====================================================================================================
+2026-10-08 00:47:34,684 | INFO | OUTPUTS SAVED
+2026-10-08 00:47:34,684 | INFO | ====================================================================================================
+2026-10-08 00:47:34,685 | INFO | Main causal panel:
+D:\reliability_layer\data\monitoring\regime_shifts\RS04_causal_reliability_panel.csv
+2026-10-08 00:47:34,685 | INFO | Quarantined outcomes:
+D:\reliability_layer\data\monitoring\regime_shifts\RS04_quarantined_outcomes.csv
+2026-10-08 00:47:34,685 | INFO | Target summary:
+D:\reliability_layer\data\monitoring\regime_shifts\RS04_target_summary.csv
+2026-10-08 00:47:34,685 | INFO | Label correlation:
+D:\reliability_layer\data\monitoring\regime_shifts\RS04_label_correlation.csv
+2026-10-08 00:47:34,685 | INFO | Truncation audit:
+D:\reliability_layer\data\monitoring\regime_shifts\RS04_truncation_audit.csv
+2026-10-08 00:47:34,685 | INFO | Column manifest:
+D:\reliability_layer\data\monitoring\regime_shifts\RS04_column_manifest.json
+2026-10-08 00:47:34,685 | INFO | Log:
+D:\reliability_layer\data\monitoring\regime_shifts\RS04_causal_reliability_panel.log
+2026-10-08 00:47:34,685 | INFO | 
+2026-10-08 00:47:34,685 | INFO | ====================================================================================================
+2026-10-08 00:47:34,685 | INFO | RS04 REVISED CAUSAL RELIABILITY PANEL COMPLETE
+2026-10-08 00:47:34,685 | INFO | ====================================================================================================

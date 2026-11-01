@@ -1,0 +1,13 @@
+model,event_threshold,event_count,complete_dates,pre_onset_dates,max_gap_dates_merged
+EWMA,0.25,40,1620,20,5
+EWMA,0.5,22,1620,20,5
+EWMA,0.75,6,1620,20,5
+GARCH-t,0.25,49,1620,20,5
+GARCH-t,0.5,17,1620,20,5
+GARCH-t,0.75,7,1620,20,5
+HS,0.25,33,1620,20,5
+HS,0.5,15,1620,20,5
+HS,0.75,7,1620,20,5
+QRF,0.25,44,1620,20,5
+QRF,0.5,17,1620,20,5
+QRF,0.75,3,1620,20,5

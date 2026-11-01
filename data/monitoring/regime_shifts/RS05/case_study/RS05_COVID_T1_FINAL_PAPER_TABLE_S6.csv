@@ -1,0 +1,5 @@
+Model,First system RED,Lead (trading days),P(deterioration) at first RED,P(deterioration) at final pre-event date,Maximum pre-event probability,Final system state,Realized deterioration at onset,Maximum post-onset deterioration,Detected before onset
+EWMA,2020-02-24,15,0.5984650758333333,0.136482054,0.5984650758333333,GREEN,0.1666666666666666,0.75,True
+GARCH-t,2020-02-24,15,0.5805968875,0.4094122079166666,0.5805968875,RED,0.25,0.9166666666666666,True
+HS,2020-02-24,15,0.7540664516666666,0.7996247333333333,0.8016469116666668,RED,1.0,1.0,True
+QRF,2020-02-24,15,0.5954897454166667,0.606322785,0.6156485441666667,RED,0.875,0.875,True

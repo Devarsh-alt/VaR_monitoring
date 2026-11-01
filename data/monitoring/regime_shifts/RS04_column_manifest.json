@@ -1,0 +1,218 @@
+{
+  "project": "RS04 revised causal reliability panel",
+  "purpose": "Construct strictly causal monitoring features and future VaR deterioration targets.",
+  "input_panel": "D:\\reliability_layer\\data\\monitoring\\regime_shifts\\RS03_RS01_regime_panel.csv",
+  "output_panel": "D:\\reliability_layer\\data\\monitoring\\regime_shifts\\RS04_causal_reliability_panel.csv",
+  "quarantined_outcomes": "D:\\reliability_layer\\data\\monitoring\\regime_shifts\\RS04_quarantined_outcomes.csv",
+  "models": [
+    "HS",
+    "EWMA",
+    "GARCH-t",
+    "QRF"
+  ],
+  "tickers": [
+    "AAPL",
+    "AMZN",
+    "BA",
+    "BAC",
+    "CAT",
+    "CVX",
+    "DIS",
+    "GME",
+    "GOOGL",
+    "GS",
+    "JNJ",
+    "JPM",
+    "KO",
+    "MCD",
+    "MSFT",
+    "NFLX",
+    "NVDA",
+    "PFE",
+    "PG",
+    "TSLA",
+    "UNH",
+    "V",
+    "WMT",
+    "XOM"
+  ],
+  "configuration": {
+    "var_alpha": 0.05,
+    "primary_quantile": 0.75,
+    "min_history": 252,
+    "monitor_windows": [
+      5,
+      10,
+      20
+    ],
+    "horizons": [
+      5,
+      10,
+      20
+    ],
+    "coverage_test_level": 0.05
+  },
+  "feature_columns": [
+    "current_abs_var",
+    "current_var_change_pct_1d",
+    "current_var_change_pct_5d",
+    "current_var_change_pct_20d",
+    "current_abs_var_zscore_252d",
+    "past_5d_breach_rate",
+    "past_10d_breach_rate",
+    "past_20d_breach_rate",
+    "past_5d_mean_norm_loss",
+    "past_10d_mean_norm_loss",
+    "past_20d_mean_norm_loss",
+    "past_5d_median_norm_loss",
+    "past_10d_median_norm_loss",
+    "past_20d_median_norm_loss",
+    "past_5d_max_norm_loss",
+    "past_10d_max_norm_loss",
+    "past_20d_max_norm_loss",
+    "past_breach_diff_5d_20d",
+    "past_normloss_ratio_5d_20d",
+    "historical_5d_mean_norm_loss",
+    "historical_10d_mean_norm_loss",
+    "historical_20d_mean_norm_loss",
+    "causal_5d_loss_threshold",
+    "causal_10d_loss_threshold",
+    "causal_20d_loss_threshold",
+    "vix",
+    "median_rv20",
+    "vix_change_10d",
+    "rv20_change_10d",
+    "vix_pct_change_10d",
+    "rv20_pct_change_10d",
+    "vix_zscore_252d",
+    "rv20_zscore_252d",
+    "stress_dimensions",
+    "cross_model_disagreement_cv",
+    "cross_model_disagreement_range_pct",
+    "model_abs_var_to_cross_median",
+    "model_abs_var_rank_pct",
+    "regime",
+    "model_name"
+  ],
+  "model_features": [
+    "current_abs_var",
+    "current_var_change_pct_1d",
+    "current_var_change_pct_5d",
+    "current_var_change_pct_20d",
+    "current_abs_var_zscore_252d",
+    "past_5d_breach_rate",
+    "past_10d_breach_rate",
+    "past_20d_breach_rate",
+    "past_5d_mean_norm_loss",
+    "past_10d_mean_norm_loss",
+    "past_20d_mean_norm_loss",
+    "past_5d_median_norm_loss",
+    "past_10d_median_norm_loss",
+    "past_20d_median_norm_loss",
+    "past_5d_max_norm_loss",
+    "past_10d_max_norm_loss",
+    "past_20d_max_norm_loss",
+    "past_breach_diff_5d_20d",
+    "past_normloss_ratio_5d_20d"
+  ],
+  "historical_features": [
+    "historical_5d_mean_norm_loss",
+    "historical_10d_mean_norm_loss",
+    "historical_20d_mean_norm_loss"
+  ],
+  "causal_threshold_features": [
+    "causal_5d_loss_threshold",
+    "causal_10d_loss_threshold",
+    "causal_20d_loss_threshold"
+  ],
+  "common_market_features": [
+    "vix",
+    "median_rv20",
+    "vix_change_10d",
+    "rv20_change_10d",
+    "vix_pct_change_10d",
+    "rv20_pct_change_10d",
+    "vix_zscore_252d",
+    "rv20_zscore_252d",
+    "stress_dimensions"
+  ],
+  "cross_model_features": [
+    "cross_model_disagreement_cv",
+    "cross_model_disagreement_range_pct",
+    "model_abs_var_to_cross_median",
+    "model_abs_var_rank_pct"
+  ],
+  "categorical_features": [
+    "regime",
+    "model_name"
+  ],
+  "metadata_columns": [
+    "ticker",
+    "forecast_date",
+    "realized_date",
+    "model_name"
+  ],
+  "target_columns": [
+    "future_5d_mean_norm_loss",
+    "future_5d_breach_rate",
+    "deterioration_5d",
+    "loss_excess_5d",
+    "coverage_failure_5d",
+    "coverage_failure_k_5d",
+    "future_10d_mean_norm_loss",
+    "future_10d_breach_rate",
+    "deterioration_10d",
+    "loss_excess_10d",
+    "coverage_failure_10d",
+    "coverage_failure_k_10d",
+    "future_20d_mean_norm_loss",
+    "future_20d_breach_rate",
+    "deterioration_20d",
+    "loss_excess_20d",
+    "coverage_failure_20d",
+    "coverage_failure_k_20d"
+  ],
+  "label_metadata_columns": [
+    "label_start_date_5d",
+    "label_end_date_5d",
+    "label_start_date_10d",
+    "label_end_date_10d",
+    "label_start_date_20d",
+    "label_end_date_20d"
+  ],
+  "target_metadata_columns": [
+    "coverage_failure_k_5d",
+    "coverage_failure_k_10d",
+    "coverage_failure_k_20d"
+  ],
+  "quarantined_outcome_columns": [
+    "outcome_next_day_breach",
+    "outcome_next_day_pinball_loss"
+  ],
+  "target_definitions": {
+    "normalized_loss": "pinball_loss / abs(VaR)",
+    "deterioration_H": "Future H-day mean normalized loss > causal expanding 75th percentile of historically known H-day normalized-loss windows.",
+    "coverage_failure_H": "At least k breaches in the next H observations, where k is the one-sided 5% binomial critical count under nominal alpha=0.05.",
+    "label_start_date_H": "First realized date in the H-day future outcome window.",
+    "label_end_date_H": "Last realized date in the H-day future outcome window."
+  },
+  "causality_policy": {
+    "past_breach_features": "Use breach.shift(1).",
+    "past_loss_features": "Use normalized_loss.shift(1).",
+    "historical_loss": "Use normalized_loss.shift(1).rolling(H).",
+    "causal_threshold": "Expanding quantile of historically known H-day loss windows.",
+    "cross_model_features": "Use current VaR forecasts only.",
+    "raw_realized_outcomes": "Quarantined outside the main feature panel."
+  },
+  "truncation_test_dates": [
+    "2018-02-05",
+    "2020-03-16",
+    "2022-06-01"
+  ],
+  "leakage_exclusions": [
+    "actual_return",
+    "outcome_next_day_breach",
+    "outcome_next_day_pinball_loss",
+    "raw signed VaR columns"
+  ]
+}

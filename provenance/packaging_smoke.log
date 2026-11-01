@@ -1,0 +1,52 @@
+Loaded RS04b: C:\Users\devar\Documents\Codex\2026-10-30\ho\outputs\final_reliability\data\monitoring\regime_shifts\RS04b_causal_reliability_panel.csv.gz
+Shape: (275808, 78)
+Tickers: 24
+Models: ['EWMA', 'GARCH-t', 'HS', 'QRF']
+Forecast range: 2015-01-23 to 2026-06-26
+
+==============================================================================================================
+FEATURE GROUPS
+==============================================================================================================
+P (23): ['past_5d_breach_rate', 'past_10d_breach_rate', 'past_20d_breach_rate', 'past_5d_mean_norm_loss', 'past_10d_mean_norm_loss', 'past_20d_mean_norm_loss', 'past_5d_median_norm_loss', 'past_10d_median_norm_loss', 'past_20d_median_norm_loss', 'past_5d_max_norm_loss', 'past_10d_max_norm_loss', 'past_20d_max_norm_loss', 'past_breach_diff_5d_20d', 'past_normloss_ratio_5d_20d', 'historical_5d_mean_norm_loss', 'historical_10d_mean_norm_loss', 'historical_20d_mean_norm_loss', 'causal_5d_loss_threshold', 'causal_10d_loss_threshold', 'causal_20d_loss_threshold', 'hist_ratio_5d', 'hist_ratio_10d', 'hist_ratio_20d']
+M (10): ['vix', 'median_rv20', 'vix_change_10d', 'rv20_change_10d', 'vix_pct_change_10d', 'rv20_pct_change_10d', 'vix_zscore_252d', 'rv20_zscore_252d', 'stress_dimensions', 'regime']
+V (8): ['own_rv10', 'own_rv20', 'own_rv10_z252', 'own_rv20_z252', 'own_abs_return_1d', 'own_abs_return_mean_5d', 'own_abs_return_max_5d', 'own_rv10_rv20_ratio']
+S (5): ['current_abs_var', 'current_var_change_pct_1d', 'current_var_change_pct_5d', 'current_var_change_pct_20d', 'current_abs_var_zscore_252d']
+D (4): ['cross_model_disagreement_cv', 'cross_model_disagreement_range_pct', 'model_abs_var_to_cross_median', 'model_abs_var_rank_pct']
+
+UNASSIGNED / EXCLUDED FEATURES: []
+
+==============================================================================================================
+TARGET T1 | horizon=10 | target=deterioration_10d | purge=label_end_date_10d
+==============================================================================================================
+
+HS: 1 quarterly folds
+  HS 2020Q1 done | fit_dates=17,064 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.6754 | 1.9s
+
+==============================================================================================================
+TARGET T2 | horizon=10 | target=coverage_failure_10d | purge=label_end_date_10d
+==============================================================================================================
+
+HS: 1 quarterly folds
+  HS 2020Q1 done | fit_dates=23,328 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.4456 | 1.6s
+
+==============================================================================================================
+HEADLINE METRICS � T10_curated
+Headline evaluation begins: 2020-01-01
+==============================================================================================================
+target model  algo spec    auc  pr_lift  brier_skill  logloss_skill  cal_slope  cal_intercept  date_level_spearman  n_rows  n_dates
+    T1    HS logit   S4 0.8029   1.3393          NaN            NaN     0.9692         1.1439               0.6022  1488.0     62.0
+    T1    HS logit   S6 0.7867   1.3304          NaN            NaN     1.0482         1.1327               0.5661  1488.0     62.0
+    T2    HS logit   S4 0.8271   1.7886          NaN            NaN     1.8899         6.1153               0.6650  1488.0     62.0
+    T2    HS logit   S6 0.8134   1.7722          NaN            NaN     2.0524         6.8222               0.6535  1488.0     62.0
+
+Saved outputs to:
+C:\Users\devar\Documents\Codex\2026-10-30\ho\work\curated_monitor_smoke
+
+==============================================================================================================
+RS05a WALK-FORWARD COMPLETE
+==============================================================================================================
+Predictions: C:\Users\devar\Documents\Codex\2026-10-30\ho\work\curated_monitor_smoke\RS05_oos_predictions_H10_curated.csv.gz
+Metadata:    C:\Users\devar\Documents\Codex\2026-10-30\ho\work\curated_monitor_smoke\RS05_run_metadata_H10.json
+Outputs:     C:\Users\devar\Documents\Codex\2026-10-30\ho\work\curated_monitor_smoke
+
+Saved this run to: C:\Users\devar\Documents\Codex\2026-10-30\ho\work\curated_monitor_smoke

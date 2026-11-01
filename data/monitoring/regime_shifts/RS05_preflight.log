@@ -1,0 +1,220 @@
+
+====================================================================================================
+RS05 PREFLIGHT — SECTION 0
+====================================================================================================
+Project root: D:\reliability_layer
+RS04:         D:\reliability_layer\data\monitoring\regime_shifts\RS04_causal_reliability_panel.csv
+Quarantine:   D:\reliability_layer\data\monitoring\regime_shifts\RS04_quarantined_outcomes.csv
+Raw zip:      D:\reliability_layer\data\raw.zip
+
+====================================================================================================
+LOADING RS04
+====================================================================================================
+RS04 path: D:\reliability_layer\data\monitoring\regime_shifts\RS04_causal_reliability_panel.csv
+RS04 shape: (275808, 67)
+Duplicate ticker/date/model rows: 0
+Tickers: 24
+Models: ['EWMA', 'GARCH-t', 'HS', 'QRF']
+Forecast dates: 2015-01-23 to 2026-06-26
+
+====================================================================================================
+RECONSTRUCTING NORMALIZED-LOSS DIAGNOSTIC
+====================================================================================================
+Quarantine path: D:\reliability_layer\data\monitoring\regime_shifts\RS04_quarantined_outcomes.csv
+Quarantine shape: (275808, 6)
+Quarantine columns: ['ticker', 'forecast_date', 'realized_date', 'outcome_next_day_breach', 'outcome_next_day_pinball_loss', 'model_name']
+Quarantined pinball-loss column: outcome_next_day_pinball_loss
+Reconstructed normalized-loss rows: 275,808
+Non-positive |VaR| rows: 0
+Non-finite normalized-loss rows: 0
+Normalized loss min:    2.49934013192e-06
+Normalized loss median: 0.0544443991841
+Normalized loss max:    12.557824435
+|VaR| min among positive values: 0.00571431701305
+RS04 model keys:       275,808
+Quarantine model keys: 275,808
+Key coverage exact:     True
+
+====================================================================================================
+1. LABEL DIAGNOSTICS
+====================================================================================================
+H=5: deterioration column = deterioration_5d
+H=5: coverage failure column = coverage_failure_5d
+H=5: future breach-rate column = future_5d_breach_rate
+H=10: deterioration column = deterioration_10d
+H=10: coverage failure column = coverage_failure_10d
+H=10: future breach-rate column = future_10d_breach_rate
+H=20: deterioration column = deterioration_20d
+H=20: coverage failure column = coverage_failure_20d
+H=20: future breach-rate column = future_20d_breach_rate
+
+NORMALIZED-LOSS DIAGNOSTICS
+Mean normalized loss:   0.08173489259
+Median normalized loss: 0.05444439918
+95th percentile:        0.1362122193
+99th percentile:        0.836974906
+Maximum:                12.55782443
+EWMA H=5: T1-positive windows with zero breaches = 36.7430% [source=RS04_future_breach_rate]
+EWMA H=10: T1-positive windows with zero breaches = 6.6888% [source=RS04_future_breach_rate]
+EWMA H=20: T1-positive windows with zero breaches = 0.0699% [source=RS04_future_breach_rate]
+GARCH-t H=5: T1-positive windows with zero breaches = 28.0363% [source=RS04_future_breach_rate]
+GARCH-t H=10: T1-positive windows with zero breaches = 2.8484% [source=RS04_future_breach_rate]
+GARCH-t H=20: T1-positive windows with zero breaches = 0.0336% [source=RS04_future_breach_rate]
+HS H=5: T1-positive windows with zero breaches = 29.5024% [source=RS04_future_breach_rate]
+HS H=10: T1-positive windows with zero breaches = 5.9805% [source=RS04_future_breach_rate]
+HS H=20: T1-positive windows with zero breaches = 0.2410% [source=RS04_future_breach_rate]
+QRF H=5: T1-positive windows with zero breaches = 33.4133% [source=RS04_future_breach_rate]
+QRF H=10: T1-positive windows with zero breaches = 6.4781% [source=RS04_future_breach_rate]
+QRF H=20: T1-positive windows with zero breaches = 0.1743% [source=RS04_future_breach_rate]
+
+CROSS-MODEL LABEL CORRELATIONS
+
+Saved label diagnostics:
+D:\reliability_layer\data\monitoring\regime_shifts\RS05_preflight_label_diagnostics.csv
+
+OVERALL TARGET SUMMARY
+model_name  horizon                      metric    value     n    positives  positive_episodes
+      EWMA        5    deterioration_prevalence 0.260955 62712 16365.000000        4056.000000
+      EWMA        5 coverage_failure_prevalence 0.030208 68856  2080.000000         665.000000
+      EWMA       10    deterioration_prevalence 0.260613 62472 16281.000000        1979.000000
+      EWMA       10 coverage_failure_prevalence 0.019291 68736  1326.000000         268.000000
+      EWMA       20    deterioration_prevalence 0.253775 61992 15732.000000        1038.000000
+      EWMA       20 coverage_failure_prevalence 0.023841 68496  1633.000000         203.000000
+   GARCH-t        5    deterioration_prevalence 0.253269 62712 15883.000000        3796.000000
+   GARCH-t        5 coverage_failure_prevalence 0.035567 68856  2449.000000         785.000000
+   GARCH-t       10    deterioration_prevalence 0.250080 62472 15623.000000        1796.000000
+   GARCH-t       10 coverage_failure_prevalence 0.025271 68736  1737.000000         369.000000
+   GARCH-t       20    deterioration_prevalence 0.240370 61992 14901.000000        1000.000000
+   GARCH-t       20 coverage_failure_prevalence 0.037199 68496  2548.000000         318.000000
+        HS        5    deterioration_prevalence 0.235872 62712 14792.000000        3107.000000
+        HS        5 coverage_failure_prevalence 0.046445 68856  3198.000000         837.000000
+        HS       10    deterioration_prevalence 0.230183 62472 14380.000000        1482.000000
+        HS       10 coverage_failure_prevalence 0.043820 68736  3012.000000         471.000000
+        HS       20    deterioration_prevalence 0.227545 61992 14106.000000         734.000000
+        HS       20 coverage_failure_prevalence 0.068792 68496  4712.000000         364.000000
+       QRF        5    deterioration_prevalence 0.246014 62712 15428.000000        3730.000000
+       QRF        5 coverage_failure_prevalence 0.030949 68856  2131.000000         659.000000
+       QRF       10    deterioration_prevalence 0.243389 62472 15205.000000        1808.000000
+       QRF       10 coverage_failure_prevalence 0.024398 68736  1677.000000         310.000000
+       QRF       20    deterioration_prevalence 0.231401 61992 14345.000000         954.000000
+       QRF       20 coverage_failure_prevalence 0.034367 68496  2354.000000         263.000000
+
+====================================================================================================
+2. RAW-DATA SPLIT-ADJUSTMENT SCAN
+====================================================================================================
+CSV members in raw.zip: 26
+AAPL: 0 raw |log return| > 0.40
+AMZN: 0 raw |log return| > 0.40
+BA: 0 raw |log return| > 0.40
+BAC: 0 raw |log return| > 0.40
+CAT: 0 raw |log return| > 0.40
+CVX: 0 raw |log return| > 0.40
+DIS: 0 raw |log return| > 0.40
+GME: 15 raw |log return| > 0.40
+GOOGL: 0 raw |log return| > 0.40
+GS: 0 raw |log return| > 0.40
+JNJ: 0 raw |log return| > 0.40
+JPM: 0 raw |log return| > 0.40
+KO: 0 raw |log return| > 0.40
+MCD: 0 raw |log return| > 0.40
+MSFT: 0 raw |log return| > 0.40
+NFLX: 2 raw |log return| > 0.40
+NVDA: 0 raw |log return| > 0.40
+PFE: 0 raw |log return| > 0.40
+PG: 0 raw |log return| > 0.40
+TSLA: 0 raw |log return| > 0.40
+UNH: 0 raw |log return| > 0.40
+V: 0 raw |log return| > 0.40
+WMT: 0 raw |log return| > 0.40
+XOM: 0 raw |log return| > 0.40
+
+Expected tickers found/scanned: 2 / 24
+WARNING — ticker files not identified: ['AAPL', 'AMZN', 'BA', 'BAC', 'CAT', 'CVX', 'DIS', 'GOOGL', 'GS', 'JNJ', 'JPM', 'KO', 'MCD', 'MSFT', 'NVDA', 'PFE', 'PG', 'TSLA', 'UNH', 'V', 'WMT', 'XOM']
+Likely split artifacts: 0
+Saved split scan:
+D:\reliability_layer\data\monitoring\regime_shifts\RS05_preflight_split_adjustment_scan.csv
+
+LARGE-MOVE EVENTS
+      member ticker       date  raw_log_return  adj_log_return  abs_raw_log_return  abs_adj_log_return  likely_split_artifact                                    interpretation
+ raw/GME.csv    GME 2019-06-05       -0.439279             NaN            0.439279                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2021-01-13        0.453579             NaN            0.453579                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2021-01-22        0.412644             NaN            0.412644                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2021-01-26        0.656003             NaN            0.656003                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2021-01-27        0.853716             NaN            0.853716                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2021-01-28       -0.584999             NaN            0.584999                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2021-01-29        0.518031             NaN            0.518031                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2021-02-02       -0.916291             NaN            0.916291                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2021-02-04       -0.546554             NaN            0.546554                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2021-02-24        0.712636             NaN            0.712636                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2021-03-24       -0.412311             NaN            0.412311                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2021-03-25        0.423255             NaN            0.423255                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2024-05-13        0.556174             NaN            0.556174                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2024-05-14        0.470619             NaN            0.470619                 NaN                  False No separate adjusted-close series; manual review.
+ raw/GME.csv    GME 2024-06-07       -0.500496             NaN            0.500496                 NaN                  False No separate adjusted-close series; manual review.
+raw/NFLX.csv   NFLX 2011-10-25       -0.429178             NaN            0.429178                 NaN                  False No separate adjusted-close series; manual review.
+raw/NFLX.csv   NFLX 2022-04-20       -0.432578             NaN            0.432578                 NaN                  False No separate adjusted-close series; manual review.
+
+====================================================================================================
+BUILDING STOCK-LEVEL RAW RETURNS
+====================================================================================================
+Raw return rows: 93,456
+Tickers: 24
+Date range: 2011-01-03 to 2026-06-29
+
+====================================================================================================
+BUILDING RS04b OWN-VOLATILITY FEATURES
+====================================================================================================
+Own-volatility rows: 93,456
+Saved own-volatility summary:
+D:\reliability_layer\data\monitoring\regime_shifts\RS04b_own_volatility_summary.csv
+
+====================================================================================================
+MERGING RS04 + OWN-VOLATILITY FEATURES
+====================================================================================================
+RS04 rows:  275,808
+RS04b rows: 275,808
+RS04b feature count: 50
+Saved RS04b panel:
+D:\reliability_layer\data\monitoring\regime_shifts\RS04b_causal_reliability_panel.csv
+Saved feature manifest:
+D:\reliability_layer\data\monitoring\regime_shifts\RS04b_feature_manifest.json
+
+====================================================================================================
+3. RS04b TRUNCATION-INVARIANCE TEST
+====================================================================================================
+2018-02-05 — 8 / 8 features PASSED
+2020-03-16 — 8 / 8 features PASSED
+2022-06-01 — 8 / 8 features PASSED
+
+Saved truncation audit:
+D:\reliability_layer\data\monitoring\regime_shifts\RS05_preflight_truncation_audit.csv
+
+====================================================================================================
+FINAL PREFLIGHT SANITY CHECK
+====================================================================================================
+RS04 row count preserved                                          PASS
+Zero duplicate model keys                                         PASS
+Feature present: own_rv10                                         PASS
+Feature present: own_rv20                                         PASS
+Feature present: own_rv10_z252                                    PASS
+Feature present: own_rv20_z252                                    PASS
+Feature present: own_abs_return_1d                                PASS
+Feature present: own_abs_return_mean_5d                           PASS
+Feature present: own_abs_return_max_5d                            PASS
+Feature present: own_rv10_rv20_ratio                              PASS
+All truncation tests passed                                       PASS
+
+RS05 PREFLIGHT: ALL REQUIRED CHECKS PASSED
+
+====================================================================================================
+OUTPUTS
+====================================================================================================
+RS04b panel:       D:\reliability_layer\data\monitoring\regime_shifts\RS04b_causal_reliability_panel.csv
+Label diagnostics: D:\reliability_layer\data\monitoring\regime_shifts\RS05_preflight_label_diagnostics.csv
+Split scan:        D:\reliability_layer\data\monitoring\regime_shifts\RS05_preflight_split_adjustment_scan.csv
+Truncation audit:  D:\reliability_layer\data\monitoring\regime_shifts\RS05_preflight_truncation_audit.csv
+Own-vol summary:   D:\reliability_layer\data\monitoring\regime_shifts\RS04b_own_volatility_summary.csv
+Feature manifest:  D:\reliability_layer\data\monitoring\regime_shifts\RS04b_feature_manifest.json
+Log:               D:\reliability_layer\data\monitoring\regime_shifts\RS05_preflight.log
+
+RS05 PREFLIGHT COMPLETE

@@ -1,0 +1,196 @@
+Loaded RS04b: D:\reliability_layer\data\monitoring\regime_shifts\RS04b_causal_reliability_panel.csv
+Shape: (275808, 78)
+Tickers: 24
+Models: ['EWMA', 'GARCH-t', 'HS', 'QRF']
+Forecast range: 2015-01-23 to 2026-06-26
+
+==============================================================================================================
+FEATURE GROUPS
+==============================================================================================================
+P (23): ['past_5d_breach_rate', 'past_10d_breach_rate', 'past_20d_breach_rate', 'past_5d_mean_norm_loss', 'past_10d_mean_norm_loss', 'past_20d_mean_norm_loss', 'past_5d_median_norm_loss', 'past_10d_median_norm_loss', 'past_20d_median_norm_loss', 'past_5d_max_norm_loss', 'past_10d_max_norm_loss', 'past_20d_max_norm_loss', 'past_breach_diff_5d_20d', 'past_normloss_ratio_5d_20d', 'historical_5d_mean_norm_loss', 'historical_10d_mean_norm_loss', 'historical_20d_mean_norm_loss', 'causal_5d_loss_threshold', 'causal_10d_loss_threshold', 'causal_20d_loss_threshold', 'hist_ratio_5d', 'hist_ratio_10d', 'hist_ratio_20d']
+M (10): ['vix', 'median_rv20', 'vix_change_10d', 'rv20_change_10d', 'vix_pct_change_10d', 'rv20_pct_change_10d', 'vix_zscore_252d', 'rv20_zscore_252d', 'stress_dimensions', 'regime']
+V (8): ['own_rv10', 'own_rv20', 'own_rv10_z252', 'own_rv20_z252', 'own_abs_return_1d', 'own_abs_return_mean_5d', 'own_abs_return_max_5d', 'own_rv10_rv20_ratio']
+S (5): ['current_abs_var', 'current_var_change_pct_1d', 'current_var_change_pct_5d', 'current_var_change_pct_20d', 'current_abs_var_zscore_252d']
+D (4): ['cross_model_disagreement_cv', 'cross_model_disagreement_range_pct', 'model_abs_var_to_cross_median', 'model_abs_var_rank_pct']
+
+UNASSIGNED / EXCLUDED FEATURES: []
+
+==============================================================================================================
+TARGET T1 | horizon=5 | target=deterioration_5d | purge=label_end_date_5d
+==============================================================================================================
+
+EWMA: 30 quarterly folds
+  EWMA 2019Q1 done | fit_dates=11,376 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.1626 | 2.7s
+  EWMA 2019Q2 done | fit_dates=12,840 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2553 | 2.5s
+  EWMA 2019Q3 done | fit_dates=14,352 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2806 | 2.6s
+  EWMA 2019Q4 done | fit_dates=15,888 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.1836 | 6.0s
+  EWMA 2020Q1 done | fit_dates=17,424 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.4913 | 7.6s
+  EWMA 2020Q2 done | fit_dates=18,912 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.1263 | 7.6s
+  EWMA 2020Q3 done | fit_dates=20,424 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.1771 | 8.4s
+  EWMA 2020Q4 done | fit_dates=21,960 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2428 | 8.5s
+  EWMA 2021Q1 done | fit_dates=23,496 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.2739 | 8.9s
+  EWMA 2021Q2 done | fit_dates=24,960 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2143 | 9.4s
+  EWMA 2021Q3 done | fit_dates=26,472 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.3040 | 9.1s
+  EWMA 2021Q4 done | fit_dates=28,008 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2969 | 10.2s
+  EWMA 2022Q1 done | fit_dates=29,544 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.2661 | 10.0s
+  EWMA 2022Q2 done | fit_dates=31,032 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.2433 | 10.7s
+  EWMA 2022Q3 done | fit_dates=32,520 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2363 | 12.4s
+  EWMA 2022Q4 done | fit_dates=34,056 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2196 | 11.6s
+  EWMA 2023Q1 done | fit_dates=35,568 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.2278 | 12.0s
+  EWMA 2023Q2 done | fit_dates=37,056 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.2090 | 13.1s
+  EWMA 2023Q3 done | fit_dates=38,544 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2870 | 14.4s
+  EWMA 2023Q4 done | fit_dates=40,056 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2765 | 14.7s
+  EWMA 2024Q1 done | fit_dates=41,568 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.2500 | 14.9s
+  EWMA 2024Q2 done | fit_dates=43,032 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2560 | 14.4s
+  EWMA 2024Q3 done | fit_dates=44,544 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2982 | 16.3s
+  EWMA 2024Q4 done | fit_dates=46,080 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2858 | 16.0s
+  EWMA 2025Q1 done | fit_dates=47,616 cal_dates=252 test_dates=60 test_rows=1,440 test_prev=0.3576 | 16.7s
+  EWMA 2025Q2 done | fit_dates=49,056 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.1935 | 17.7s
+  EWMA 2025Q3 done | fit_dates=50,544 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2370 | 19.1s
+  EWMA 2025Q4 done | fit_dates=52,080 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2461 | 18.9s
+  EWMA 2026Q1 done | fit_dates=53,616 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.2944 | 20.1s
+  EWMA 2026Q2 done | fit_dates=55,080 cal_dates=252 test_dates=56 test_rows=1,344 test_prev=0.2835 | 19.6s
+
+GARCH-t: 30 quarterly folds
+  GARCH-t 2019Q1 done | fit_dates=11,376 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.2049 | 6.1s
+  GARCH-t 2019Q2 done | fit_dates=12,840 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2593 | 5.4s
+  GARCH-t 2019Q3 done | fit_dates=14,352 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.3457 | 6.1s
+  GARCH-t 2019Q4 done | fit_dates=15,888 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.1875 | 6.4s
+  GARCH-t 2020Q1 done | fit_dates=17,424 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.4798 | 6.6s
+  GARCH-t 2020Q2 done | fit_dates=18,912 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2659 | 7.5s
+  GARCH-t 2020Q3 done | fit_dates=20,424 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2461 | 7.4s
+  GARCH-t 2020Q4 done | fit_dates=21,960 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2728 | 8.1s
+  GARCH-t 2021Q1 done | fit_dates=23,496 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.3053 | 8.7s
+  GARCH-t 2021Q2 done | fit_dates=24,960 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2044 | 8.3s
+  GARCH-t 2021Q3 done | fit_dates=26,472 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2337 | 9.2s
+  GARCH-t 2021Q4 done | fit_dates=28,008 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2526 | 9.3s
+  GARCH-t 2022Q1 done | fit_dates=29,544 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.2769 | 9.3s
+  GARCH-t 2022Q2 done | fit_dates=31,032 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.3004 | 10.8s
+  GARCH-t 2022Q3 done | fit_dates=32,520 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2715 | 10.7s
+  GARCH-t 2022Q4 done | fit_dates=34,056 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2209 | 11.7s
+  GARCH-t 2023Q1 done | fit_dates=35,568 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.1929 | 11.1s
+  GARCH-t 2023Q2 done | fit_dates=37,056 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.1499 | 12.8s
+  GARCH-t 2023Q3 done | fit_dates=38,544 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.1931 | 15.0s
+  GARCH-t 2023Q4 done | fit_dates=40,056 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.1812 | 15.2s
+  GARCH-t 2024Q1 done | fit_dates=41,568 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.1619 | 14.9s
+  GARCH-t 2024Q2 done | fit_dates=43,032 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.1931 | 16.2s
+  GARCH-t 2024Q3 done | fit_dates=44,544 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2715 | 15.5s
+  GARCH-t 2024Q4 done | fit_dates=46,080 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2305 | 16.8s
+  GARCH-t 2025Q1 done | fit_dates=47,616 cal_dates=252 test_dates=60 test_rows=1,440 test_prev=0.3597 | 17.1s
+  GARCH-t 2025Q2 done | fit_dates=49,056 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.2043 | 18.8s
+  GARCH-t 2025Q3 done | fit_dates=50,544 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.1797 | 20.0s
+  GARCH-t 2025Q4 done | fit_dates=52,080 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2194 | 9.9s
+  GARCH-t 2026Q1 done | fit_dates=53,616 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.3087 | 20.0s
+  GARCH-t 2026Q2 done | fit_dates=55,080 cal_dates=252 test_dates=56 test_rows=1,344 test_prev=0.2917 | 20.4s
+
+HS: 30 quarterly folds
+  HS 2019Q1 done | fit_dates=11,376 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.2213 | 5.8s
+  HS 2019Q2 done | fit_dates=12,840 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2011 | 5.6s
+  HS 2019Q3 done | fit_dates=14,352 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.3281 | 5.9s
+  HS 2019Q4 done | fit_dates=15,888 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.1504 | 6.7s
+  HS 2020Q1 done | fit_dates=17,424 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.6270 | 6.7s
+  HS 2020Q2 done | fit_dates=18,912 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.5880 | 7.3s
+  HS 2020Q3 done | fit_dates=20,424 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2754 | 7.7s
+  HS 2020Q4 done | fit_dates=21,960 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2767 | 8.6s
+  HS 2021Q1 done | fit_dates=23,496 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.2288 | 8.7s
+  HS 2021Q2 done | fit_dates=24,960 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.0655 | 8.9s
+  HS 2021Q3 done | fit_dates=26,472 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.0716 | 8.5s
+  HS 2021Q4 done | fit_dates=28,008 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.1842 | 9.6s
+  HS 2022Q1 done | fit_dates=29,544 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.2749 | 9.9s
+  HS 2022Q2 done | fit_dates=31,032 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.4059 | 5.1s
+  HS 2022Q3 done | fit_dates=32,520 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2044 | 4.6s
+  HS 2022Q4 done | fit_dates=34,056 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.1905 | 4.7s
+  HS 2023Q1 done | fit_dates=35,568 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.1196 | 15.3s
+  HS 2023Q2 done | fit_dates=37,056 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.0733 | 12.7s
+  HS 2023Q3 done | fit_dates=38,544 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.0787 | 14.4s
+  HS 2023Q4 done | fit_dates=40,056 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.1104 | 15.0s
+  HS 2024Q1 done | fit_dates=41,568 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.0779 | 15.5s
+  HS 2024Q2 done | fit_dates=43,032 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.1528 | 17.9s
+  HS 2024Q3 done | fit_dates=44,544 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2311 | 16.6s
+  HS 2024Q4 done | fit_dates=46,080 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.1797 | 17.2s
+  HS 2025Q1 done | fit_dates=47,616 cal_dates=252 test_dates=60 test_rows=1,440 test_prev=0.3563 | 18.5s
+  HS 2025Q2 done | fit_dates=49,056 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.2970 | 14.4s
+  HS 2025Q3 done | fit_dates=50,544 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.1328 | 17.3s
+  HS 2025Q4 done | fit_dates=52,080 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.1693 | 21.6s
+  HS 2026Q1 done | fit_dates=53,616 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.2801 | 19.0s
+  HS 2026Q2 done | fit_dates=55,080 cal_dates=252 test_dates=56 test_rows=1,344 test_prev=0.3185 | 19.2s
+
+QRF: 30 quarterly folds
+  QRF 2019Q1 done | fit_dates=11,376 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.2240 | 5.9s
+  QRF 2019Q2 done | fit_dates=12,840 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2493 | 6.1s
+  QRF 2019Q3 done | fit_dates=14,352 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2904 | 6.3s
+  QRF 2019Q4 done | fit_dates=15,888 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.1842 | 6.4s
+  QRF 2020Q1 done | fit_dates=17,424 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.5175 | 7.3s
+  QRF 2020Q2 done | fit_dates=18,912 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.1541 | 3.4s
+  QRF 2020Q3 done | fit_dates=20,424 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.1387 | 6.0s
+  QRF 2020Q4 done | fit_dates=21,960 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2025 | 8.6s
+  QRF 2021Q1 done | fit_dates=23,496 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.2561 | 9.4s
+  QRF 2021Q2 done | fit_dates=24,960 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.1468 | 10.0s
+  QRF 2021Q3 done | fit_dates=26,472 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.1380 | 9.2s
+  QRF 2021Q4 done | fit_dates=28,008 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2357 | 9.7s
+  QRF 2022Q1 done | fit_dates=29,544 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.2433 | 10.5s
+  QRF 2022Q2 done | fit_dates=31,032 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.3065 | 10.7s
+  QRF 2022Q3 done | fit_dates=32,520 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2552 | 12.1s
+  QRF 2022Q4 done | fit_dates=34,056 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2249 | 10.6s
+  QRF 2023Q1 done | fit_dates=35,568 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.1828 | 6.2s
+  QRF 2023Q2 done | fit_dates=37,056 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.1586 | 11.6s
+  QRF 2023Q3 done | fit_dates=38,544 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2090 | 13.8s
+  QRF 2023Q4 done | fit_dates=40,056 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2242 | 14.2s
+  QRF 2024Q1 done | fit_dates=41,568 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.1735 | 14.4s
+  QRF 2024Q2 done | fit_dates=43,032 cal_dates=252 test_dates=63 test_rows=1,512 test_prev=0.2163 | 13.7s
+  QRF 2024Q3 done | fit_dates=44,544 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2891 | 7.5s
+  QRF 2024Q4 done | fit_dates=46,080 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2585 | 11.6s
+  QRF 2025Q1 done | fit_dates=47,616 cal_dates=252 test_dates=60 test_rows=1,440 test_prev=0.3854 | 18.4s
+  QRF 2025Q2 done | fit_dates=49,056 cal_dates=252 test_dates=62 test_rows=1,488 test_prev=0.2755 | 19.2s
+  QRF 2025Q3 done | fit_dates=50,544 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2025 | 17.6s
+  QRF 2025Q4 done | fit_dates=52,080 cal_dates=252 test_dates=64 test_rows=1,536 test_prev=0.2122 | 19.4s
+  QRF 2026Q1 done | fit_dates=53,616 cal_dates=252 test_dates=61 test_rows=1,464 test_prev=0.2903 | 19.0s
+  QRF 2026Q2 done | fit_dates=55,080 cal_dates=252 test_dates=56 test_rows=1,344 test_prev=0.3356 | 19.7s
+
+==============================================================================================================
+HEADLINE METRICS — T5_h5_t1
+Headline evaluation begins: 2020-01-01
+==============================================================================================================
+target   model  algo spec    auc  pr_lift  brier_skill  logloss_skill  cal_slope  cal_intercept  date_level_spearman  n_rows  n_dates
+    T1    EWMA  base   S0 0.4652   0.9149       0.0000         0.0000    -0.9659        -2.0794              -0.1419 39000.0   1625.0
+    T1    EWMA logit   S2 0.5275   1.0719       0.0053         0.0040     0.3427        -0.6703               0.0233 39000.0   1625.0
+    T1    EWMA logit   S3 0.6371   1.3989       0.0506         0.0450     0.8836        -0.0786               0.3989 39000.0   1625.0
+    T1    EWMA logit   S4 0.6388   1.4029       0.0513         0.0454     0.8766        -0.0838               0.4042 39000.0   1625.0
+    T1    EWMA logit   S5 0.6460   1.4343       0.0566         0.0500     0.8901        -0.0715               0.4123 39000.0   1625.0
+    T1    EWMA logit   S6 0.6518   1.4770       0.0626         0.0544     0.9063        -0.0777               0.4120 39000.0   1625.0
+    T1    EWMA logit   S7 0.5925   1.2735       0.0243         0.0170     0.6141        -0.3660               0.1525 39000.0   1625.0
+    T1    EWMA  rule   S1 0.4818   0.9573      -0.0010        -0.0006    -0.3155        -1.3829              -0.0871 39000.0   1625.0
+    T1 GARCH-t  base   S0 0.5148   1.0313       0.0000         0.0000     0.3299        -0.7374               0.0180 39000.0   1625.0
+    T1 GARCH-t logit   S2 0.5380   1.0894       0.0038         0.0034     0.5264        -0.5150               0.0820 39000.0   1625.0
+    T1 GARCH-t logit   S3 0.5984   1.3402       0.0273         0.0236     0.8068        -0.2028               0.2625 39000.0   1625.0
+    T1 GARCH-t logit   S4 0.5991   1.3287       0.0269         0.0232     0.8188        -0.1907               0.2604 39000.0   1625.0
+    T1 GARCH-t logit   S5 0.6143   1.3508       0.0309         0.0278     0.8188        -0.1920               0.2823 39000.0   1625.0
+    T1 GARCH-t logit   S6 0.6186   1.3555       0.0313         0.0285     0.8030        -0.2174               0.2839 39000.0   1625.0
+    T1 GARCH-t logit   S7 0.5558   1.1009       0.0060         0.0061     0.5880        -0.4403               0.0712 39000.0   1625.0
+    T1 GARCH-t  rule   S1 0.5130   1.0214      -0.0015        -0.0011     0.3010        -0.7690               0.0113 39000.0   1625.0
+    T1      HS  base   S0 0.5466   1.1110       0.0000         0.0000     0.2547        -0.8861               0.1198 39000.0   1625.0
+    T1      HS logit   S2 0.6416   1.8591       0.1134         0.0896     0.8743        -0.0974               0.3353 39000.0   1625.0
+    T1      HS logit   S3 0.7011   2.0526       0.1466         0.1245     0.9213        -0.0845               0.5618 39000.0   1625.0
+    T1      HS logit   S4 0.7086   2.1276       0.1581         0.1337     0.9470        -0.0413               0.5618 39000.0   1625.0
+    T1      HS logit   S5 0.7212   2.1711       0.1670         0.1428     0.9905         0.0201               0.5769 39000.0   1625.0
+    T1      HS logit   S6 0.7282   2.1942       0.1721         0.1481     0.9919         0.0258               0.5854 39000.0   1625.0
+    T1      HS logit   S7 0.6927   1.8579       0.1176         0.1030     0.8371        -0.1763               0.4788 39000.0   1625.0
+    T1      HS  rule   S1 0.6076   1.4145       0.0476         0.0394     0.6126        -0.4263               0.2388 39000.0   1625.0
+    T1     QRF  base   S0 0.5011   0.9598       0.0000         0.0000     0.0214        -1.1342              -0.0183 39000.0   1625.0
+    T1     QRF logit   S2 0.5443   1.1507       0.0105         0.0077     0.5305        -0.5185               0.1079 39000.0   1625.0
+    T1     QRF logit   S3 0.5598   1.2416       0.0196         0.0154     0.6914        -0.3417               0.1815 39000.0   1625.0
+    T1     QRF logit   S4 0.5686   1.2929       0.0249         0.0192     0.7500        -0.2793               0.2039 39000.0   1625.0
+    T1     QRF logit   S5 0.5898   1.3997       0.0360         0.0287     0.8693        -0.1333               0.2362 39000.0   1625.0
+    T1     QRF logit   S6 0.5861   1.3912       0.0343         0.0273     0.8420        -0.1677               0.2244 39000.0   1625.0
+    T1     QRF logit   S7 0.5208   1.0079      -0.0341        -0.0231    -0.0650        -1.2345              -0.0126 39000.0   1625.0
+    T1     QRF  rule   S1 0.5228   1.0305      -0.0004         0.0002     0.2311        -0.8797               0.0252 39000.0   1625.0
+
+Saved outputs to:
+D:\reliability_layer\data\monitoring\regime_shifts\RS05
+
+==============================================================================================================
+RS05a WALK-FORWARD COMPLETE
+==============================================================================================================
+Predictions: D:\reliability_layer\data\monitoring\regime_shifts\RS05\RS05_oos_predictions_H5_h5_t1.csv.gz
+Metadata:    D:\reliability_layer\data\monitoring\regime_shifts\RS05\RS05_run_metadata_H5.json
+Outputs:     D:\reliability_layer\data\monitoring\regime_shifts\RS05

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rs05-research"
+version = "0.1.0"
+description = "Chronological monitoring of future normalized VaR forecast-loss events"
+requires-python = ">=3.12"
+dynamic = ["dependencies"]
+
+[project.scripts]
+rs05 = "rs05.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["rs05*"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

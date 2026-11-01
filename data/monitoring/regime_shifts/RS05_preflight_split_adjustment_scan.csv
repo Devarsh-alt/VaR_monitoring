@@ -1,0 +1,18 @@
+member,ticker,date,raw_log_return,adj_log_return,abs_raw_log_return,abs_adj_log_return,likely_split_artifact,interpretation
+raw/GME.csv,GME,2019-06-05,-0.4392785019943687,,0.4392785019943687,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2021-01-13,0.4535786991870393,,0.4535786991870393,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2021-01-22,0.4126436185945502,,0.4126436185945502,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2021-01-26,0.6560026653605899,,0.6560026653605899,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2021-01-27,0.8537163690454002,,0.8537163690454002,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2021-01-28,-0.5849992633020238,,0.5849992633020238,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2021-01-29,0.5180309759608377,,0.5180309759608377,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2021-02-02,-0.916290731874155,,0.916290731874155,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2021-02-04,-0.546553583626917,,0.546553583626917,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2021-02-24,0.7126357866605528,,0.7126357866605528,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2021-03-24,-0.41231107705277953,,0.41231107705277953,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2021-03-25,0.4232550987320968,,0.4232550987320968,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2024-05-13,0.556173521235635,,0.556173521235635,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2024-05-14,0.47061917823246757,,0.47061917823246757,,False,No separate adjusted-close series; manual review.
+raw/GME.csv,GME,2024-06-07,-0.5004960652406065,,0.5004960652406065,,False,No separate adjusted-close series; manual review.
+raw/NFLX.csv,NFLX,2011-10-25,-0.4291784962874775,,0.4291784962874775,,False,No separate adjusted-close series; manual review.
+raw/NFLX.csv,NFLX,2022-04-20,-0.43257848949508765,,0.43257848949508765,,False,No separate adjusted-close series; manual review.

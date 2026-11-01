@@ -1,0 +1,18 @@
+{
+  "target": "deterioration_10d",
+  "horizon": 10,
+  "algorithm": "logit",
+  "evaluation_start": "2020-01-01",
+  "prediction_file": "data\\monitoring\\regime_shifts\\RS05\\RS05_oos_predictions_H10_final.csv.gz",
+  "panel_file": "data\\monitoring\\regime_shifts\\RS04b_causal_reliability_panel.csv",
+  "specifications": [
+    "S3",
+    "S4",
+    "S6"
+  ],
+  "alert_rule": "p_cal >= saved fold-frozen thr10",
+  "event_rule": "cross-sectional share of positive T1 labels reaches 25%, 50%, or 75%",
+  "pre_onset_window_dates": 20,
+  "max_gap_dates_merged": 5,
+  "caution": "T1 episodes are built from overlapping forward-H deterioration labels; their starts are not exact raw-loss onset dates. Event statistics are descriptive."
+}

@@ -1,0 +1,2297 @@
+[
+  {
+    "source": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block10_reps2000_bootstrap_replicates.csv",
+    "packaged": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block10_reps2000_bootstrap_replicates.csv",
+    "source_bytes": 683154,
+    "packaged_bytes": 683154,
+    "source_sha256": "2f35688c23bf67953308b0d31c61d4bb035c6b1cbfbe8af1844f437e512a4ae9",
+    "packaged_sha256": "2f35688c23bf67953308b0d31c61d4bb035c6b1cbfbe8af1844f437e512a4ae9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block10_reps2000_metadata.json",
+    "packaged": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block10_reps2000_metadata.json",
+    "source_bytes": 1032,
+    "packaged_bytes": 1032,
+    "source_sha256": "5b3daad8593323753782ce67fccec6886ac1ce781a4e0f3b4800a9c2071aa7fb",
+    "packaged_sha256": "5b3daad8593323753782ce67fccec6886ac1ce781a4e0f3b4800a9c2071aa7fb",
+    "mode": "unchanged"
+  },
+  {
+    "source": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block10_reps2000_observed_metrics.csv",
+    "packaged": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block10_reps2000_observed_metrics.csv",
+    "source_bytes": 1578,
+    "packaged_bytes": 1578,
+    "source_sha256": "7eaab481d5ced47281d0d9ce40bbd85adeeef352fb162e202070b56d4a3297c2",
+    "packaged_sha256": "7eaab481d5ced47281d0d9ce40bbd85adeeef352fb162e202070b56d4a3297c2",
+    "mode": "unchanged"
+  },
+  {
+    "source": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block10_reps2000_summary.csv",
+    "packaged": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block10_reps2000_summary.csv",
+    "source_bytes": 2645,
+    "packaged_bytes": 2645,
+    "source_sha256": "16baa23c66e2edbd9e7256f3de8ca3c334810436b3847ebff88dd62fa0b6f52b",
+    "packaged_sha256": "16baa23c66e2edbd9e7256f3de8ca3c334810436b3847ebff88dd62fa0b6f52b",
+    "mode": "unchanged"
+  },
+  {
+    "source": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block20_reps2000_bootstrap_replicates.csv",
+    "packaged": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block20_reps2000_bootstrap_replicates.csv",
+    "source_bytes": 683142,
+    "packaged_bytes": 683142,
+    "source_sha256": "e00500ca00cff9e44f12d6d96cb19c73e83ddaf3de4a96f897780e2cc528571d",
+    "packaged_sha256": "e00500ca00cff9e44f12d6d96cb19c73e83ddaf3de4a96f897780e2cc528571d",
+    "mode": "unchanged"
+  },
+  {
+    "source": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block20_reps2000_metadata.json",
+    "packaged": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block20_reps2000_metadata.json",
+    "source_bytes": 1032,
+    "packaged_bytes": 1032,
+    "source_sha256": "cff41aa24bc6cd791caa1ce6b701889d6cd5582db113966184466954623d9de1",
+    "packaged_sha256": "cff41aa24bc6cd791caa1ce6b701889d6cd5582db113966184466954623d9de1",
+    "mode": "unchanged"
+  },
+  {
+    "source": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block20_reps2000_observed_metrics.csv",
+    "packaged": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block20_reps2000_observed_metrics.csv",
+    "source_bytes": 1578,
+    "packaged_bytes": 1578,
+    "source_sha256": "7eaab481d5ced47281d0d9ce40bbd85adeeef352fb162e202070b56d4a3297c2",
+    "packaged_sha256": "7eaab481d5ced47281d0d9ce40bbd85adeeef352fb162e202070b56d4a3297c2",
+    "mode": "unchanged"
+  },
+  {
+    "source": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block20_reps2000_summary.csv",
+    "packaged": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block20_reps2000_summary.csv",
+    "source_bytes": 2639,
+    "packaged_bytes": 2639,
+    "source_sha256": "cbe42569df699d25954c713e2048e3dfc1b067a41eab8f5c87e89402506e87ae",
+    "packaged_sha256": "cbe42569df699d25954c713e2048e3dfc1b067a41eab8f5c87e89402506e87ae",
+    "mode": "unchanged"
+  },
+  {
+    "source": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block40_reps2000_bootstrap_replicates.csv",
+    "packaged": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block40_reps2000_bootstrap_replicates.csv",
+    "source_bytes": 683177,
+    "packaged_bytes": 683177,
+    "source_sha256": "47a3ee40efb2528781bc045ce62941e2f46ad3caf83a6963d082e5b37b804cd6",
+    "packaged_sha256": "47a3ee40efb2528781bc045ce62941e2f46ad3caf83a6963d082e5b37b804cd6",
+    "mode": "unchanged"
+  },
+  {
+    "source": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block40_reps2000_metadata.json",
+    "packaged": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block40_reps2000_metadata.json",
+    "source_bytes": 1032,
+    "packaged_bytes": 1032,
+    "source_sha256": "279652eb768f38602362075823c34aa348c2a4040b4a7771dbaac23da09ac345",
+    "packaged_sha256": "279652eb768f38602362075823c34aa348c2a4040b4a7771dbaac23da09ac345",
+    "mode": "unchanged"
+  },
+  {
+    "source": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block40_reps2000_observed_metrics.csv",
+    "packaged": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block40_reps2000_observed_metrics.csv",
+    "source_bytes": 1578,
+    "packaged_bytes": 1578,
+    "source_sha256": "7eaab481d5ced47281d0d9ce40bbd85adeeef352fb162e202070b56d4a3297c2",
+    "packaged_sha256": "7eaab481d5ced47281d0d9ce40bbd85adeeef352fb162e202070b56d4a3297c2",
+    "mode": "unchanged"
+  },
+  {
+    "source": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block40_reps2000_summary.csv",
+    "packaged": "ablation_test/outputs/rs05_ablation_H10_T1_logit_block40_reps2000_summary.csv",
+    "source_bytes": 2653,
+    "packaged_bytes": 2653,
+    "source_sha256": "4b9d182c8c69fe16594db9f96cc12a110d1fa0347c0dff6f68e7309a2fde2e7b",
+    "packaged_sha256": "4b9d182c8c69fe16594db9f96cc12a110d1fa0347c0dff6f68e7309a2fde2e7b",
+    "mode": "unchanged"
+  },
+  {
+    "source": "ablation_test/rs05_ablation_bootstrap.py",
+    "packaged": "ablation_test/rs05_ablation_bootstrap.py",
+    "source_bytes": 17002,
+    "packaged_bytes": 17144,
+    "source_sha256": "7a7652a80f77fa5bac417d6d38d7b9db62aab320572af63972e2afab4f1ca99e",
+    "packaged_sha256": "02489dc2b24893999e2556c66e5fd0a600d0305176a9184b36718b68ca44e34b",
+    "mode": "portable script"
+  },
+  {
+    "source": "ablation_test/rs05_t1_target_alert_audit.py",
+    "packaged": "ablation_test/rs05_t1_target_alert_audit.py",
+    "source_bytes": 27143,
+    "packaged_bytes": 27282,
+    "source_sha256": "afda9cccde5e212da53dcd886e613ebda83af06022c68c69a110ff8e3ec2b5da",
+    "packaged_sha256": "0b5d78a64f1f79b4bf3835b77eb3f05cc9cc2c0628d7974e4ab94e214c92cf92",
+    "mode": "portable script"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS01_garch_correction.log",
+    "packaged": "data/monitoring/regime_shifts/RS01_garch_correction.log",
+    "source_bytes": 21110,
+    "packaged_bytes": 21110,
+    "source_sha256": "0d82f075aede2320ead8936e2ad002bde57957b8ea280fb542c8df63d32d42f0",
+    "packaged_sha256": "0d82f075aede2320ead8936e2ad002bde57957b8ea280fb542c8df63d32d42f0",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS01_long_history_var_coverage.csv",
+    "packaged": "data/monitoring/regime_shifts/RS01_long_history_var_coverage.csv",
+    "source_bytes": 4361,
+    "packaged_bytes": 4361,
+    "source_sha256": "774d69e2911d3e18c9fefba3aa2393c726d27c9f9e412c847a05778d60563311",
+    "packaged_sha256": "774d69e2911d3e18c9fefba3aa2393c726d27c9f9e412c847a05778d60563311",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS01_long_history_var_log.txt",
+    "packaged": "data/monitoring/regime_shifts/RS01_long_history_var_log.txt",
+    "source_bytes": 10336,
+    "packaged_bytes": 10336,
+    "source_sha256": "00d4e82851e9c2318bf0e61249efede781efe80660315a8a341baaa9887442f2",
+    "packaged_sha256": "00d4e82851e9c2318bf0e61249efede781efe80660315a8a341baaa9887442f2",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS01_long_history_var_panel.csv",
+    "packaged": "data/monitoring/regime_shifts/RS01_long_history_var_panel.csv.gz",
+    "source_bytes": 23014198,
+    "packaged_bytes": 7389093,
+    "source_sha256": "03426ca059214e7a11863a89507e7a494f8a9009f388ba40f692fd3c32e8d508",
+    "packaged_sha256": "872036805545610e5384d34bbb64d725868942b7f8ddcb2158736b772aed0685",
+    "mode": "lossless gzip"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS01_long_history_var_summary.csv",
+    "packaged": "data/monitoring/regime_shifts/RS01_long_history_var_summary.csv",
+    "source_bytes": 593,
+    "packaged_bytes": 593,
+    "source_sha256": "06c889440193dcd8b74cab46f32c0aeccec74f1396b557ff7f174502d7b9cda8",
+    "packaged_sha256": "06c889440193dcd8b74cab46f32c0aeccec74f1396b557ff7f174502d7b9cda8",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS01_qrf_audit.csv",
+    "packaged": "data/monitoring/regime_shifts/RS01_qrf_audit.csv",
+    "source_bytes": 5771,
+    "packaged_bytes": 5771,
+    "source_sha256": "da998b674d81ad78c3d4094ebeda22a582d07b1ab75e099d8ce671e1ecf4e073",
+    "packaged_sha256": "da998b674d81ad78c3d4094ebeda22a582d07b1ab75e099d8ce671e1ecf4e073",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS03_regime_daily.csv",
+    "packaged": "data/monitoring/regime_shifts/RS03_regime_daily.csv",
+    "source_bytes": 961370,
+    "packaged_bytes": 961370,
+    "source_sha256": "b04e2d0bc7d3fb5df80fc6111c61da799e73be03ff0ee2ef4df80d7df0f36bd6",
+    "packaged_sha256": "b04e2d0bc7d3fb5df80fc6111c61da799e73be03ff0ee2ef4df80d7df0f36bd6",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS03_regime_events.csv",
+    "packaged": "data/monitoring/regime_shifts/RS03_regime_events.csv",
+    "source_bytes": 15239,
+    "packaged_bytes": 15239,
+    "source_sha256": "f2f614865954203b38d1cc0b0b91fa7c537d6ee21b24a95b26df6de41b0a5ad9",
+    "packaged_sha256": "f2f614865954203b38d1cc0b0b91fa7c537d6ee21b24a95b26df6de41b0a5ad9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS03_regime_identification.log",
+    "packaged": "data/monitoring/regime_shifts/RS03_regime_identification.log",
+    "source_bytes": 10890,
+    "packaged_bytes": 10890,
+    "source_sha256": "741966380982e084a9141274067828cf1d15a5cea8ffcc097d8a64691a0bd781",
+    "packaged_sha256": "741966380982e084a9141274067828cf1d15a5cea8ffcc097d8a64691a0bd781",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS03_regime_summary.csv",
+    "packaged": "data/monitoring/regime_shifts/RS03_regime_summary.csv",
+    "source_bytes": 944,
+    "packaged_bytes": 944,
+    "source_sha256": "6da7e1b591eae266806ac82d7fbc0154c11a1dc8f782211b67b102b409d34487",
+    "packaged_sha256": "6da7e1b591eae266806ac82d7fbc0154c11a1dc8f782211b67b102b409d34487",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS03_RS01_regime_panel.csv",
+    "packaged": "data/monitoring/regime_shifts/RS03_RS01_regime_panel.csv.gz",
+    "source_bytes": 31190232,
+    "packaged_bytes": 10697236,
+    "source_sha256": "b3bc2b4d2360128f249be27ed045ae88325d04bc1830ea7d48b8210bf68ae877",
+    "packaged_sha256": "2c08f7680b9e93c8fb216bb66079bbce1ca8a77d93dabd1e5f39ee133b1f2b1e",
+    "mode": "lossless gzip"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS04b_causal_reliability_panel.csv",
+    "packaged": "data/monitoring/regime_shifts/RS04b_causal_reliability_panel.csv.gz",
+    "source_bytes": 284547702,
+    "packaged_bytes": 65798915,
+    "source_sha256": "fcb643a10347e8b2589d8d388fed82f9b90c31c49bccf765c987349b41259b0c",
+    "packaged_sha256": "b82bee3399ad6ef8147e9d6eb6f291ec92e8b5c088b5f0ae20653d397a942acb",
+    "mode": "lossless gzip"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS04b_feature_manifest.json",
+    "packaged": "data/monitoring/regime_shifts/RS04b_feature_manifest.json",
+    "source_bytes": 2184,
+    "packaged_bytes": 2184,
+    "source_sha256": "20dc1180196d64859ba73047c79d56eda8f2402602700c2128866e8723c798c9",
+    "packaged_sha256": "20dc1180196d64859ba73047c79d56eda8f2402602700c2128866e8723c798c9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS04b_own_volatility_summary.csv",
+    "packaged": "data/monitoring/regime_shifts/RS04b_own_volatility_summary.csv",
+    "source_bytes": 908,
+    "packaged_bytes": 908,
+    "source_sha256": "b760d0dddadccae3355d08361d5f5b9b2ef86074ac759ac9f5500f8f42702732",
+    "packaged_sha256": "b760d0dddadccae3355d08361d5f5b9b2ef86074ac759ac9f5500f8f42702732",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS04_causal_reliability_panel.csv",
+    "packaged": "data/monitoring/regime_shifts/RS04_causal_reliability_panel.csv.gz",
+    "source_bytes": 248967693,
+    "packaged_bytes": 62370049,
+    "source_sha256": "807aa1df446cd9cbba324441a44d82cba2218cac0cfcba2c672e20f5f6d0e2da",
+    "packaged_sha256": "c3565cd9ce7806a5cbb89a81cdbacfeb6c55c0c3ebe58abb3aa6f9e1255db64a",
+    "mode": "lossless gzip"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS04_causal_reliability_panel.log",
+    "packaged": "data/monitoring/regime_shifts/RS04_causal_reliability_panel.log",
+    "source_bytes": 19068,
+    "packaged_bytes": 19068,
+    "source_sha256": "8706012d6bde0d248bdd686134fa6427540d0ffc58d5e64e1b0100ede3d87e27",
+    "packaged_sha256": "8706012d6bde0d248bdd686134fa6427540d0ffc58d5e64e1b0100ede3d87e27",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS04_column_manifest.json",
+    "packaged": "data/monitoring/regime_shifts/RS04_column_manifest.json",
+    "source_bytes": 6131,
+    "packaged_bytes": 6131,
+    "source_sha256": "eda41c0d254d2b60913a4a61478710525c979134838bc110b428ebacd21df5e4",
+    "packaged_sha256": "eda41c0d254d2b60913a4a61478710525c979134838bc110b428ebacd21df5e4",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS04_label_correlation.csv",
+    "packaged": "data/monitoring/regime_shifts/RS04_label_correlation.csv",
+    "source_bytes": 2010,
+    "packaged_bytes": 2010,
+    "source_sha256": "ce3262d34db669bbd8dd33a4fd00e8f36d95991ca0f986f734ad1400895c71ea",
+    "packaged_sha256": "ce3262d34db669bbd8dd33a4fd00e8f36d95991ca0f986f734ad1400895c71ea",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS04_quarantined_outcomes.csv",
+    "packaged": "data/monitoring/regime_shifts/RS04_quarantined_outcomes.csv.gz",
+    "source_bytes": 15172584,
+    "packaged_bytes": 3287561,
+    "source_sha256": "3595e4fd9e0a3debec144a1df482f528c1ffb0a1357ead8cd56efe52eb2cbd0a",
+    "packaged_sha256": "2b92af1dd58bab215a06bbf152ed5d347c5b7f044fe48ee5d9b451947b8f5084",
+    "mode": "lossless gzip"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS04_target_summary.csv",
+    "packaged": "data/monitoring/regime_shifts/RS04_target_summary.csv",
+    "source_bytes": 1748,
+    "packaged_bytes": 1748,
+    "source_sha256": "44c2ba432e09683bf8ec5d483afbb9c8d3870505c0e90840a7eb5a72872d487e",
+    "packaged_sha256": "44c2ba432e09683bf8ec5d483afbb9c8d3870505c0e90840a7eb5a72872d487e",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS04_truncation_audit.csv",
+    "packaged": "data/monitoring/regime_shifts/RS04_truncation_audit.csv",
+    "source_bytes": 582,
+    "packaged_bytes": 582,
+    "source_sha256": "ba9158e39671693082b8dd83639c4cf59f612ebc27a2d89642c78c3de62281ce",
+    "packaged_sha256": "ba9158e39671693082b8dd83639c4cf59f612ebc27a2d89642c78c3de62281ce",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_corrected_date_level_S6.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_corrected_date_level_S6.csv",
+    "source_bytes": 2153921,
+    "packaged_bytes": 2153921,
+    "source_sha256": "77d1fb4b858a3794fd08e8c885cc1f4d8314ba86dc36aa19967fdf0477f59ffb",
+    "packaged_sha256": "77d1fb4b858a3794fd08e8c885cc1f4d8314ba86dc36aa19967fdf0477f59ffb",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_corrected_lead_time_S6.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_corrected_lead_time_S6.csv",
+    "source_bytes": 1435,
+    "packaged_bytes": 1435,
+    "source_sha256": "a926f315b44153e4f5cd55781d8e28e87da3151fa56aec5aa06d44262a48e5b7",
+    "packaged_sha256": "a926f315b44153e4f5cd55781d8e28e87da3151fa56aec5aa06d44262a48e5b7",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_corrected_summary_S6.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_corrected_summary_S6.csv",
+    "source_bytes": 2517,
+    "packaged_bytes": 2517,
+    "source_sha256": "724c2f6880fb850670214ee8278bccd1cc8b5cedd92a0ec2ad702cbff6761eaf",
+    "packaged_sha256": "724c2f6880fb850670214ee8278bccd1cc8b5cedd92a0ec2ad702cbff6761eaf",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T1_corrected_summary_S6.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T1_corrected_summary_S6.csv",
+    "source_bytes": 1510,
+    "packaged_bytes": 1510,
+    "source_sha256": "b381ed5eee7a97dd73ea12bff125a91b0544d7462ac760515c29eb143174ba03",
+    "packaged_sha256": "b381ed5eee7a97dd73ea12bff125a91b0544d7462ac760515c29eb143174ba03",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T1_FINAL_PAPER_FIGURE_S6.pdf",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T1_FINAL_PAPER_FIGURE_S6.pdf",
+    "source_bytes": 37094,
+    "packaged_bytes": 37094,
+    "source_sha256": "df0a827ce3c851c1e0877004e6dec0ab0ac0afeebc8ee5515bb0fbb1d9bd55e4",
+    "packaged_sha256": "df0a827ce3c851c1e0877004e6dec0ab0ac0afeebc8ee5515bb0fbb1d9bd55e4",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T1_FINAL_PAPER_FIGURE_S6.png",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T1_FINAL_PAPER_FIGURE_S6.png",
+    "source_bytes": 680854,
+    "packaged_bytes": 680854,
+    "source_sha256": "d53228e0655807103eefb6207f90644254fff18085328c76195c7f430256ee9a",
+    "packaged_sha256": "d53228e0655807103eefb6207f90644254fff18085328c76195c7f430256ee9a",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T1_FINAL_PAPER_TABLE_S6.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T1_FINAL_PAPER_TABLE_S6.csv",
+    "source_bytes": 639,
+    "packaged_bytes": 639,
+    "source_sha256": "67d7a9b3b98cb5931fd5a86066691295eca530298afc6cdbf12054962a497288",
+    "packaged_sha256": "67d7a9b3b98cb5931fd5a86066691295eca530298afc6cdbf12054962a497288",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T1_FINAL_PAPER_TABLE_S6.tex",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T1_FINAL_PAPER_TABLE_S6.tex",
+    "source_bytes": 671,
+    "packaged_bytes": 671,
+    "source_sha256": "e4ab1fec0d6e805a11021a6cde250e0e633e702427125bb8d4b0922090d76fd1",
+    "packaged_sha256": "e4ab1fec0d6e805a11021a6cde250e0e633e702427125bb8d4b0922090d76fd1",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T2_corrected_summary_S6.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T2_corrected_summary_S6.csv",
+    "source_bytes": 1550,
+    "packaged_bytes": 1550,
+    "source_sha256": "c3f82b8705c740fa0a8612e219849c1b019ced3b7cbd6569beca5b5e34dcf535",
+    "packaged_sha256": "c3f82b8705c740fa0a8612e219849c1b019ced3b7cbd6569beca5b5e34dcf535",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T2_FINAL_PAPER_FIGURE_S6.pdf",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T2_FINAL_PAPER_FIGURE_S6.pdf",
+    "source_bytes": 39882,
+    "packaged_bytes": 39882,
+    "source_sha256": "ac5a2b3572753fc7655ab5148a389affd078cd66df1f9a41ef609d4b6c737363",
+    "packaged_sha256": "ac5a2b3572753fc7655ab5148a389affd078cd66df1f9a41ef609d4b6c737363",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T2_FINAL_PAPER_FIGURE_S6.png",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T2_FINAL_PAPER_FIGURE_S6.png",
+    "source_bytes": 828952,
+    "packaged_bytes": 828952,
+    "source_sha256": "fb44de2d59c2453e4e3229cc25796a71e29fa9ae3f7385cd53927da34181655b",
+    "packaged_sha256": "fb44de2d59c2453e4e3229cc25796a71e29fa9ae3f7385cd53927da34181655b",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T2_FINAL_PAPER_TABLE_S6.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T2_FINAL_PAPER_TABLE_S6.csv",
+    "source_bytes": 677,
+    "packaged_bytes": 677,
+    "source_sha256": "5e59c0390aeaa87e99adc6ddc4d8ec264e6de8c377cfde36be9c688224d51ccc",
+    "packaged_sha256": "5e59c0390aeaa87e99adc6ddc4d8ec264e6de8c377cfde36be9c688224d51ccc",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T2_FINAL_PAPER_TABLE_S6.tex",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_COVID_T2_FINAL_PAPER_TABLE_S6.tex",
+    "source_bytes": 685,
+    "packaged_bytes": 685,
+    "source_sha256": "38d4c7289419585c41d5e6ddec10946f03ee84b7f7b68f1fab48867455406713",
+    "packaged_sha256": "38d4c7289419585c41d5e6ddec10946f03ee84b7f7b68f1fab48867455406713",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_RATE_SHOCK_T1_walkforward_date_level_S6.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_RATE_SHOCK_T1_walkforward_date_level_S6.csv",
+    "source_bytes": 598325,
+    "packaged_bytes": 598325,
+    "source_sha256": "0e054c333465f3d0421ae7e9694f5bab0dd024cedeeadb91487c450aae64291a",
+    "packaged_sha256": "0e054c333465f3d0421ae7e9694f5bab0dd024cedeeadb91487c450aae64291a",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/case_study/RS05_RATE_SHOCK_T1_walkforward_lead_time_S6.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/case_study/RS05_RATE_SHOCK_T1_walkforward_lead_time_S6.csv",
+    "source_bytes": 1151,
+    "packaged_bytes": 1151,
+    "source_sha256": "c3044218d7e9d893af89e228449c0b12b940ee0a0cc959e003a9feadb3c4b8a9",
+    "packaged_sha256": "c3044218d7e9d893af89e228449c0b12b940ee0a0cc959e003a9feadb3c4b8a9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/india/india_adjusted_close_long.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/india/india_adjusted_close_long.csv",
+    "source_bytes": 2760093,
+    "packaged_bytes": 2760093,
+    "source_sha256": "95abaf86bd219f971c053ffdd2f5fbe42490696a373568dbc041d13233b3c3b8",
+    "packaged_sha256": "95abaf86bd219f971c053ffdd2f5fbe42490696a373568dbc041d13233b3c3b8",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/india/india_adjusted_close_wide.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/india/india_adjusted_close_wide.csv",
+    "source_bytes": 1237659,
+    "packaged_bytes": 1237659,
+    "source_sha256": "e07535bd9210848c1cd99b003bfb62a5247432204da087d9cadb873de18bd78e",
+    "packaged_sha256": "e07535bd9210848c1cd99b003bfb62a5247432204da087d9cadb873de18bd78e",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/india/india_data_coverage.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/india/india_data_coverage.csv",
+    "source_bytes": 1379,
+    "packaged_bytes": 1379,
+    "source_sha256": "fa42876aedf64c4e83396026100b2f828157f540f6bd26cc2f88bdfada57d81b",
+    "packaged_sha256": "fa42876aedf64c4e83396026100b2f828157f540f6bd26cc2f88bdfada57d81b",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/india/india_download_failures.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/india/india_download_failures.csv",
+    "source_bytes": 2,
+    "packaged_bytes": 2,
+    "source_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "packaged_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/india/india_log_returns_wide.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/india/india_log_returns_wide.csv",
+    "source_bytes": 1486029,
+    "packaged_bytes": 1486029,
+    "source_sha256": "e88847853548db03f06798429a1eb32b92f49b49dd3e6940fd5d5de04441111b",
+    "packaged_sha256": "e88847853548db03f06798429a1eb32b92f49b49dd3e6940fd5d5de04441111b",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/india/india_universe.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/india/india_universe.csv",
+    "source_bytes": 1277,
+    "packaged_bytes": 1277,
+    "source_sha256": "43eec676003b0dd171c3fe37c002ee0ba41c504ce4a2e441219824b8ff464832",
+    "packaged_sha256": "43eec676003b0dd171c3fe37c002ee0ba41c504ce4a2e441219824b8ff464832",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/india/nifty50_index_adjusted_close.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/india/nifty50_index_adjusted_close.csv",
+    "source_bytes": 74514,
+    "packaged_bytes": 74514,
+    "source_sha256": "26f7218c616b1c6607ade361a7653ffdf4f2732bc97e15bb54d03a829b1a04f5",
+    "packaged_sha256": "26f7218c616b1c6607ade361a7653ffdf4f2732bc97e15bb54d03a829b1a04f5",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05b_confirmatory_pooled.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05b_confirmatory_pooled.csv",
+    "source_bytes": 1377,
+    "packaged_bytes": 1377,
+    "source_sha256": "2205b01b086b9377f69c8a505d5e52bf6b31ba87819c0a215b0e2dd06b89d8f4",
+    "packaged_sha256": "2205b01b086b9377f69c8a505d5e52bf6b31ba87819c0a215b0e2dd06b89d8f4",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05b_excluded_20200224_20200717.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05b_excluded_20200224_20200717.csv",
+    "source_bytes": 1539,
+    "packaged_bytes": 1539,
+    "source_sha256": "d33315fc664129a1a03d07f03ebcc6e128aa921ed070c8b5ebaa99437efb936d",
+    "packaged_sha256": "d33315fc664129a1a03d07f03ebcc6e128aa921ed070c8b5ebaa99437efb936d",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05b_excluded_20220101_20221231.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05b_excluded_20220101_20221231.csv",
+    "source_bytes": 1555,
+    "packaged_bytes": 1555,
+    "source_sha256": "4178e026a5c304f25ccdb3288db1aaaf540762d6bfb548ea18bb871d31b9036b",
+    "packaged_sha256": "4178e026a5c304f25ccdb3288db1aaaf540762d6bfb548ea18bb871d31b9036b",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05b_pooled_and_model_inference.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05b_pooled_and_model_inference.csv",
+    "source_bytes": 6608,
+    "packaged_bytes": 6608,
+    "source_sha256": "2ddcdacd3514f110b100315ebe33110b6c4acb1b8b17a353803c9379d769a2f9",
+    "packaged_sha256": "2ddcdacd3514f110b100315ebe33110b6c4acb1b8b17a353803c9379d769a2f9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05c_event_daily_series_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05c_event_daily_series_H10.csv",
+    "source_bytes": 19460,
+    "packaged_bytes": 19460,
+    "source_sha256": "8188d0ba3c3ed4692a3c8902cef35aba6467a21c4dd3c0bb0032d9bff01b0a45",
+    "packaged_sha256": "8188d0ba3c3ed4692a3c8902cef35aba6467a21c4dd3c0bb0032d9bff01b0a45",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05c_event_leadtime_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05c_event_leadtime_H10.csv",
+    "source_bytes": 2163,
+    "packaged_bytes": 2163,
+    "source_sha256": "b5f7c96b2cf0df22f1f1f09afb77a212182610ed0d8cc810b4af6e9c03a14860",
+    "packaged_sha256": "b5f7c96b2cf0df22f1f1f09afb77a212182610ed0d8cc810b4af6e9c03a14860",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05c_event_leadtime_summary_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05c_event_leadtime_summary_H10.csv",
+    "source_bytes": 764,
+    "packaged_bytes": 764,
+    "source_sha256": "f28660c3f8f6a231b3ba76a3df05bf52e51a1b06283adfa38a1783fb0fe74646",
+    "packaged_sha256": "f28660c3f8f6a231b3ba76a3df05bf52e51a1b06283adfa38a1783fb0fe74646",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05c_false_alarm_runs_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05c_false_alarm_runs_H10.csv",
+    "source_bytes": 7512,
+    "packaged_bytes": 7512,
+    "source_sha256": "ff78faa99b8ea01f8cd029d3fef1abf96e9f1f53576364cf47c46718ed76abfd",
+    "packaged_sha256": "ff78faa99b8ea01f8cd029d3fef1abf96e9f1f53576364cf47c46718ed76abfd",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05c_matched_alert_burden_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05c_matched_alert_burden_H10.csv",
+    "source_bytes": 1352,
+    "packaged_bytes": 1352,
+    "source_sha256": "c94eb0800ae54bd0244f636cacb916ae9dfd99f9712f24634d982c47b7c6d991",
+    "packaged_sha256": "c94eb0800ae54bd0244f636cacb916ae9dfd99f9712f24634d982c47b7c6d991",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05c_matched_alert_event_results_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05c_matched_alert_event_results_H10.csv",
+    "source_bytes": 2251,
+    "packaged_bytes": 2251,
+    "source_sha256": "34905fe6b4e5470dbf40422f002889f0889218fe9cf12f05df601a66d851313d",
+    "packaged_sha256": "34905fe6b4e5470dbf40422f002889f0889218fe9cf12f05df601a66d851313d",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05c_matched_alert_failure_events_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05c_matched_alert_failure_events_H10.csv",
+    "source_bytes": 558,
+    "packaged_bytes": 558,
+    "source_sha256": "ffab51c8a985086345bb0b585e90d3600377a3f45e6c6e2ff589e42f91dd8b13",
+    "packaged_sha256": "ffab51c8a985086345bb0b585e90d3600377a3f45e6c6e2ff589e42f91dd8b13",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05c_matched_alert_false_alarm_runs_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05c_matched_alert_false_alarm_runs_H10.csv",
+    "source_bytes": 23428,
+    "packaged_bytes": 23428,
+    "source_sha256": "34f9abac55ae71f7304441c726d14e7bd0e6342e7d850b596551556bc270615b",
+    "packaged_sha256": "34f9abac55ae71f7304441c726d14e7bd0e6342e7d850b596551556bc270615b",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05c_matched_alert_summary_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05c_matched_alert_summary_H10.csv",
+    "source_bytes": 805,
+    "packaged_bytes": 805,
+    "source_sha256": "abf218b6bb102feceae59df3d47de0bc47c8d054effda4c64e9756a2ade51111",
+    "packaged_sha256": "abf218b6bb102feceae59df3d47de0bc47c8d054effda4c64e9756a2ade51111",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05c_matched_alert_vix_thresholds_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05c_matched_alert_vix_thresholds_H10.csv",
+    "source_bytes": 99566,
+    "packaged_bytes": 99566,
+    "source_sha256": "3bf3a9463c35c564e57ea6b2fb60e673cd7948e00b20f6a571d539bc63cb3800",
+    "packaged_sha256": "3bf3a9463c35c564e57ea6b2fb60e673cd7948e00b20f6a571d539bc63cb3800",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05c_outcome_defined_failure_events_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05c_outcome_defined_failure_events_H10.csv",
+    "source_bytes": 2767,
+    "packaged_bytes": 2767,
+    "source_sha256": "d2026979b7b82cf86f922426ef0c0f2cf32bf6ee680dfe0422592e75028c147b",
+    "packaged_sha256": "d2026979b7b82cf86f922426ef0c0f2cf32bf6ee680dfe0422592e75028c147b",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05H_rolling_backtest_scores_H10.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05H_rolling_backtest_scores_H10.csv.gz",
+    "source_bytes": 2374586,
+    "packaged_bytes": 2374586,
+    "source_sha256": "da216698406ea32c218ccd079581e09466c02469bb96693f1b606c6df4a4ac74",
+    "packaged_sha256": "da216698406ea32c218ccd079581e09466c02469bb96693f1b606c6df4a4ac74",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05H_standard_backtest_burden_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05H_standard_backtest_burden_H10.csv",
+    "source_bytes": 1491,
+    "packaged_bytes": 1491,
+    "source_sha256": "7e2f1c2402f45decdf745c4acb1f839fcd1b7f848a73abdbd497e625d918749a",
+    "packaged_sha256": "7e2f1c2402f45decdf745c4acb1f839fcd1b7f848a73abdbd497e625d918749a",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05H_standard_backtest_event_results_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05H_standard_backtest_event_results_H10.csv",
+    "source_bytes": 1909,
+    "packaged_bytes": 1909,
+    "source_sha256": "a4785869f81a7dcd5679b334d63322e7d4a87db5cfba68f5b4b017e00d5d301b",
+    "packaged_sha256": "a4785869f81a7dcd5679b334d63322e7d4a87db5cfba68f5b4b017e00d5d301b",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05H_standard_backtest_failure_events_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05H_standard_backtest_failure_events_H10.csv",
+    "source_bytes": 558,
+    "packaged_bytes": 558,
+    "source_sha256": "ffab51c8a985086345bb0b585e90d3600377a3f45e6c6e2ff589e42f91dd8b13",
+    "packaged_sha256": "ffab51c8a985086345bb0b585e90d3600377a3f45e6c6e2ff589e42f91dd8b13",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05H_standard_backtest_false_alarm_runs_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05H_standard_backtest_false_alarm_runs_H10.csv",
+    "source_bytes": 6964,
+    "packaged_bytes": 6964,
+    "source_sha256": "8ddecaef7e73380224b45f9d3eea514da8b4a98341beefeb873b7dc5b64bb3fe",
+    "packaged_sha256": "8ddecaef7e73380224b45f9d3eea514da8b4a98341beefeb873b7dc5b64bb3fe",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05H_standard_backtest_signals_H10.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05H_standard_backtest_signals_H10.csv.gz",
+    "source_bytes": 2746288,
+    "packaged_bytes": 2746288,
+    "source_sha256": "cd4e049cc952ec4357453227c855b890e4c8cdcde831d93d87e8e65f7a951323",
+    "packaged_sha256": "cd4e049cc952ec4357453227c855b890e4c8cdcde831d93d87e8e65f7a951323",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05H_standard_backtest_summary_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05H_standard_backtest_summary_H10.csv",
+    "source_bytes": 628,
+    "packaged_bytes": 628,
+    "source_sha256": "1cab2252ef57a586f7e620d2464854596c45dd73e145c8fa4eef2579530574b3",
+    "packaged_sha256": "1cab2252ef57a586f7e620d2464854596c45dd73e145c8fa4eef2579530574b3",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_alert_episode_eval/RS05_alert_episode_alert_runs.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_alert_episode_eval/RS05_alert_episode_alert_runs.csv",
+    "source_bytes": 2800414,
+    "packaged_bytes": 2800414,
+    "source_sha256": "3183e51063575c25a5f9de82f405078ef6b15023d32faf273131e7ec08c15e16",
+    "packaged_sha256": "3183e51063575c25a5f9de82f405078ef6b15023d32faf273131e7ec08c15e16",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_alert_episode_eval/RS05_alert_episode_event_matches.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_alert_episode_eval/RS05_alert_episode_event_matches.csv",
+    "source_bytes": 3793641,
+    "packaged_bytes": 3793641,
+    "source_sha256": "2bf47954f9bfa76cea3e5b119afc6b6ded4557bd53ce5161959694df4f697f3a",
+    "packaged_sha256": "2bf47954f9bfa76cea3e5b119afc6b6ded4557bd53ce5161959694df4f697f3a",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_alert_episode_eval/RS05_alert_episode_S6_minus_S4_bootstrap.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_alert_episode_eval/RS05_alert_episode_S6_minus_S4_bootstrap.csv",
+    "source_bytes": 10279,
+    "packaged_bytes": 10279,
+    "source_sha256": "43f36a22a14b0894c047fd7806f5e6c521435d433ffa057da0dac32405358dd5",
+    "packaged_sha256": "43f36a22a14b0894c047fd7806f5e6c521435d433ffa057da0dac32405358dd5",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_alert_episode_eval/RS05_alert_episode_summary.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_alert_episode_eval/RS05_alert_episode_summary.csv",
+    "source_bytes": 207820,
+    "packaged_bytes": 207820,
+    "source_sha256": "1bc34aa7107f1a7add678180068d4e7d69235458c130988cde06f7ab11672a88",
+    "packaged_sha256": "1bc34aa7107f1a7add678180068d4e7d69235458c130988cde06f7ab11672a88",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T10.csv",
+    "source_bytes": 4942,
+    "packaged_bytes": 4942,
+    "source_sha256": "9c25c3526ba7a0c29f4f50637aae18c77ca594be54bfd7fabe1824a5b808d169",
+    "packaged_sha256": "9c25c3526ba7a0c29f4f50637aae18c77ca594be54bfd7fabe1824a5b808d169",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T10_final.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T10_final.csv",
+    "source_bytes": 31310,
+    "packaged_bytes": 31310,
+    "source_sha256": "f12c4a4c5a5be86c1410128ebc407938ba6a987701a05581ca23cf5c3b2d536c",
+    "packaged_sha256": "f12c4a4c5a5be86c1410128ebc407938ba6a987701a05581ca23cf5c3b2d536c",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T10_negctrl_NEGCTRL.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T10_negctrl_NEGCTRL.csv",
+    "source_bytes": 2514,
+    "packaged_bytes": 2514,
+    "source_sha256": "57bbc6bf8159d84aa41356c70f25cce7f85e8971e5f6a3a0bd6e39816e2c885a",
+    "packaged_sha256": "57bbc6bf8159d84aa41356c70f25cce7f85e8971e5f6a3a0bd6e39816e2c885a",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T10_negctrl_perm_NEGCTRL.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T10_negctrl_perm_NEGCTRL.csv",
+    "source_bytes": 2523,
+    "packaged_bytes": 2523,
+    "source_sha256": "75cdac836b18f7d56611f372f3b73c117c45f68bd161ea69fb6c51327e9b3412",
+    "packaged_sha256": "75cdac836b18f7d56611f372f3b73c117c45f68bd161ea69fb6c51327e9b3412",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T10_rate_shock.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T10_rate_shock.csv",
+    "source_bytes": 1256,
+    "packaged_bytes": 1256,
+    "source_sha256": "e328495cf6af924f895aaf7a40fdd00ea446c58a3647cf4cee8f5f555d5a5b4e",
+    "packaged_sha256": "e328495cf6af924f895aaf7a40fdd00ea446c58a3647cf4cee8f5f555d5a5b4e",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T10_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T10_T2.csv",
+    "source_bytes": 8575,
+    "packaged_bytes": 8575,
+    "source_sha256": "4ee60b61516509f48a6993e2ee21991bf76c05f9085b79027432ed650a3523f4",
+    "packaged_sha256": "4ee60b61516509f48a6993e2ee21991bf76c05f9085b79027432ed650a3523f4",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T20_h20_t1.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T20_h20_t1.csv",
+    "source_bytes": 8534,
+    "packaged_bytes": 8534,
+    "source_sha256": "a258cb7027a43119d3bea8c9f922552ecd66b1a9794e16f5f95964c29fa8e599",
+    "packaged_sha256": "a258cb7027a43119d3bea8c9f922552ecd66b1a9794e16f5f95964c29fa8e599",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T5_h5_t1.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_alert_metrics_T5_h5_t1.csv",
+    "source_bytes": 8535,
+    "packaged_bytes": 8535,
+    "source_sha256": "2be10a26130f1f11a5d486cf7a00fd179f2850325cb9ad3d5ef7c34dac901fc7",
+    "packaged_sha256": "2be10a26130f1f11a5d486cf7a00fd179f2850325cb9ad3d5ef7c34dac901fc7",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_backtest_vs_monitor_auc.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_backtest_vs_monitor_auc.csv",
+    "source_bytes": 4662,
+    "packaged_bytes": 4662,
+    "source_sha256": "14ec7ea1f6be4eb9daf13d2995bbe2f31f27546495b1c9b77d0797d8ad28b496",
+    "packaged_sha256": "14ec7ea1f6be4eb9daf13d2995bbe2f31f27546495b1c9b77d0797d8ad28b496",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_backtest_vs_monitor_auc_diffs.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_backtest_vs_monitor_auc_diffs.csv",
+    "source_bytes": 9255,
+    "packaged_bytes": 9255,
+    "source_sha256": "0714e24e859e2c70d7a46f8cc8896f5e928d26f3b5756e3eec4d7d4f798bf638",
+    "packaged_sha256": "0714e24e859e2c70d7a46f8cc8896f5e928d26f3b5756e3eec4d7d4f798bf638",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_bootstrap_block_sensitivity_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_bootstrap_block_sensitivity_H10.csv",
+    "source_bytes": 7463,
+    "packaged_bytes": 7463,
+    "source_sha256": "22240af70346b42dba4c2fdc9e58e208cbbc3d86286d1fc91f7f7a058c6d06e3",
+    "packaged_sha256": "22240af70346b42dba4c2fdc9e58e208cbbc3d86286d1fc91f7f7a058c6d06e3",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_bootstrap_block_sensitivity_summary_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_bootstrap_block_sensitivity_summary_H10.csv",
+    "source_bytes": 2553,
+    "packaged_bytes": 2553,
+    "source_sha256": "b03c574459ee4da5100499ca3a39f9fe7be2696988845e57dd993b97791749a8",
+    "packaged_sha256": "b03c574459ee4da5100499ca3a39f9fe7be2696988845e57dd993b97791749a8",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_calibration_block_bootstrap_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_calibration_block_bootstrap_H10.csv",
+    "source_bytes": 1174,
+    "packaged_bytes": 1174,
+    "source_sha256": "374b7071f1189ad52e44201da69d3ca90e4c2634cc223cb7d271861e184eb113",
+    "packaged_sha256": "374b7071f1189ad52e44201da69d3ca90e4c2634cc223cb7d271861e184eb113",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_calibration_by_year_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_calibration_by_year_H10.csv",
+    "source_bytes": 9344,
+    "packaged_bytes": 9344,
+    "source_sha256": "98f031b713007031c0ca10dd58313b0e119484f57fb99e566949d790dc3acd70",
+    "packaged_sha256": "98f031b713007031c0ca10dd58313b0e119484f57fb99e566949d790dc3acd70",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_calibration_S6_vs_S4_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_calibration_S6_vs_S4_H10.csv",
+    "source_bytes": 586,
+    "packaged_bytes": 586,
+    "source_sha256": "d51f5f42bd79e7e77c248c811c5b0dfd864ff55cf5e231f74b76daae63a2deca",
+    "packaged_sha256": "d51f5f42bd79e7e77c248c811c5b0dfd864ff55cf5e231f74b76daae63a2deca",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_calibration_summary_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_calibration_summary_H10.csv",
+    "source_bytes": 2150,
+    "packaged_bytes": 2150,
+    "source_sha256": "dfec4740bf01b3d89895ac1549dd7f60a9d526f5d28ecf764318cd09923ec857",
+    "packaged_sha256": "dfec4740bf01b3d89895ac1549dd7f60a9d526f5d28ecf764318cd09923ec857",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_calibration_summary_H10_T1_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_calibration_summary_H10_T1_T2.csv",
+    "source_bytes": 1600,
+    "packaged_bytes": 1600,
+    "source_sha256": "6aa3b87283f9c48ae67cbea57e873000200890b616ad27b5c1cb74fc894c64a9",
+    "packaged_sha256": "6aa3b87283f9c48ae67cbea57e873000200890b616ad27b5c1cb74fc894c64a9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval/RS05_causal_system_alert_episodes.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval/RS05_causal_system_alert_episodes.csv",
+    "source_bytes": 374680,
+    "packaged_bytes": 374680,
+    "source_sha256": "c2b087bb803f697c6f2df4c65e1114fa9b159f227c9a036225ec6185d84b5052",
+    "packaged_sha256": "c2b087bb803f697c6f2df4c65e1114fa9b159f227c9a036225ec6185d84b5052",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval/RS05_causal_system_alert_episode_summary.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval/RS05_causal_system_alert_episode_summary.csv",
+    "source_bytes": 67760,
+    "packaged_bytes": 67760,
+    "source_sha256": "a32d45c2894fd72611bb7f1e6461470562cbea5f7945206c76769831090db9e4",
+    "packaged_sha256": "a32d45c2894fd72611bb7f1e6461470562cbea5f7945206c76769831090db9e4",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval/RS05_causal_system_daily_scores_alerts.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval/RS05_causal_system_daily_scores_alerts.csv",
+    "source_bytes": 4413787,
+    "packaged_bytes": 4413787,
+    "source_sha256": "33b975ade2bc5341a6e3942c3561330c2a82086c4d38518aa83d6ea1205dbfbd",
+    "packaged_sha256": "33b975ade2bc5341a6e3942c3561330c2a82086c4d38518aa83d6ea1205dbfbd",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval/RS05_causal_system_event_matches.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval/RS05_causal_system_event_matches.csv",
+    "source_bytes": 669691,
+    "packaged_bytes": 669691,
+    "source_sha256": "d3ab2ddeaae7b1b098cc83e46f049990de96e2a33e8593f153635648be557d2d",
+    "packaged_sha256": "d3ab2ddeaae7b1b098cc83e46f049990de96e2a33e8593f153635648be557d2d",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval/RS05_causal_system_quarterly_thresholds.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval/RS05_causal_system_quarterly_thresholds.csv",
+    "source_bytes": 104303,
+    "packaged_bytes": 104303,
+    "source_sha256": "7a2101504f30918d41c356dcbb4fc7a6274c9416b5e94e0ca8f5ef0d420bcdd9",
+    "packaged_sha256": "7a2101504f30918d41c356dcbb4fc7a6274c9416b5e94e0ca8f5ef0d420bcdd9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "source_bytes": 3347,
+    "packaged_bytes": 3347,
+    "source_sha256": "648341a26ca6f096f88f47c0b57484cf8f6146f49eb58d31cc31b6dc372a940f",
+    "packaged_sha256": "648341a26ca6f096f88f47c0b57484cf8f6146f49eb58d31cc31b6dc372a940f",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget05/RS05_causal_system_alert_episodes.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget05/RS05_causal_system_alert_episodes.csv",
+    "source_bytes": 299764,
+    "packaged_bytes": 299764,
+    "source_sha256": "0de7d2b5bc798cdfe9f26507f4adfdf64cc5071406f0015a109ca90fd7c95f7f",
+    "packaged_sha256": "0de7d2b5bc798cdfe9f26507f4adfdf64cc5071406f0015a109ca90fd7c95f7f",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget05/RS05_causal_system_alert_episode_summary.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget05/RS05_causal_system_alert_episode_summary.csv",
+    "source_bytes": 68601,
+    "packaged_bytes": 68601,
+    "source_sha256": "3be0de9c567a2d0b178c6dd5c7548c010357e437fafacab9cb375031e9d1390f",
+    "packaged_sha256": "3be0de9c567a2d0b178c6dd5c7548c010357e437fafacab9cb375031e9d1390f",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget05/RS05_causal_system_daily_scores_alerts.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget05/RS05_causal_system_daily_scores_alerts.csv",
+    "source_bytes": 4449936,
+    "packaged_bytes": 4449936,
+    "source_sha256": "eedb7a5e78c49f229641e29d79e09aa39651311cbf8b2f6498c87f41e2137c04",
+    "packaged_sha256": "eedb7a5e78c49f229641e29d79e09aa39651311cbf8b2f6498c87f41e2137c04",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget05/RS05_causal_system_event_matches.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget05/RS05_causal_system_event_matches.csv",
+    "source_bytes": 660994,
+    "packaged_bytes": 660994,
+    "source_sha256": "ffccae2b52582f18e0cbe3395538dade1774b3f8e68641819a64ef564f8c54b0",
+    "packaged_sha256": "ffccae2b52582f18e0cbe3395538dade1774b3f8e68641819a64ef564f8c54b0",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget05/RS05_causal_system_quarterly_thresholds.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget05/RS05_causal_system_quarterly_thresholds.csv",
+    "source_bytes": 104107,
+    "packaged_bytes": 104107,
+    "source_sha256": "73636a62888a2ca1ec246a7ce2ff59d97132f840b382747b85340ca6a716887f",
+    "packaged_sha256": "73636a62888a2ca1ec246a7ce2ff59d97132f840b382747b85340ca6a716887f",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget05/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget05/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "source_bytes": 3285,
+    "packaged_bytes": 3285,
+    "source_sha256": "31bd3a2c6ab35236e5f959a3b77e649864695a3fcd1de56c0fc722311730977d",
+    "packaged_sha256": "31bd3a2c6ab35236e5f959a3b77e649864695a3fcd1de56c0fc722311730977d",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget10/RS05_causal_system_alert_episodes.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget10/RS05_causal_system_alert_episodes.csv",
+    "source_bytes": 374680,
+    "packaged_bytes": 374680,
+    "source_sha256": "c2b087bb803f697c6f2df4c65e1114fa9b159f227c9a036225ec6185d84b5052",
+    "packaged_sha256": "c2b087bb803f697c6f2df4c65e1114fa9b159f227c9a036225ec6185d84b5052",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget10/RS05_causal_system_alert_episode_summary.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget10/RS05_causal_system_alert_episode_summary.csv",
+    "source_bytes": 68156,
+    "packaged_bytes": 68156,
+    "source_sha256": "d62866ad83501e801b556368697727d962a6b3c66fc76c5e42319c3199531b65",
+    "packaged_sha256": "d62866ad83501e801b556368697727d962a6b3c66fc76c5e42319c3199531b65",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget10/RS05_causal_system_daily_scores_alerts.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget10/RS05_causal_system_daily_scores_alerts.csv",
+    "source_bytes": 4413787,
+    "packaged_bytes": 4413787,
+    "source_sha256": "33b975ade2bc5341a6e3942c3561330c2a82086c4d38518aa83d6ea1205dbfbd",
+    "packaged_sha256": "33b975ade2bc5341a6e3942c3561330c2a82086c4d38518aa83d6ea1205dbfbd",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget10/RS05_causal_system_event_matches.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget10/RS05_causal_system_event_matches.csv",
+    "source_bytes": 669691,
+    "packaged_bytes": 669691,
+    "source_sha256": "d3ab2ddeaae7b1b098cc83e46f049990de96e2a33e8593f153635648be557d2d",
+    "packaged_sha256": "d3ab2ddeaae7b1b098cc83e46f049990de96e2a33e8593f153635648be557d2d",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget10/RS05_causal_system_quarterly_thresholds.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget10/RS05_causal_system_quarterly_thresholds.csv",
+    "source_bytes": 104303,
+    "packaged_bytes": 104303,
+    "source_sha256": "7a2101504f30918d41c356dcbb4fc7a6274c9416b5e94e0ca8f5ef0d420bcdd9",
+    "packaged_sha256": "7a2101504f30918d41c356dcbb4fc7a6274c9416b5e94e0ca8f5ef0d420bcdd9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget10/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget10/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "source_bytes": 3369,
+    "packaged_bytes": 3369,
+    "source_sha256": "2e914595c7afa0b1e5662a6c99b003aa4e5a81710b2b4fb117813b5f8c13c881",
+    "packaged_sha256": "2e914595c7afa0b1e5662a6c99b003aa4e5a81710b2b4fb117813b5f8c13c881",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget15/RS05_causal_system_alert_episodes.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget15/RS05_causal_system_alert_episodes.csv",
+    "source_bytes": 438801,
+    "packaged_bytes": 438801,
+    "source_sha256": "2f40fdaa1c69abfab98112740a53ed1bcbb7e1c6ee1888d41c8bd756dfdcbaf7",
+    "packaged_sha256": "2f40fdaa1c69abfab98112740a53ed1bcbb7e1c6ee1888d41c8bd756dfdcbaf7",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget15/RS05_causal_system_alert_episode_summary.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget15/RS05_causal_system_alert_episode_summary.csv",
+    "source_bytes": 68235,
+    "packaged_bytes": 68235,
+    "source_sha256": "f3ba6f88e77e0019ff74d95221de7f4ce8a062f6eeca33ce9cd2e0e7301defb3",
+    "packaged_sha256": "f3ba6f88e77e0019ff74d95221de7f4ce8a062f6eeca33ce9cd2e0e7301defb3",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget15/RS05_causal_system_daily_scores_alerts.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget15/RS05_causal_system_daily_scores_alerts.csv",
+    "source_bytes": 4426925,
+    "packaged_bytes": 4426925,
+    "source_sha256": "81e3185859eeb1586c5c7ba2ce94887c84ddf709f3ed4e3134da03d381410ca4",
+    "packaged_sha256": "81e3185859eeb1586c5c7ba2ce94887c84ddf709f3ed4e3134da03d381410ca4",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget15/RS05_causal_system_event_matches.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget15/RS05_causal_system_event_matches.csv",
+    "source_bytes": 675890,
+    "packaged_bytes": 675890,
+    "source_sha256": "82ce82fde22c66c5571687ca73509fff338359ddad00e2cbf5f49923902c2977",
+    "packaged_sha256": "82ce82fde22c66c5571687ca73509fff338359ddad00e2cbf5f49923902c2977",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget15/RS05_causal_system_quarterly_thresholds.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget15/RS05_causal_system_quarterly_thresholds.csv",
+    "source_bytes": 105214,
+    "packaged_bytes": 105214,
+    "source_sha256": "c463b2c79eee3f74a2d6c459d5a1538e7453ab033402e008cd3cda5f2e461972",
+    "packaged_sha256": "c463b2c79eee3f74a2d6c459d5a1538e7453ab033402e008cd3cda5f2e461972",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget15/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_budget15/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "source_bytes": 3116,
+    "packaged_bytes": 3116,
+    "source_sha256": "7fb308347b6532269c48dd536f28cb69d6ef82b1a87791b7ae040e55b62b48ce",
+    "packaged_sha256": "7fb308347b6532269c48dd536f28cb69d6ef82b1a87791b7ae040e55b62b48ce",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b1/RS05_causal_system_alert_episodes.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b1/RS05_causal_system_alert_episodes.csv",
+    "source_bytes": 374680,
+    "packaged_bytes": 374680,
+    "source_sha256": "c2b087bb803f697c6f2df4c65e1114fa9b159f227c9a036225ec6185d84b5052",
+    "packaged_sha256": "c2b087bb803f697c6f2df4c65e1114fa9b159f227c9a036225ec6185d84b5052",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b1/RS05_causal_system_alert_episode_summary.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b1/RS05_causal_system_alert_episode_summary.csv",
+    "source_bytes": 67760,
+    "packaged_bytes": 67760,
+    "source_sha256": "a32d45c2894fd72611bb7f1e6461470562cbea5f7945206c76769831090db9e4",
+    "packaged_sha256": "a32d45c2894fd72611bb7f1e6461470562cbea5f7945206c76769831090db9e4",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b1/RS05_causal_system_daily_scores_alerts.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b1/RS05_causal_system_daily_scores_alerts.csv",
+    "source_bytes": 4413787,
+    "packaged_bytes": 4413787,
+    "source_sha256": "33b975ade2bc5341a6e3942c3561330c2a82086c4d38518aa83d6ea1205dbfbd",
+    "packaged_sha256": "33b975ade2bc5341a6e3942c3561330c2a82086c4d38518aa83d6ea1205dbfbd",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b1/RS05_causal_system_event_matches.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b1/RS05_causal_system_event_matches.csv",
+    "source_bytes": 669691,
+    "packaged_bytes": 669691,
+    "source_sha256": "d3ab2ddeaae7b1b098cc83e46f049990de96e2a33e8593f153635648be557d2d",
+    "packaged_sha256": "d3ab2ddeaae7b1b098cc83e46f049990de96e2a33e8593f153635648be557d2d",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b1/RS05_causal_system_quarterly_thresholds.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b1/RS05_causal_system_quarterly_thresholds.csv",
+    "source_bytes": 104303,
+    "packaged_bytes": 104303,
+    "source_sha256": "7a2101504f30918d41c356dcbb4fc7a6274c9416b5e94e0ca8f5ef0d420bcdd9",
+    "packaged_sha256": "7a2101504f30918d41c356dcbb4fc7a6274c9416b5e94e0ca8f5ef0d420bcdd9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b1/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b1/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "source_bytes": 3390,
+    "packaged_bytes": 3390,
+    "source_sha256": "17b86e8bb86a92ed569f56e98ba350bb23209fa2bb97fdfb0203d5e99093f6d2",
+    "packaged_sha256": "17b86e8bb86a92ed569f56e98ba350bb23209fa2bb97fdfb0203d5e99093f6d2",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b2/RS05_causal_system_alert_episodes.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b2/RS05_causal_system_alert_episodes.csv",
+    "source_bytes": 374680,
+    "packaged_bytes": 374680,
+    "source_sha256": "c2b087bb803f697c6f2df4c65e1114fa9b159f227c9a036225ec6185d84b5052",
+    "packaged_sha256": "c2b087bb803f697c6f2df4c65e1114fa9b159f227c9a036225ec6185d84b5052",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b2/RS05_causal_system_alert_episode_summary.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b2/RS05_causal_system_alert_episode_summary.csv",
+    "source_bytes": 67760,
+    "packaged_bytes": 67760,
+    "source_sha256": "a32d45c2894fd72611bb7f1e6461470562cbea5f7945206c76769831090db9e4",
+    "packaged_sha256": "a32d45c2894fd72611bb7f1e6461470562cbea5f7945206c76769831090db9e4",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b2/RS05_causal_system_daily_scores_alerts.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b2/RS05_causal_system_daily_scores_alerts.csv",
+    "source_bytes": 4413787,
+    "packaged_bytes": 4413787,
+    "source_sha256": "33b975ade2bc5341a6e3942c3561330c2a82086c4d38518aa83d6ea1205dbfbd",
+    "packaged_sha256": "33b975ade2bc5341a6e3942c3561330c2a82086c4d38518aa83d6ea1205dbfbd",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b2/RS05_causal_system_event_matches.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b2/RS05_causal_system_event_matches.csv",
+    "source_bytes": 669691,
+    "packaged_bytes": 669691,
+    "source_sha256": "d3ab2ddeaae7b1b098cc83e46f049990de96e2a33e8593f153635648be557d2d",
+    "packaged_sha256": "d3ab2ddeaae7b1b098cc83e46f049990de96e2a33e8593f153635648be557d2d",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b2/RS05_causal_system_quarterly_thresholds.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b2/RS05_causal_system_quarterly_thresholds.csv",
+    "source_bytes": 104303,
+    "packaged_bytes": 104303,
+    "source_sha256": "7a2101504f30918d41c356dcbb4fc7a6274c9416b5e94e0ca8f5ef0d420bcdd9",
+    "packaged_sha256": "7a2101504f30918d41c356dcbb4fc7a6274c9416b5e94e0ca8f5ef0d420bcdd9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b2/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b2/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "source_bytes": 3369,
+    "packaged_bytes": 3369,
+    "source_sha256": "2e914595c7afa0b1e5662a6c99b003aa4e5a81710b2b4fb117813b5f8c13c881",
+    "packaged_sha256": "2e914595c7afa0b1e5662a6c99b003aa4e5a81710b2b4fb117813b5f8c13c881",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b3/RS05_causal_system_alert_episodes.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b3/RS05_causal_system_alert_episodes.csv",
+    "source_bytes": 374680,
+    "packaged_bytes": 374680,
+    "source_sha256": "c2b087bb803f697c6f2df4c65e1114fa9b159f227c9a036225ec6185d84b5052",
+    "packaged_sha256": "c2b087bb803f697c6f2df4c65e1114fa9b159f227c9a036225ec6185d84b5052",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b3/RS05_causal_system_alert_episode_summary.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b3/RS05_causal_system_alert_episode_summary.csv",
+    "source_bytes": 67760,
+    "packaged_bytes": 67760,
+    "source_sha256": "a32d45c2894fd72611bb7f1e6461470562cbea5f7945206c76769831090db9e4",
+    "packaged_sha256": "a32d45c2894fd72611bb7f1e6461470562cbea5f7945206c76769831090db9e4",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b3/RS05_causal_system_daily_scores_alerts.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b3/RS05_causal_system_daily_scores_alerts.csv",
+    "source_bytes": 4413787,
+    "packaged_bytes": 4413787,
+    "source_sha256": "33b975ade2bc5341a6e3942c3561330c2a82086c4d38518aa83d6ea1205dbfbd",
+    "packaged_sha256": "33b975ade2bc5341a6e3942c3561330c2a82086c4d38518aa83d6ea1205dbfbd",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b3/RS05_causal_system_event_matches.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b3/RS05_causal_system_event_matches.csv",
+    "source_bytes": 669691,
+    "packaged_bytes": 669691,
+    "source_sha256": "d3ab2ddeaae7b1b098cc83e46f049990de96e2a33e8593f153635648be557d2d",
+    "packaged_sha256": "d3ab2ddeaae7b1b098cc83e46f049990de96e2a33e8593f153635648be557d2d",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b3/RS05_causal_system_quarterly_thresholds.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b3/RS05_causal_system_quarterly_thresholds.csv",
+    "source_bytes": 104303,
+    "packaged_bytes": 104303,
+    "source_sha256": "7a2101504f30918d41c356dcbb4fc7a6274c9416b5e94e0ca8f5ef0d420bcdd9",
+    "packaged_sha256": "7a2101504f30918d41c356dcbb4fc7a6274c9416b5e94e0ca8f5ef0d420bcdd9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b3/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_causal_system_alert_eval_eventboot_b3/RS05_causal_system_S6_minus_S4_bootstrap.csv",
+    "source_bytes": 3373,
+    "packaged_bytes": 3373,
+    "source_sha256": "d1991f667ed9f5de61df1da034365403dfc6abafdaa092f51a452760a5ca3287",
+    "packaged_sha256": "d1991f667ed9f5de61df1da034365403dfc6abafdaa092f51a452760a5ca3287",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_date_series_T10.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_date_series_T10.csv.gz",
+    "source_bytes": 268907,
+    "packaged_bytes": 268907,
+    "source_sha256": "38e796a5d1ab8bb717ab5b5fed2b94aa2f75fe3aacfdc61546b7f13c5ba1776a",
+    "packaged_sha256": "38e796a5d1ab8bb717ab5b5fed2b94aa2f75fe3aacfdc61546b7f13c5ba1776a",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_date_series_T10_final.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_date_series_T10_final.csv.gz",
+    "source_bytes": 1424898,
+    "packaged_bytes": 1424898,
+    "source_sha256": "aa993424ec716f9670b7426edec194787642b8170c78ccfd0d04bc5047342929",
+    "packaged_sha256": "aa993424ec716f9670b7426edec194787642b8170c78ccfd0d04bc5047342929",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_date_series_T10_negctrl_NEGCTRL.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_date_series_T10_negctrl_NEGCTRL.csv.gz",
+    "source_bytes": 133511,
+    "packaged_bytes": 133511,
+    "source_sha256": "1bdc85008b2ac4ecaa7b1aba39adc58c77dbc6033fdbe051aabcdac11a9ba2fe",
+    "packaged_sha256": "1bdc85008b2ac4ecaa7b1aba39adc58c77dbc6033fdbe051aabcdac11a9ba2fe",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_date_series_T10_negctrl_perm_NEGCTRL.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_date_series_T10_negctrl_perm_NEGCTRL.csv.gz",
+    "source_bytes": 131986,
+    "packaged_bytes": 131986,
+    "source_sha256": "86960aa93469a8d046ad626a7163dcb3a5b1bd84c283aa0d8422fac2fd283a55",
+    "packaged_sha256": "86960aa93469a8d046ad626a7163dcb3a5b1bd84c283aa0d8422fac2fd283a55",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_date_series_T10_rate_shock.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_date_series_T10_rate_shock.csv.gz",
+    "source_bytes": 5906,
+    "packaged_bytes": 5906,
+    "source_sha256": "ec987a42c3c66ab3ae9a92d151a579f32167a232ba3ec20daf58206fa990c1a8",
+    "packaged_sha256": "ec987a42c3c66ab3ae9a92d151a579f32167a232ba3ec20daf58206fa990c1a8",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_date_series_T10_T2.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_date_series_T10_T2.csv.gz",
+    "source_bytes": 397708,
+    "packaged_bytes": 397708,
+    "source_sha256": "5479dbca8c016673bdef0b60bc9e307269b119e0e93d9386f9d522b74706f443",
+    "packaged_sha256": "5479dbca8c016673bdef0b60bc9e307269b119e0e93d9386f9d522b74706f443",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_date_series_T20_h20_t1.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_date_series_T20_h20_t1.csv.gz",
+    "source_bytes": 426458,
+    "packaged_bytes": 426458,
+    "source_sha256": "eae0b15e2110948e355cf596a38ed3f3205143269d024595318da1c0b029f221",
+    "packaged_sha256": "eae0b15e2110948e355cf596a38ed3f3205143269d024595318da1c0b029f221",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_date_series_T5_h5_t1.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_date_series_T5_h5_t1.csv.gz",
+    "source_bytes": 454918,
+    "packaged_bytes": 454918,
+    "source_sha256": "d439898072a003323377937e5a8e1c889828635e3381140d86bcfbe9cc14a737",
+    "packaged_sha256": "d439898072a003323377937e5a8e1c889828635e3381140d86bcfbe9cc14a737",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_empirical_trust_bands_datelevel_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_empirical_trust_bands_datelevel_H10.csv",
+    "source_bytes": 1552,
+    "packaged_bytes": 1552,
+    "source_sha256": "18fe0f2a5ad564fb46337c59fa2d394c1ed8057c7b1e0442271089400d935fa4",
+    "packaged_sha256": "18fe0f2a5ad564fb46337c59fa2d394c1ed8057c7b1e0442271089400d935fa4",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_empirical_trust_bands_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_empirical_trust_bands_H10.csv",
+    "source_bytes": 2531,
+    "packaged_bytes": 2531,
+    "source_sha256": "8345512ec9808fddea11d6938ef263753256879671689e0730b7ccf03d77b71c",
+    "packaged_sha256": "8345512ec9808fddea11d6938ef263753256879671689e0730b7ccf03d77b71c",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_empirical_trust_band_separation_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_empirical_trust_band_separation_H10.csv",
+    "source_bytes": 854,
+    "packaged_bytes": 854,
+    "source_sha256": "c301b481b9e96f4583affcd4a430094495d2d5c48ba9dd6c1471cfaaee341da1",
+    "packaged_sha256": "c301b481b9e96f4583affcd4a430094495d2d5c48ba9dd6c1471cfaaee341da1",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T10.csv",
+    "source_bytes": 87814,
+    "packaged_bytes": 87814,
+    "source_sha256": "25a77f38ac62f2a0e3c838d834b44084b57fd72bf1a14449f0d1182fdb9c5715",
+    "packaged_sha256": "25a77f38ac62f2a0e3c838d834b44084b57fd72bf1a14449f0d1182fdb9c5715",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T10_final.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T10_final.csv",
+    "source_bytes": 548957,
+    "packaged_bytes": 548957,
+    "source_sha256": "b28373fc223b19d08ef0544ea74ef0edb8259ba07b988b833d303991440eedc0",
+    "packaged_sha256": "b28373fc223b19d08ef0544ea74ef0edb8259ba07b988b833d303991440eedc0",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T10_negctrl_NEGCTRL.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T10_negctrl_NEGCTRL.csv",
+    "source_bytes": 43786,
+    "packaged_bytes": 43786,
+    "source_sha256": "386f7de93d1b2752a975bfb7eef0d9ad6851d4b4cb84fbc82fe9916bbf996965",
+    "packaged_sha256": "386f7de93d1b2752a975bfb7eef0d9ad6851d4b4cb84fbc82fe9916bbf996965",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T10_negctrl_perm_NEGCTRL.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T10_negctrl_perm_NEGCTRL.csv",
+    "source_bytes": 43918,
+    "packaged_bytes": 43918,
+    "source_sha256": "4d183b384d21e114d9b8111b5e2f5d62b994fe97e360397ffbeed7a882f9b895",
+    "packaged_sha256": "4d183b384d21e114d9b8111b5e2f5d62b994fe97e360397ffbeed7a882f9b895",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T10_rate_shock.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T10_rate_shock.csv",
+    "source_bytes": 1798,
+    "packaged_bytes": 1798,
+    "source_sha256": "59b25cc05ab5a1aa12477a541943604fd22e413e2fd70608acdee87fe639f562",
+    "packaged_sha256": "59b25cc05ab5a1aa12477a541943604fd22e413e2fd70608acdee87fe639f562",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T10_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T10_T2.csv",
+    "source_bytes": 157559,
+    "packaged_bytes": 157559,
+    "source_sha256": "8e0931a868a1888abaefac230a12f4b0e765a987eaeab0b515abe0f421b1a7b9",
+    "packaged_sha256": "8e0931a868a1888abaefac230a12f4b0e765a987eaeab0b515abe0f421b1a7b9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T20_h20_t1.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T20_h20_t1.csv",
+    "source_bytes": 166351,
+    "packaged_bytes": 166351,
+    "source_sha256": "fa9f9583c886bcb978552de196361983cd005ff32288af177412068601fa51ea",
+    "packaged_sha256": "fa9f9583c886bcb978552de196361983cd005ff32288af177412068601fa51ea",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T5_h5_t1.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_fold_metrics_T5_h5_t1.csv",
+    "source_bytes": 166964,
+    "packaged_bytes": 166964,
+    "source_sha256": "2ea5de30ee7f6140e3b33960db7948daad60ee6f3caf0daf982a8b6f3c931ad8",
+    "packaged_sha256": "2ea5de30ee7f6140e3b33960db7948daad60ee6f3caf0daf982a8b6f3c931ad8",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_metrics_T10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_metrics_T10.csv",
+    "source_bytes": 3566,
+    "packaged_bytes": 3566,
+    "source_sha256": "9242f2b66c9c5048ae45208676da662ded12b1001194749960e789ec55a4cebb",
+    "packaged_sha256": "9242f2b66c9c5048ae45208676da662ded12b1001194749960e789ec55a4cebb",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_metrics_T10_final.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_metrics_T10_final.csv",
+    "source_bytes": 32420,
+    "packaged_bytes": 32420,
+    "source_sha256": "fd9e50c3684b992fef803fe28076763e6d02322fc7880942aa5abb485911544b",
+    "packaged_sha256": "fd9e50c3684b992fef803fe28076763e6d02322fc7880942aa5abb485911544b",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_metrics_T10_negctrl_NEGCTRL.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_metrics_T10_negctrl_NEGCTRL.csv",
+    "source_bytes": 1882,
+    "packaged_bytes": 1882,
+    "source_sha256": "bcd16ceac80e3d3c52e515743dbcbc0ce57669879fde5e9b06bb7b359e21908e",
+    "packaged_sha256": "bcd16ceac80e3d3c52e515743dbcbc0ce57669879fde5e9b06bb7b359e21908e",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_metrics_T10_negctrl_perm_NEGCTRL.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_metrics_T10_negctrl_perm_NEGCTRL.csv",
+    "source_bytes": 1887,
+    "packaged_bytes": 1887,
+    "source_sha256": "a8fd50376b83e638c430034f68481e1c8b9643a8636f51fd484c7689500385a3",
+    "packaged_sha256": "a8fd50376b83e638c430034f68481e1c8b9643a8636f51fd484c7689500385a3",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_metrics_T10_rate_shock.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_metrics_T10_rate_shock.csv",
+    "source_bytes": 1008,
+    "packaged_bytes": 1008,
+    "source_sha256": "9375185b8238d10072afbfd9a12a7f85192dad3239ae2132e6bfbae4672882c5",
+    "packaged_sha256": "9375185b8238d10072afbfd9a12a7f85192dad3239ae2132e6bfbae4672882c5",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_metrics_T10_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_metrics_T10_T2.csv",
+    "source_bytes": 9438,
+    "packaged_bytes": 9438,
+    "source_sha256": "dfcbf96eb579bf903e812644b3e6ba434bb82123d1f4ae06270814743664a099",
+    "packaged_sha256": "dfcbf96eb579bf903e812644b3e6ba434bb82123d1f4ae06270814743664a099",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_metrics_T20_h20_t1.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_metrics_T20_h20_t1.csv",
+    "source_bytes": 9232,
+    "packaged_bytes": 9232,
+    "source_sha256": "991ad9ff27b8f2f8fcceb284b122096427dc76047bf01a5d0172ff79cc74a4e4",
+    "packaged_sha256": "991ad9ff27b8f2f8fcceb284b122096427dc76047bf01a5d0172ff79cc74a4e4",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_metrics_T5_h5_t1.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_metrics_T5_h5_t1.csv",
+    "source_bytes": 9268,
+    "packaged_bytes": 9268,
+    "source_sha256": "c8b95d8ae793a920881d98f7bb1330130ce30106cc0f16ac0611fc60c3ce2d99",
+    "packaged_sha256": "c8b95d8ae793a920881d98f7bb1330130ce30106cc0f16ac0611fc60c3ce2d99",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_model_specificity_bootstrap_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_model_specificity_bootstrap_H10.csv",
+    "source_bytes": 798,
+    "packaged_bytes": 798,
+    "source_sha256": "75e80f3dd7de1ed86b38dd38bd36681f2e20780fba5b5be41370359f7aa0ef65",
+    "packaged_sha256": "75e80f3dd7de1ed86b38dd38bd36681f2e20780fba5b5be41370359f7aa0ef65",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_model_specificity_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_model_specificity_H10.csv",
+    "source_bytes": 2617,
+    "packaged_bytes": 2617,
+    "source_sha256": "afaa4be4e04e741a8e31e4ac8d3d700e49129edd422781aeb41ded385d073a4e",
+    "packaged_sha256": "afaa4be4e04e741a8e31e4ac8d3d700e49129edd422781aeb41ded385d073a4e",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_model_specificity_summary_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_model_specificity_summary_H10.csv",
+    "source_bytes": 1194,
+    "packaged_bytes": 1194,
+    "source_sha256": "15024151f20b8fabee028d92012d46d1f69abf9a9666887ab7bbe425e655c5e1",
+    "packaged_sha256": "15024151f20b8fabee028d92012d46d1f69abf9a9666887ab7bbe425e655c5e1",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_calibration.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_calibration.csv.gz",
+    "source_bytes": 15663495,
+    "packaged_bytes": 15663495,
+    "source_sha256": "4cf05a43507c72e678f630d8a48011138e6fa6464c8caa8cfda035728912ade5",
+    "packaged_sha256": "4cf05a43507c72e678f630d8a48011138e6fa6464c8caa8cfda035728912ade5",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_final.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_final.csv.gz",
+    "source_bytes": 32378061,
+    "packaged_bytes": 32378061,
+    "source_sha256": "4e67ff6566ec40b0833a41ff9a7f00e076bdc07136ac0dcea670494d421e7df0",
+    "packaged_sha256": "4e67ff6566ec40b0833a41ff9a7f00e076bdc07136ac0dcea670494d421e7df0",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_main.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_main.csv.gz",
+    "source_bytes": 15663492,
+    "packaged_bytes": 15663492,
+    "source_sha256": "491bb777b27da0c9ea76c3c4db32a86f3dcb034c43fb25b06687fd43926141f3",
+    "packaged_sha256": "491bb777b27da0c9ea76c3c4db32a86f3dcb034c43fb25b06687fd43926141f3",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_negctrl_NEGCTRL.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_negctrl_NEGCTRL.csv.gz",
+    "source_bytes": 2778769,
+    "packaged_bytes": 2778769,
+    "source_sha256": "1a6d41c2746d6787f21c13590001aee54c20198a0284fa516fe63997bcdb5c34",
+    "packaged_sha256": "1a6d41c2746d6787f21c13590001aee54c20198a0284fa516fe63997bcdb5c34",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_negctrl_perm_NEGCTRL.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_negctrl_perm_NEGCTRL.csv.gz",
+    "source_bytes": 2752704,
+    "packaged_bytes": 2752704,
+    "source_sha256": "fa0155d1d5372ed29f0e09d95d2aa73125c1a3d7f11841d0ad7a7856316d69d6",
+    "packaged_sha256": "fa0155d1d5372ed29f0e09d95d2aa73125c1a3d7f11841d0ad7a7856316d69d6",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_rate_shock.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_rate_shock.csv.gz",
+    "source_bytes": 99205,
+    "packaged_bytes": 99205,
+    "source_sha256": "6f80dafc9fafe7e4709f5be746b472e1b5a366408faf823461b3cae12bb49bb4",
+    "packaged_sha256": "6f80dafc9fafe7e4709f5be746b472e1b5a366408faf823461b3cae12bb49bb4",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_T2.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H10_T2.csv.gz",
+    "source_bytes": 9769918,
+    "packaged_bytes": 9769918,
+    "source_sha256": "2d0e590ac5aca65a4156cda9e0f52b45a475837fefd01fd9f92007449959382f",
+    "packaged_sha256": "2d0e590ac5aca65a4156cda9e0f52b45a475837fefd01fd9f92007449959382f",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H20_h20_t1.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H20_h20_t1.csv.gz",
+    "source_bytes": 9697857,
+    "packaged_bytes": 9697857,
+    "source_sha256": "034e0bdbe03bb17c72815e74223302fc7b65d8f77f0efabafea3e9e787ca94a9",
+    "packaged_sha256": "034e0bdbe03bb17c72815e74223302fc7b65d8f77f0efabafea3e9e787ca94a9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H5_h5_t1.csv.gz",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_oos_predictions_H5_h5_t1.csv.gz",
+    "source_bytes": 9987833,
+    "packaged_bytes": 9987833,
+    "source_sha256": "3fa95e89bbf43a10f6587d76a10edac58bcc258f90b013a8df2dbd89b5057afb",
+    "packaged_sha256": "3fa95e89bbf43a10f6587d76a10edac58bcc258f90b013a8df2dbd89b5057afb",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T10.csv",
+    "source_bytes": 4504,
+    "packaged_bytes": 4504,
+    "source_sha256": "6dae9c279971f6091bf55aeb9e8eef4ffceae3ed7c37ab1ecdf6da18028f4215",
+    "packaged_sha256": "6dae9c279971f6091bf55aeb9e8eef4ffceae3ed7c37ab1ecdf6da18028f4215",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T10_final.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T10_final.csv",
+    "source_bytes": 27480,
+    "packaged_bytes": 27480,
+    "source_sha256": "32ad6a56975472b8f0eb8a4271acfbb48550733748d9b3169980ac5ca6aaa2e2",
+    "packaged_sha256": "32ad6a56975472b8f0eb8a4271acfbb48550733748d9b3169980ac5ca6aaa2e2",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T10_negctrl_NEGCTRL.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T10_negctrl_NEGCTRL.csv",
+    "source_bytes": 2303,
+    "packaged_bytes": 2303,
+    "source_sha256": "764631d05ef325c8f915bd71161e4e373986eece0069fb9ede7a8c88e87343ce",
+    "packaged_sha256": "764631d05ef325c8f915bd71161e4e373986eece0069fb9ede7a8c88e87343ce",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T10_negctrl_perm_NEGCTRL.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T10_negctrl_perm_NEGCTRL.csv",
+    "source_bytes": 2288,
+    "packaged_bytes": 2288,
+    "source_sha256": "3187f6680db31e37e48824bf77a8069d3cfc4a2ce9ca30de6e953db20003a2db",
+    "packaged_sha256": "3187f6680db31e37e48824bf77a8069d3cfc4a2ce9ca30de6e953db20003a2db",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T10_rate_shock.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T10_rate_shock.csv",
+    "source_bytes": 1158,
+    "packaged_bytes": 1158,
+    "source_sha256": "9b9abfad2fdf5aa5d827f5ae2ed7fade99447767ff0a67f25276e472bf73acae",
+    "packaged_sha256": "9b9abfad2fdf5aa5d827f5ae2ed7fade99447767ff0a67f25276e472bf73acae",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T10_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T10_T2.csv",
+    "source_bytes": 7590,
+    "packaged_bytes": 7590,
+    "source_sha256": "bbf428290be23a560faef61eb1fe3b97b4e8c09dc016dc275ce179072d77ca54",
+    "packaged_sha256": "bbf428290be23a560faef61eb1fe3b97b4e8c09dc016dc275ce179072d77ca54",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T20_h20_t1.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T20_h20_t1.csv",
+    "source_bytes": 7567,
+    "packaged_bytes": 7567,
+    "source_sha256": "b730bcb9e6cf19bf81f5380388db789df2b4f79bb8574daeb6896484b0575d1e",
+    "packaged_sha256": "b730bcb9e6cf19bf81f5380388db789df2b4f79bb8574daeb6896484b0575d1e",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T5_h5_t1.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_provisional_trust_bands_T5_h5_t1.csv",
+    "source_bytes": 7544,
+    "packaged_bytes": 7544,
+    "source_sha256": "2e7b7ee3edff34e316a2134014c1b9d22581588b6edffc2495a5ec92256859f6",
+    "packaged_sha256": "2e7b7ee3edff34e316a2134014c1b9d22581588b6edffc2495a5ec92256859f6",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_reliability_probability_bands_H10.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_reliability_probability_bands_H10.csv",
+    "source_bytes": 4461,
+    "packaged_bytes": 4461,
+    "source_sha256": "3bf28b7dac10323410b9d7f8d0b716ad92f153a26ae19520b111292b6fdb30b1",
+    "packaged_sha256": "3bf28b7dac10323410b9d7f8d0b716ad92f153a26ae19520b111292b6fdb30b1",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_robust_calibration_summary_H10_T1_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_robust_calibration_summary_H10_T1_T2.csv",
+    "source_bytes": 6120,
+    "packaged_bytes": 6120,
+    "source_sha256": "75897c2dccc94ff51577f8b1d9ebd19a99c6e1904c5363de9dc4d45328233516",
+    "packaged_sha256": "75897c2dccc94ff51577f8b1d9ebd19a99c6e1904c5363de9dc4d45328233516",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_robust_group_audit_H10_T1_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_robust_group_audit_H10_T1_T2.csv",
+    "source_bytes": 880,
+    "packaged_bytes": 880,
+    "source_sha256": "8e27fd1bd44a6451b6999c08d67012e3b1a8485a464567b5973a4507e6e55c9e",
+    "packaged_sha256": "8e27fd1bd44a6451b6999c08d67012e3b1a8485a464567b5973a4507e6e55c9e",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_robust_period_calibration_H10_T1_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_robust_period_calibration_H10_T1_T2.csv",
+    "source_bytes": 10350,
+    "packaged_bytes": 10350,
+    "source_sha256": "7863e5be0d95e312010df00fb7568c65987311412f21c613324dfed882d45546",
+    "packaged_sha256": "7863e5be0d95e312010df00fb7568c65987311412f21c613324dfed882d45546",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_robust_reliability_bins_H10_T1_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_robust_reliability_bins_H10_T1_T2.csv",
+    "source_bytes": 20098,
+    "packaged_bytes": 20098,
+    "source_sha256": "39a2befbd992623c70455326118bd9e9c6893e77053aec978fa7cfc365bc3613",
+    "packaged_sha256": "39a2befbd992623c70455326118bd9e9c6893e77053aec978fa7cfc365bc3613",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_robust_trust_bands_datelevel_H10_T1_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_robust_trust_bands_datelevel_H10_T1_T2.csv",
+    "source_bytes": 2639128,
+    "packaged_bytes": 2639128,
+    "source_sha256": "cda82cffbc21aa9c4b09e0ed8e7e1a7c7a351f1c3d33e3c3e1bcee2b0b7503ca",
+    "packaged_sha256": "cda82cffbc21aa9c4b09e0ed8e7e1a7c7a351f1c3d33e3c3e1bcee2b0b7503ca",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_robust_trust_bands_H10_T1_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_robust_trust_bands_H10_T1_T2.csv",
+    "source_bytes": 6862,
+    "packaged_bytes": 6862,
+    "source_sha256": "1881d63306a3e2290bf8c37427f19a9768a8fe0b8174d3da28dbbf6c8c48b107",
+    "packaged_sha256": "1881d63306a3e2290bf8c37427f19a9768a8fe0b8174d3da28dbbf6c8c48b107",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_robust_trust_band_bootstrap_H10_T1_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_robust_trust_band_bootstrap_H10_T1_T2.csv",
+    "source_bytes": 1500,
+    "packaged_bytes": 1500,
+    "source_sha256": "070d88ffdac7f9e2dba85162614cf11d121c5dee56641ff2649e4739fbbb8a79",
+    "packaged_sha256": "070d88ffdac7f9e2dba85162614cf11d121c5dee56641ff2649e4739fbbb8a79",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_robust_trust_band_separation_H10_T1_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_robust_trust_band_separation_H10_T1_T2.csv",
+    "source_bytes": 1638,
+    "packaged_bytes": 1638,
+    "source_sha256": "d86270e1096d4b33a2011453966167b0a873250544aa6142c53cec9f8fc0bd55",
+    "packaged_sha256": "d86270e1096d4b33a2011453966167b0a873250544aa6142c53cec9f8fc0bd55",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_robust_yearly_calibration_H10_T1_T2.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_robust_yearly_calibration_H10_T1_T2.csv",
+    "source_bytes": 14056,
+    "packaged_bytes": 14056,
+    "source_sha256": "aaf1229283e85f29b71ab3c77e9779bf8f42c69f07ac32e97e2fab089408a387",
+    "packaged_sha256": "aaf1229283e85f29b71ab3c77e9779bf8f42c69f07ac32e97e2fab089408a387",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_run_metadata_H10.json",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_run_metadata_H10.json",
+    "source_bytes": 3061,
+    "packaged_bytes": 3061,
+    "source_sha256": "e5252642552b99b2572f5c84176da4780f376ff4953de7823331de8f5c893514",
+    "packaged_sha256": "e5252642552b99b2572f5c84176da4780f376ff4953de7823331de8f5c893514",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_run_metadata_H10_NEGCTRL.json",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_run_metadata_H10_NEGCTRL.json",
+    "source_bytes": 2971,
+    "packaged_bytes": 2971,
+    "source_sha256": "6d2b7e1e35f5b204a30f1168ff3e77ea4de1ec341163690725c264874aeb635d",
+    "packaged_sha256": "6d2b7e1e35f5b204a30f1168ff3e77ea4de1ec341163690725c264874aeb635d",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_run_metadata_H20.json",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_run_metadata_H20.json",
+    "source_bytes": 3038,
+    "packaged_bytes": 3038,
+    "source_sha256": "9c406e19bad874caa3d9d8089ccb8c4aa80b5603b5fd10ca97494c215a5839dc",
+    "packaged_sha256": "9c406e19bad874caa3d9d8089ccb8c4aa80b5603b5fd10ca97494c215a5839dc",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_run_metadata_H5.json",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_run_metadata_H5.json",
+    "source_bytes": 3036,
+    "packaged_bytes": 3036,
+    "source_sha256": "cbe07e263419b44335d57fc2728f557c6b0dfb3bf1107c14ede5ca696e69fd53",
+    "packaged_sha256": "cbe07e263419b44335d57fc2728f557c6b0dfb3bf1107c14ede5ca696e69fd53",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_audit_metadata_H10_logit.json",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_audit_metadata_H10_logit.json",
+    "source_bytes": 744,
+    "packaged_bytes": 744,
+    "source_sha256": "cd5801248d364c71fca69fec96a592229683b80f7e9ccd7ed5f51374921841d2",
+    "packaged_sha256": "cd5801248d364c71fca69fec96a592229683b80f7e9ccd7ed5f51374921841d2",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_daily_alert_series_H10_logit.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_daily_alert_series_H10_logit.csv",
+    "source_bytes": 1404563,
+    "packaged_bytes": 1404563,
+    "source_sha256": "22c20eb3a9d6be683592a18914ecb686073131b07715a776531275b15e8b1452",
+    "packaged_sha256": "22c20eb3a9d6be683592a18914ecb686073131b07715a776531275b15e8b1452",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_events_H10_logit.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_events_H10_logit.csv",
+    "source_bytes": 14324,
+    "packaged_bytes": 14324,
+    "source_sha256": "5b6bab929f2870166dc581db082f37695fc83eb9f391af6c43d8cda25d70d43b",
+    "packaged_sha256": "5b6bab929f2870166dc581db082f37695fc83eb9f391af6c43d8cda25d70d43b",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_event_counts_H10_logit.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_event_counts_H10_logit.csv",
+    "source_bytes": 367,
+    "packaged_bytes": 367,
+    "source_sha256": "5ddcdcd90ca3d7fd9fb1fcdadc8b55816b617ef0305f85a21f66d0e161b4a6c2",
+    "packaged_sha256": "5ddcdcd90ca3d7fd9fb1fcdadc8b55816b617ef0305f85a21f66d0e161b4a6c2",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_event_results_H10_logit.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_event_results_H10_logit.csv",
+    "source_bytes": 159800,
+    "packaged_bytes": 159800,
+    "source_sha256": "8bb66588ca56a34c1c54849d4f2b9d2e147f59f539d603b20ac8fbcefd264a2a",
+    "packaged_sha256": "8bb66588ca56a34c1c54849d4f2b9d2e147f59f539d603b20ac8fbcefd264a2a",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_event_summary_H10_logit.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_event_summary_H10_logit.csv",
+    "source_bytes": 8103,
+    "packaged_bytes": 8103,
+    "source_sha256": "8d4c2a34f84e86738a24f12327b9904fb7e1003a1788b9daebd259cdce4b6ebf",
+    "packaged_sha256": "8d4c2a34f84e86738a24f12327b9904fb7e1003a1788b9daebd259cdce4b6ebf",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_false_alert_summary_H10_logit.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_false_alert_summary_H10_logit.csv",
+    "source_bytes": 7580,
+    "packaged_bytes": 7580,
+    "source_sha256": "e244168136636aa3ce3f159d0a9b001f780f81e65ef86885e3df6829492c0306",
+    "packaged_sha256": "e244168136636aa3ce3f159d0a9b001f780f81e65ef86885e3df6829492c0306",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_row_alert_metrics_H10_logit.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_row_alert_metrics_H10_logit.csv",
+    "source_bytes": 2088,
+    "packaged_bytes": 2088,
+    "source_sha256": "34392a3b51fe79f5ff3b620cb9a19835dd398b8695bdc4bd4b9878cc8a6bdc74",
+    "packaged_sha256": "34392a3b51fe79f5ff3b620cb9a19835dd398b8695bdc4bd4b9878cc8a6bdc74",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_target_audit_H10_mismatches.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_target_audit_H10_mismatches.csv",
+    "source_bytes": 321,
+    "packaged_bytes": 321,
+    "source_sha256": "aa621477d8dd01d203a059b2368af79e13ac31b21dc1b19c713ecbe9b9736718",
+    "packaged_sha256": "aa621477d8dd01d203a059b2368af79e13ac31b21dc1b19c713ecbe9b9736718",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_target_audit_H10_summary.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_T1_audit/t1_target_audit_H10_summary.csv",
+    "source_bytes": 864,
+    "packaged_bytes": 864,
+    "source_sha256": "4e7e0498a68deb27e511715673b9744b820b28c34d47d2f8d938b32fc8083381",
+    "packaged_sha256": "4e7e0498a68deb27e511715673b9744b820b28c34d47d2f8d938b32fc8083381",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_T1_S6_vs_S4_bootstrap_inference.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_T1_S6_vs_S4_bootstrap_inference.csv",
+    "source_bytes": 2441,
+    "packaged_bytes": 2441,
+    "source_sha256": "330910230c6948e5684c014431a5914886fb488b909906b381d41e6d14ecdc8f",
+    "packaged_sha256": "330910230c6948e5684c014431a5914886fb488b909906b381d41e6d14ecdc8f",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_T1_S6_vs_S4_run_metadata.txt",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_T1_S6_vs_S4_run_metadata.txt",
+    "source_bytes": 1228,
+    "packaged_bytes": 1228,
+    "source_sha256": "4636c7aeebf5371b86c67a58ab5a06b4510ab6dad6dd72620a21b4685555db30",
+    "packaged_sha256": "4636c7aeebf5371b86c67a58ab5a06b4510ab6dad6dd72620a21b4685555db30",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_walkforward_H10.log",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_walkforward_H10.log",
+    "source_bytes": 44611,
+    "packaged_bytes": 44611,
+    "source_sha256": "8c50cc0c9dc52ac41afc328f1e61ab97f2f3df8cb9b43f2e54e5190acb59dd8b",
+    "packaged_sha256": "8c50cc0c9dc52ac41afc328f1e61ab97f2f3df8cb9b43f2e54e5190acb59dd8b",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_walkforward_H10_NEGCTRL.log",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_walkforward_H10_NEGCTRL.log",
+    "source_bytes": 17394,
+    "packaged_bytes": 17394,
+    "source_sha256": "457f1bfe2217183dfba9cb457d7cb2b2359845d7c6605451566d44ebf0959e29",
+    "packaged_sha256": "457f1bfe2217183dfba9cb457d7cb2b2359845d7c6605451566d44ebf0959e29",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_walkforward_H20.log",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_walkforward_H20.log",
+    "source_bytes": 20431,
+    "packaged_bytes": 20431,
+    "source_sha256": "b174ea53efbdb97f69edc55401c2e7b511aaca11f180d01ea1a2ce2731d81c5b",
+    "packaged_sha256": "b174ea53efbdb97f69edc55401c2e7b511aaca11f180d01ea1a2ce2731d81c5b",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05/RS05_walkforward_H5.log",
+    "packaged": "data/monitoring/regime_shifts/RS05/RS05_walkforward_H5.log",
+    "source_bytes": 20424,
+    "packaged_bytes": 20424,
+    "source_sha256": "f075a773f6d429fd16224f4b9d0236f8b1f9f9e6a1e49a2388c757028bbfff80",
+    "packaged_sha256": "f075a773f6d429fd16224f4b9d0236f8b1f9f9e6a1e49a2388c757028bbfff80",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05_preflight.log",
+    "packaged": "data/monitoring/regime_shifts/RS05_preflight.log",
+    "source_bytes": 14953,
+    "packaged_bytes": 14953,
+    "source_sha256": "04610272243fb45ecdce129bde253c01c4a1b6516ebdb51abaa0665c97989a96",
+    "packaged_sha256": "04610272243fb45ecdce129bde253c01c4a1b6516ebdb51abaa0665c97989a96",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05_preflight_label_diagnostics.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05_preflight_label_diagnostics.csv",
+    "source_bytes": 37295,
+    "packaged_bytes": 37295,
+    "source_sha256": "a605f9e823050e195050db3e756150b45eccb133e80201c0f5c025d27e6b5982",
+    "packaged_sha256": "a605f9e823050e195050db3e756150b45eccb133e80201c0f5c025d27e6b5982",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05_preflight_split_adjustment_scan.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05_preflight_split_adjustment_scan.csv",
+    "source_bytes": 2245,
+    "packaged_bytes": 2245,
+    "source_sha256": "4a61c16c1c2d86817b338709bcae2181788255bdd89f31451507726530f0c88e",
+    "packaged_sha256": "4a61c16c1c2d86817b338709bcae2181788255bdd89f31451507726530f0c88e",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/monitoring/regime_shifts/RS05_preflight_truncation_audit.csv",
+    "packaged": "data/monitoring/regime_shifts/RS05_preflight_truncation_audit.csv",
+    "source_bytes": 1094,
+    "packaged_bytes": 1094,
+    "source_sha256": "37e09752a1e81b9b16f7c582a45ec513f103ce327bf2d511a784bafaf2fe78f9",
+    "packaged_sha256": "37e09752a1e81b9b16f7c582a45ec513f103ce327bf2d511a784bafaf2fe78f9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/raw.zip",
+    "packaged": "data/raw.zip",
+    "source_bytes": 3549698,
+    "packaged_bytes": 3549698,
+    "source_sha256": "ac7b5c62e52d4f9a7d4ddb676c402db273212c85c9511c83f87dca629d6152e9",
+    "packaged_sha256": "ac7b5c62e52d4f9a7d4ddb676c402db273212c85c9511c83f87dca629d6152e9",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/results/RS05_strongvol_inference/RS05_strongvol_date_level_deltas.csv",
+    "packaged": "data/results/RS05_strongvol_inference/RS05_strongvol_date_level_deltas.csv",
+    "source_bytes": 1587521,
+    "packaged_bytes": 1587521,
+    "source_sha256": "d051c9c07b037340c1f8685df884a64eca967a8bd51aba47111e2117e316ec47",
+    "packaged_sha256": "d051c9c07b037340c1f8685df884a64eca967a8bd51aba47111e2117e316ec47",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/results/RS05_strongvol_inference/RS05_strongvol_fold_signs.csv",
+    "packaged": "data/results/RS05_strongvol_inference/RS05_strongvol_fold_signs.csv",
+    "source_bytes": 25283,
+    "packaged_bytes": 25283,
+    "source_sha256": "0e45b09b4e68ceff16b71ea3c951e35ef307e6963702aeb15f8138325656f158",
+    "packaged_sha256": "0e45b09b4e68ceff16b71ea3c951e35ef307e6963702aeb15f8138325656f158",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/results/RS05_strongvol_inference/RS05_strongvol_inference_summary.csv",
+    "packaged": "data/results/RS05_strongvol_inference/RS05_strongvol_inference_summary.csv",
+    "source_bytes": 17321,
+    "packaged_bytes": 17321,
+    "source_sha256": "8f93376c4f98d3c93a784acb3a46e6dfbda28a56244a6aecbac0b8932185e7d5",
+    "packaged_sha256": "8f93376c4f98d3c93a784acb3a46e6dfbda28a56244a6aecbac0b8932185e7d5",
+    "mode": "unchanged"
+  },
+  {
+    "source": "data/results/RS05_strongvol_inference/RS05_strongvol_pooled_inference.csv",
+    "packaged": "data/results/RS05_strongvol_inference/RS05_strongvol_pooled_inference.csv",
+    "source_bytes": 3650,
+    "packaged_bytes": 3650,
+    "source_sha256": "16010f3baec3a6262e541c059b18dda127abaf95b946b8ea32290f55bde4fdb2",
+    "packaged_sha256": "16010f3baec3a6262e541c059b18dda127abaf95b946b8ea32290f55bde4fdb2",
+    "mode": "unchanged"
+  },
+  {
+    "source": "LICENSE",
+    "packaged": "LICENSE",
+    "source_bytes": 1089,
+    "packaged_bytes": 1089,
+    "source_sha256": "8eaac0815aeea69af0335d08483004792c17cca849e0ea1ab49c8c831e40fa19",
+    "packaged_sha256": "8eaac0815aeea69af0335d08483004792c17cca849e0ea1ab49c8c831e40fa19",
+    "mode": "unchanged"
+  },
+  {
+    "source": "src/experiments/07_india_download_data.py",
+    "packaged": "src/experiments/07_india_download_data.py",
+    "source_bytes": 7484,
+    "packaged_bytes": 7556,
+    "source_sha256": "0e0f3890f49cf9f87ec9011e1e99543b645cdecab9d9ff46a76bb1f606e18a99",
+    "packaged_sha256": "6a58e2287f8722e685003220e01ff975ba6da32b56a369eec90a3807796bd538",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/05_alert_episodes.py",
+    "packaged": "src/experiments/regime_shifts/05_alert_episodes.py",
+    "source_bytes": 32147,
+    "packaged_bytes": 32207,
+    "source_sha256": "f9935eab9f005f59040f02e45d1b5c8d0583ab44066cdc36d9da959495e5bfa2",
+    "packaged_sha256": "32d27fac6ff5f2fe96f2eb9b5c1a0580b53d4c7fc9dc0e625d0528cfbc23e75f",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/06_causal_system_alert_episodes.py",
+    "packaged": "src/experiments/regime_shifts/06_causal_system_alert_episodes.py",
+    "source_bytes": 25739,
+    "packaged_bytes": 25799,
+    "source_sha256": "9882acc2cd49dd7e36f4e60778aa612e103acc7181a226342f9ce5189398ead7",
+    "packaged_sha256": "ac19715d51a7286158545f6c410e2ebf3119a5ed2717f4559bd0fd5c5726443f",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/auditrs01.py",
+    "packaged": "src/experiments/regime_shifts/auditrs01.py",
+    "source_bytes": 12031,
+    "packaged_bytes": 12088,
+    "source_sha256": "1b9b5b9e40805aacc5c518304725d82fc47017ebc9c00cc9a3e3e48dbb694760",
+    "packaged_sha256": "23e9ae29badd9e5c45e41234ccea08658f32467be10df4ca3ee17ea549bc9e79",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/casual_reliability_panel.py",
+    "packaged": "src/experiments/regime_shifts/casual_reliability_panel.py",
+    "source_bytes": 69502,
+    "packaged_bytes": 69557,
+    "source_sha256": "fb13a9cf213653e4790cf2b0fa04a3ce3b2c6610d4035854eef89d51f67be757",
+    "packaged_sha256": "16f40f368de646925082a0402324bd43b3da1b3d611a7d35c7822f037d0914c7",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/lead_time.py",
+    "packaged": "src/experiments/regime_shifts/lead_time.py",
+    "source_bytes": 28456,
+    "packaged_bytes": 28547,
+    "source_sha256": "0f1e99bfa2419c9adfae4692f1f89ace0a3a0467fbc396d47e229c488f1eebff",
+    "packaged_sha256": "a766bfa07eecbf0a395469de08d0846b28c8eaa48cda8496321b4ae82faf1004",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/long_history_var.py",
+    "packaged": "src/experiments/regime_shifts/long_history_var.py",
+    "source_bytes": 63188,
+    "packaged_bytes": 63237,
+    "source_sha256": "3f446cd386ed199845970c7897bdd00b3886370d0c5defeda7c444981efc44b0",
+    "packaged_sha256": "3244b613a334e883130f1d69deac787ba5b62d479020446c5ee0b3a290412bf1",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/matched_alert_event_study.py",
+    "packaged": "src/experiments/regime_shifts/matched_alert_event_study.py",
+    "source_bytes": 31367,
+    "packaged_bytes": 31424,
+    "source_sha256": "94a5dbf621fdc862663f82222838201639c8af4d4d2e50eace768281725fdf9b",
+    "packaged_sha256": "245d38aed2a5c0b1f5b6cc440b582aaa49267da1658d5fbd7b069fd5e0143f36",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/r50b_infrence.py",
+    "packaged": "src/experiments/regime_shifts/r50b_infrence.py",
+    "source_bytes": 23838,
+    "packaged_bytes": 23929,
+    "source_sha256": "ca3d6164e1a4472e42c3bc8b445940c0c541db2453c7af7ea6ac38ae9555177e",
+    "packaged_sha256": "4d5e547a11389426c72e5002f80b994a7ea0c7eecd98f41d82d49593409c6b94",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/regime_identification.py",
+    "packaged": "src/experiments/regime_shifts/regime_identification.py",
+    "source_bytes": 37966,
+    "packaged_bytes": 38026,
+    "source_sha256": "4f1c8628a6e3236432684607e69426122fe6076902ebffa0a4864e6c864a55cb",
+    "packaged_sha256": "0855a08d47598a353e6440a3e9bed3e351ce21d1b216e2ffd010132ee884e33e",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/reliability_audit.py",
+    "packaged": "src/experiments/regime_shifts/reliability_audit.py",
+    "source_bytes": 53697,
+    "packaged_bytes": 53751,
+    "source_sha256": "943eb508bba83973cbb1fac4420de83c6a40af53fa54f489f993275aa8ce5d82",
+    "packaged_sha256": "51dcdb108a2686d7db1da466901420240b209f6d4431d34327c7d073078c114a",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/rerun_garch_only.py",
+    "packaged": "src/experiments/regime_shifts/rerun_garch_only.py",
+    "source_bytes": 36754,
+    "packaged_bytes": 36803,
+    "source_sha256": "59359cf9c2fdd19361da202f7b4f3f848c77a91ba336fb4a40c3d144fb05a32e",
+    "packaged_sha256": "dd51553a9e929983974f496a94eaa63adb24ce39bebdb39782d05443cf3cd5aa",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/rerun_qrf.py",
+    "packaged": "src/experiments/regime_shifts/rerun_qrf.py",
+    "source_bytes": 5625,
+    "packaged_bytes": 5625,
+    "source_sha256": "f38220a2e9c63ee7eeb84189920a92ba0d21bdf7081a2c749563b463f476d8e7",
+    "packaged_sha256": "f38220a2e9c63ee7eeb84189920a92ba0d21bdf7081a2c749563b463f476d8e7",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/rs05/backtest_scores_vs_monitor.py",
+    "packaged": "src/experiments/regime_shifts/rs05/backtest_scores_vs_monitor.py",
+    "source_bytes": 10768,
+    "packaged_bytes": 10825,
+    "source_sha256": "95f7f0269bd4cfe36e849e615864bb8e921792b3496241a3336cafa314ac23b5",
+    "packaged_sha256": "21f41319def75be015ac1e29ca7b026431871909abb9dfc704513b8c0cd7b6e3",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/rs05/bootstrap_block_sensitivity.py",
+    "packaged": "src/experiments/regime_shifts/rs05/bootstrap_block_sensitivity.py",
+    "source_bytes": 27746,
+    "packaged_bytes": 27800,
+    "source_sha256": "a96697f20e19c2c5ddfbd007437b3c35df331d54eaa56553544d765d8f24a90a",
+    "packaged_sha256": "5f2e774301e6910f4b32ed579e3f75a26ff3ebc5bb713d6974f546832b746ecd",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/rs05/case_study_reliability_layer.py",
+    "packaged": "src/experiments/regime_shifts/rs05/case_study_reliability_layer.py",
+    "source_bytes": 38820,
+    "packaged_bytes": 38866,
+    "source_sha256": "ff6cdf06f53a94c9a0bc1867bc5326ca93dafe1e243197754e18b8a853cf236f",
+    "packaged_sha256": "2828aca1d9a2c156528897bb5848fd8b2f6604be9bdca65dd268e30148a52740",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/rs05/covid_lead_time_corrected.py",
+    "packaged": "src/experiments/regime_shifts/rs05/covid_lead_time_corrected.py",
+    "source_bytes": 8902,
+    "packaged_bytes": 8956,
+    "source_sha256": "e1be1392c5a9a33ec5c20cb4950c1fd61da7168e1da47e238bda6f26a9c7a191",
+    "packaged_sha256": "eaa19cf54f5ec86511d5550ad34cb50a48594be5a69059d9d973e5537644fbb6",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/rs05/final_covid_paper_figure.py",
+    "packaged": "src/experiments/regime_shifts/rs05/final_covid_paper_figure.py",
+    "source_bytes": 19928,
+    "packaged_bytes": 19974,
+    "source_sha256": "4c6e46f408abbe6145ec8209c357ff78dda66b3357fcce3b0d5463d74800c296",
+    "packaged_sha256": "ad981bda9ad7c07bb4a459dc6a8a8ea8bb82a002b736e9ba0666eb170d9b018e",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/rs05/final_covid_t2_paper_figure.py",
+    "packaged": "src/experiments/regime_shifts/rs05/final_covid_t2_paper_figure.py",
+    "source_bytes": 21206,
+    "packaged_bytes": 21252,
+    "source_sha256": "a1b813fb3792d31ebe850abd354f7cb1f8d5fe0b37cb9a6c0130f9555e7a1d70",
+    "packaged_sha256": "355f0be2b1c6a1e31db50084fa1fc76ac3841adf72d1f64b26c7f762e7a8259c",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/rs05/rate_shock_walkforward.py",
+    "packaged": "src/experiments/regime_shifts/rs05/rate_shock_walkforward.py",
+    "source_bytes": 17710,
+    "packaged_bytes": 17764,
+    "source_sha256": "ff4cab5670c117962a496d6d79a855b93c97e605cd4f20f8f977fb0186af8ee3",
+    "packaged_sha256": "5368dfa4d6919b7abcf7c6e36f93effc826091d34aaac3573b5e449410a2d344",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/rs05/standard_backtest_matched_alert.py",
+    "packaged": "src/experiments/regime_shifts/rs05/standard_backtest_matched_alert.py",
+    "source_bytes": 37659,
+    "packaged_bytes": 37716,
+    "source_sha256": "ab9d6b6dfd6e2ce6ba5430f6dba072384a4c2207398b3bc59c713658c02bc7dd",
+    "packaged_sha256": "d29d49796f97f444e4a08efeeeb7b3423d04a6dbe69cd01e4cedea81ab8c0d7a",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/rs05_walkforward.py",
+    "packaged": "src/experiments/regime_shifts/rs05_walkforward.py",
+    "source_bytes": 60061,
+    "packaged_bytes": 60127,
+    "source_sha256": "d8f4572053ab633665e2fe12559e91131558347ca34f2f1e489489952651b3e9",
+    "packaged_sha256": "d7911bf2438fe1a1eb473fa21dc628171ce60e613b2fd81151e17b937ef6cc88",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/rso5_preflight.py",
+    "packaged": "src/experiments/regime_shifts/rso5_preflight.py",
+    "source_bytes": 56427,
+    "packaged_bytes": 56490,
+    "source_sha256": "11ed46da174ebac4e942e704a5a7f96090a03ed684b41ba9d7ea588e64017445",
+    "packaged_sha256": "5710ee37d232d54084139c8f35a6bcda60c9ba27acaa4e33d0da4a8fc7427512",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/split_scan.py",
+    "packaged": "src/experiments/regime_shifts/split_scan.py",
+    "source_bytes": 10237,
+    "packaged_bytes": 10295,
+    "source_sha256": "3a6599e02328abacc07f2b98f167657e3027578461e6b9b7eed187df8af678cf",
+    "packaged_sha256": "9b8ddde73bd75af69c61edb87b55c3dfbe0044af1b66333131ae26eccf50533e",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/strongvol_inference.py",
+    "packaged": "src/experiments/regime_shifts/strongvol_inference.py",
+    "source_bytes": 13666,
+    "packaged_bytes": 13720,
+    "source_sha256": "3e53cf497dec2a0d9767166031a9fcd8099198dd2c68319f211bec17ec6f1306",
+    "packaged_sha256": "f350ec8988b95f7380a92199bb352ac4965cf36116e73d5199715131e1e09764",
+    "mode": "portable script"
+  },
+  {
+    "source": "src/experiments/regime_shifts/strong_vol_baseline.py",
+    "packaged": "src/experiments/regime_shifts/strong_vol_baseline.py",
+    "source_bytes": 65251,
+    "packaged_bytes": 65320,
+    "source_sha256": "27efde91ad71e9e4ea3b4d9d9be90ba80e58f059c949c6f085bd89a07587b296",
+    "packaged_sha256": "f860e09b305ba6d3b19a783135179faacb84126008aa33f37550fe52cab83621",
+    "mode": "portable script"
+  }
+]

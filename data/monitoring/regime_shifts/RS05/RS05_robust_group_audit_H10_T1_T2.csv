@@ -1,0 +1,17 @@
+target,model,spec,n_rows,n_dates,n_tickers,duplicate_date_ticker_rows,binary_target_ok,finite_probabilities_ok,finite_thresholds_ok,threshold_order_violations
+T1,EWMA,S4,38880,1620,24,0,True,True,True,0
+T1,EWMA,S6,38880,1620,24,0,True,True,True,0
+T1,GARCH-t,S4,38880,1620,24,0,True,True,True,0
+T1,GARCH-t,S6,38880,1620,24,0,True,True,True,0
+T1,HS,S4,38880,1620,24,0,True,True,True,0
+T1,HS,S6,38880,1620,24,0,True,True,True,0
+T1,QRF,S4,38880,1620,24,0,True,True,True,0
+T1,QRF,S6,38880,1620,24,0,True,True,True,0
+T2,EWMA,S4,38880,1620,24,0,True,True,True,0
+T2,EWMA,S6,38880,1620,24,0,True,True,True,0
+T2,GARCH-t,S4,38880,1620,24,0,True,True,True,0
+T2,GARCH-t,S6,38880,1620,24,0,True,True,True,0
+T2,HS,S4,38880,1620,24,0,True,True,True,0
+T2,HS,S6,38880,1620,24,0,True,True,True,0
+T2,QRF,S4,38880,1620,24,0,True,True,True,0
+T2,QRF,S6,38880,1620,24,0,True,True,True,0

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "files_removed": 3817,
+  "bytes_removed": 70083579,
+  "by_reason": {
+    "optional third-party test suite (not research code or runtime module)": {
+      "files": 3791,
+      "bytes": 65478832
+    },
+    "regenerable PDF preview; report PDF retained": {
+      "files": 26,
+      "bytes": 4604747
+    }
+  },
+  "empty_directories_removed": 353,
+  "scientific_results_altered": false,
+  "research_data_removed": 0,
+  "backup": "D:\\RS05_recovery\\snapshot_20261101_161238\\project",
+  "new_folder_names": [
+    "docs/cleanup_review"
+  ],
+  "validation": [
+    {
+      "check": "research_regression",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_result_verification",
+      "exit_code": 0,
+      "status": "PASS"
+    }
+  ]
+}

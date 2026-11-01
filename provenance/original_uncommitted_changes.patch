@@ -1,0 +1,46 @@
+diff --git a/src/experiments/regime_shifts/rs05_walkforward.py b/src/experiments/regime_shifts/rs05_walkforward.py
+index a0fe9e4..a498dd9 100644
+--- a/src/experiments/regime_shifts/rs05_walkforward.py
++++ b/src/experiments/regime_shifts/rs05_walkforward.py
+@@ -2049,26 +2049,28 @@ def run(args: argparse.Namespace) -> None:
+ 
+             if args.negctrl:
+                 emit(
+-                    f"\n{model_name}: "
+-                    "applying 126-day within-ticker "
+-                    "negative-control label shift."
++                    f"\n{model_name}: applying seeded "
++                    "within-ticker label permutation."
+                 )
+ 
++                seed = 20261025 + sum(
++                    ord(c) for c in str(model_name)
++                )
++                rng = np.random.default_rng(seed)
++
++                def permute_nonmissing(s):
++                    values = s.to_numpy(copy=True)
++                    valid = pd.notna(values)
++                    values[valid] = rng.permutation(values[valid])
++                    return pd.Series(values, index=s.index)
++
+                 model_df[ycol] = (
+-                    model_df
+-                    .groupby(
++                    model_df.groupby(
+                         TICKER_COL,
+                         group_keys=False,
+                     )[ycol]
+-                    .transform(
+-                        lambda s:
+-                        np.roll(
+-                            s.to_numpy(),
+-                            126,
+-                        )
+-                    )
++                    .transform(permute_nonmissing)
+                 )
+-
+             model_df["_y"] = (
+                 pd.to_numeric(
+                     model_df[ycol],

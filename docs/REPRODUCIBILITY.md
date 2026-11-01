@@ -1,0 +1,3 @@
+# Reproducibility
+
+Use README commands and scripts/verify_repository.ps1. Exact original P8 commands,versions,seeds,families and evidence limits remain in tools/audit_temp/codex_priority8/reproduction/REPRODUCIBILITY.md. Root requirements describes the observed environment,not a certified clean installation. Current package adapters verify source digests before import; active outputs are always isolated and do not overwrite frozen evidence. New smoke/regression results are recorded in docs/repository_audit/VALIDATION_REPORT.json. Upstream full raw-to-VaR fresh-machine reproduction,PIT history and international frozen transfer are not asserted. Compatibility tests establish numerical/path equivalence,not new scientific evidence or stronger claims.

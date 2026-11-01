@@ -1,0 +1,21 @@
+test_active_sources_parse (__main__.RepositoryRegression.test_active_sources_parse) ... ok
+test_all_canonical_paths_and_hashes (__main__.RepositoryRegression.test_all_canonical_paths_and_hashes) ... ok
+test_code_manifest (__main__.RepositoryRegression.test_code_manifest) ... D:\final_reliability\tests\test_repository.py:16: ResourceWarning: unclosed file <_io.TextIOWrapper name='D:\\final_reliability\\results\\manifests\\repository_code_sha256.csv' mode='r' encoding='cp1252'>
+  rows=list(csv.DictReader((ROOT/"results/manifests/repository_code_sha256.csv").open()))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_holm_reference (__main__.RepositoryRegression.test_holm_reference) ... ok
+test_raw_target_equivalence (__main__.RepositoryRegression.test_raw_target_equivalence) ... ok
+test_real_quarter_metrics (__main__.RepositoryRegression.test_real_quarter_metrics) ... D:\final_reliability\tests\test_repository.py:24: ResourceWarning: unclosed file <_io.BufferedReader name='D:\\final_reliability\\tools\\audit_temp\\codex_priority8\\checkpoints\\fits\\primary\\HS\\2026Q1_S6.pkl'>
+  cp=pickle.load(open(ROOT/"tools/audit_temp/codex_priority8/checkpoints/fits/primary/HS/2026Q1_S6.pkl","rb"));g=cp["pred"];m=metrics(g)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_root (__main__.RepositoryRegression.test_root) ... ok
+test_source_feature_groups (__main__.RepositoryRegression.test_source_feature_groups) ... ok
+test_ties (__main__.RepositoryRegression.test_ties) ... ok
+test_weight_seed (__main__.RepositoryRegression.test_weight_seed) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 5.132s
+
+OK

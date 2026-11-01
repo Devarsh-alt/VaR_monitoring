@@ -1,0 +1,17 @@
+model,signal,n_events,n_hits,hit_rate,sign_test_p_gt_0.5,mean_lead_days,median_lead_days
+EWMA,Christoffersen,1,0,0.0,1.0,,
+EWMA,DQ,1,0,0.0,1.0,,
+EWMA,Kupiec,1,0,0.0,1.0,,
+EWMA,TrafficLight,1,0,0.0,1.0,,
+GARCH-t,Christoffersen,2,0,0.0,1.0,,
+GARCH-t,DQ,2,0,0.0,1.0,,
+GARCH-t,Kupiec,2,0,0.0,1.0,,
+GARCH-t,TrafficLight,2,1,0.5,0.75,20.0,20.0
+HS,Christoffersen,3,0,0.0,1.0,,
+HS,DQ,3,1,0.3333333333333333,0.875,7.0,7.0
+HS,Kupiec,3,0,0.0,1.0,,
+HS,TrafficLight,3,1,0.3333333333333333,0.875,20.0,20.0
+QRF,Christoffersen,2,0,0.0,1.0,,
+QRF,DQ,2,0,0.0,1.0,,
+QRF,Kupiec,2,0,0.0,1.0,,
+QRF,TrafficLight,2,1,0.5,0.75,20.0,20.0

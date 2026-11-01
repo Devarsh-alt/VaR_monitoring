@@ -1,0 +1,13 @@
+model,test_date,n_rows_compared,n_features_compared,numeric_pass,categorical_pass,passed
+HS,2018-02-05,18360,40,True,True,True
+EWMA,2018-02-05,18360,40,True,True,True
+GARCH-t,2018-02-05,18360,40,True,True,True
+QRF,2018-02-05,18360,40,True,True,True
+HS,2020-03-16,31080,40,True,True,True
+EWMA,2020-03-16,31080,40,True,True,True
+GARCH-t,2020-03-16,31080,40,True,True,True
+QRF,2020-03-16,31080,40,True,True,True
+HS,2022-06-01,44472,40,True,True,True
+EWMA,2022-06-01,44472,40,True,True,True
+GARCH-t,2022-06-01,44472,40,True,True,True
+QRF,2022-06-01,44472,40,True,True,True
